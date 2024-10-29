@@ -46,27 +46,27 @@ In this exercise, we will be creating the Host pool using **Quickstart** using m
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" /> (11)**
    - **Click** on **Next : Virtual Machines > (12)**.
 
-   ![ws name.](media-1/avd1.png)
+      ![ws name.](media-1/avd1.png)
    
 1. On the **Virtual Machines** tab, provide the information as mentioned below:
    
    - Users per virtual machine: Select ***Multiple users***
    - Image: Select **See all images** then under **Windows multi-session + Microsoft 365 Apps** choose **Select** and then select **Windows 11 Enterprise multi-session + Microsoft 365 Apps, Version 22H2** *(choose from dropdown)*
 
-    ![ws name.](media/lab1-1.png)
+      ![ws name.](media/lab1-1.png)
 
-    ![ws name.](media/lab1-2.png)
+      ![ws name.](media/lab1-2.png)
 
-    - Virtual machine size: **Standard D4s v4**. *Click on **Change Size**, then select **D4s_v4** and click on **Select** as shown below*
+   - Virtual machine size: **Standard D4s v4**. *Click on **Change Size**, then select **D4s_v4** and click on **Select** as shown below*
 
-     ![ws name.](media/2avd18.png)
+      ![ws name.](media/2avd18.png)
    
    - Name Prefix: **AVD-HP01-SH**
    - Number of virtual machines: **2**
    - Use custom configuration script: **Unselect** the option
    - **Click** on **Next : Assignments >**.
 
-   ![ws name.](media-1/L1E1S4.png)
+      ![ws name.](media-1/L1E1S4.png)
    
 1. On the **Assignments** page, provide the information as mentioned below, 
    
@@ -74,7 +74,7 @@ In this exercise, we will be creating the Host pool using **Quickstart** using m
    - Assign existing users or groups: **Select** the option
    - click on **Next : Review + create >**.
 
-   ![ws name.](media/gsw4.png)
+      ![ws name.](media/gsw4.png)
    
 1. Verify the options and **click** on **Create**.
 
@@ -111,14 +111,14 @@ In this exercise, we will be creating the Host pool using **Quickstart** using m
     - **Application**: 1 (SessionDesktop)
     - **Workspace**: 1 (GS-AVD-WS)
 
-     ![ws name.](media-1/L1E1S9.png)
+      ![ws name.](media-1/L1E1S9.png)
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    - If you receive a success message, you can proceed to the next task.
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
-   <validation step="ba322777-484a-4333-a812-4e7e4cf42e48" />   
+      <validation step="ba322777-484a-4333-a812-4e7e4cf42e48" />   
    
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.
    
