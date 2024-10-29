@@ -48,15 +48,15 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
-   ![ws name.](media/avd-41.png)
+      ![ws name.](media/avd-41.png)
 
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
 
-   ![ws name.](media/avd-42.png)
+      ![ws name.](media/avd-42.png)
    
-   >**Note:** If there's a popup entitled **Help us protect your account**, click **Skip for now (14 days until this is required)**
+      >**Note:** If there's a popup entitled **Help us protect your account**, click **Skip for now (14 days until this is required)**
 
-   ![](media/skipfornow.png)
+      ![](media/skipfornow.png)
 
 1. If prompted, make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
@@ -82,7 +82,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
     - Password: **<inject key="AzureAdUserPassword" />**
    
-   ![ws name.](media/avd-14.png)
+      ![ws name.](media/avd-14.png)
 
 1. Wait for the Application to connect.
 
@@ -136,11 +136,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    - Password: **<inject key="AzureAdUserPassword" />**
    
-   ![ws name.](media/avd-51.png)
+      ![ws name.](media/avd-51.png)
    
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
+      >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
    
-   ![](media/skipfornow.png)
+      ![](media/skipfornow.png)
 
 1. Wait for the Session Desktop to connect.
 
