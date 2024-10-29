@@ -38,7 +38,7 @@ In the following task, we will be creating a storage account with a file share w
    
    - At last, click on **Next (8)**
    
-   ![ws name.](media/avd-40.png)
+      ![ws name.](media/avd-40.png)
    
 4. On the _Advanced_ tab, make sure to enable **Require secure transfer for REST API operations**, **Allow enabling anonymous access on individual containers**, and **Enable storage account key access** options. Once enabled, click on the **Next** button.
 
@@ -55,7 +55,7 @@ In the following task, we will be creating a storage account with a file share w
    - Leave the rest to default settings.
    - Click on **Review + create(5)**.
      
-   ![ws name.](media/lab6-3.png)
+      ![ws name.](media/lab6-3.png)
      
 6. Click on **Create**.
 
@@ -93,9 +93,9 @@ In the following task, we will be creating a storage account with a file share w
     - Access tier: **Transaction Optimized (2)**
     - Click on **Review + create (3)**, and then **Create** this will create the file share.
     
-    ![ws name.](media/avd-50.png)
+      ![ws name.](media/avd-50.png)
 
-    ![ws name.](media/lab6-5.png)
+      ![ws name.](media/lab6-5.png)
 
 ## Exercise 2: Configure File Share
 
@@ -118,7 +118,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    - Group name: **permission - fslogixcontainer (1)**
    - Click on **Create (2)**.
 
-   ![ws name.](media/avd-18.png)
+      ![ws name.](media/avd-18.png)
    
 1. Click on **permission - fslogixcontainer** group to open.
 
@@ -427,7 +427,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
     - Username: **<inject key="AzureAdUserEmail" />**
     - Password: **<inject key="AzureAdUserPassword" />**
 
-    ![ws name.](media/lab4-2.png)
+      ![ws name.](media/lab4-2.png)
         
 24. The desktop display will look similar to the screenshot below, showing ***Please wait for the FSLogix Apps Services***.
 

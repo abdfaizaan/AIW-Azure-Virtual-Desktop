@@ -30,7 +30,7 @@
     - Baseline permissions : Select **Start from JSON (2)**
     - Click on **Folder icon (3)** to select the JSON file.
 
-     ![](./media/basicsCR.png)
+        ![](./media/basicsCR.png)
      
 5. Navigate to the path **C:\LabFiles**, right click on **AzureVirtualDesktopAutoscale.json (1)** and click on **Open with (2)**.
 
@@ -112,7 +112,7 @@
     - Time zone: Select your **Time Zone (6)**
     - Click on **Next : Schedules > (7)**
 
-    ![](./media/schedulee.png)
+        ![](./media/schedulee.png)
 
 22. On the **Schedules** tab, click on **+ Add Schedule**
 
@@ -130,7 +130,7 @@
     - Capacity threshold (%): **60 (4)**
     - Click on **Next (5)**
     
-    ![](./media/L8E1S24.png)
+        ![](./media/L8E1S24.png)
    
 25. On the **Peak hours** tab, follow the below instructions:
 
@@ -138,7 +138,7 @@
     - Load Balancing Algorithm: Choose **Depth-first (2)**
     - Click on **Next (3)**
     
-    ![](./media/L8E1S25.png)
+        ![](./media/L8E1S25.png)
    
 26. On the **Ramp-down** tab, follow the below instructions:
 
@@ -150,7 +150,7 @@
      - Delay time before logging out users and shutting down VMs (min): Enter **30 (6)**
      - Click on **Next (7)**
 
-     ![](./media/L8E1S26.png)
+        ![](./media/L8E1S26.png)
    
 27. On the **Off-peak hours** tab, follow the below instructions:
 
@@ -158,7 +158,7 @@
      - Load Balancing Algorithm: Choose **Depth-first (2)**
      - Click on **Add (3)**
 
-     ![](./media/L8E1S27.png)
+        ![](./media/L8E1S27.png)
   
 28. After adding the schedule, click on **Next: Host pool assignments >**
 
