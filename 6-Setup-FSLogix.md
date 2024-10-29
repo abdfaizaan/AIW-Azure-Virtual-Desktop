@@ -186,23 +186,23 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
 
 1. In your Azure portal, search for **Virtual Machines** in the search bar and click on **Virtual Machines** from the suggestions.
 
-   ![ws name.](media/up11.png)
+    ![ws name.](media/up11.png)
       
 2. Click on **AVD-HP01-SH-0**.
 
-   ![ws name.](media/fs4.png)
+    ![ws name.](media/fs4.png)
       
 3. Then click on **Run command** under **Operations**.
 
-   ![ws name.](media-1/Ex6-task3-step3.png)
+    ![ws name.](media-1/Ex6-task3-step3.png)
   
 4. Now select **RunPowerShellScript**.
 
-   ![ws name.](media/a68.png)
+    ![ws name.](media/a68.png)
    
 5. A similar window to that of the below image will appear.
 
-   ![ws name.](media/a69.png)
+    ![ws name.](media/a69.png)
    
 6. **Copy** the script given below and paste it by using **Ctrl + V** in the Powershell window. 
 
@@ -263,7 +263,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
  
  
  
-   ![ws name.](media/uiupdate12.png)
+    ![ws name.](media/uiupdate12.png)
    
    >**Note:** The above script will :
    >
@@ -276,23 +276,23 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
  
 7. In line 2, we have to replace the name of the storage account with the **"NameofStorageAccount"** block.
 
-   ![ws name.](media/jvm24.png)
+     ![ws name.](media/jvm24.png)
 
 8. In the script, replace **NameofStorageAccount** with **<inject key="Storage Account Name" />** and then click on **Run** to execute the script.
 
 9. Wait for some time for the script to execute. Once done, it will show an output saying **Script Executed successfully**.
 
-   ![ws name.](media/up6.png)
+     ![ws name.](media/up6.png)
    
    >**Note:** It will take around five minutes for the script to execute.
    
 10. Navigate to virtual machines and click on **AVD-HP01-SH-1**.
 
-    ![ws name.](media/fs8.png)
+     ![ws name.](media/fs8.png)
 
 11. Click on **Run command (1)** under **Operations**. Then select **RunPowerShellScript (2)**.
 
-    ![ws name.](media-1/Ex6-task3-step11.png)
+     ![ws name.](media-1/Ex6-task3-step11.png)
         
 12. **Copy** the script given below and paste it by using **Ctrl + V** in the Powershell window. 
 
@@ -449,11 +449,11 @@ In this task, we will be accessing the file share to verify the user profiles st
 
 1. Return to the Azure Portal, search for *storage accounts* in the search bar and click on **Storage Accounts** from the suggestions.
 
-   ![ws name.](media/up10.png)
+      ![ws name.](media/up10.png)
     
 2. Click on the storage account we created in *Task 1 step 3* **(1)**, then under security + networking blade click on  **Networking (2)**.
 
-   ![ws name.](media/avd-24.png)
+      ![ws name.](media/avd-24.png)
    
 3. Under **Public network access**, select **Enabled from all networks (1)** and click on **save icon (2)**.
 
@@ -463,16 +463,16 @@ In this task, we will be accessing the file share to verify the user profiles st
     
 4. Open the storage account we created earlier **(1)**, then select **Fileshare (2)** from the left side menu and the select **userprofile (3)** fileshare.
 
-   ![ws name.](media/avd-26.png)
+      ![ws name.](media/avd-26.png)
       
 
 6. Click on **Browse (1)**, and you will see the user **folder (2)** created in the file share, click on the folder.
 
-    ![ws name.](media-1/avd-27.png) 
+      ![ws name.](media-1/avd-27.png) 
 
 7. Now you will be able to see the user profile data stored in the filesharers in a ***.vhd*** format.
 
-   ![ws name.](media-2/userprofile.png)
+      ![ws name.](media-2/userprofile.png)
 
    >**Note:** It might take some time for the User Profile folder to appear in the fileshare. If you do not see the folder now, please continue with the next task and check back later.
 
