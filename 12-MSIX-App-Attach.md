@@ -23,7 +23,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
     - Tier: **Transaction Optimized**
     - Click on **Review + create**, then click on **Create**.This will create the file share.
     
-    ![ws name.](media/msix-file-share.png)
+      ![ws name.](media/msix-file-share.png)
     
 1. Go to the **msixfile** file share which you just created and select **upload**.
    
@@ -53,7 +53,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
       - Click on **Select (4)**
    
-   ![ws name.](media/members1-v2.png)
+         ![ws name.](media/members1-v2.png)
    
    - Select **Review + assign**
    
@@ -139,7 +139,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    - **Replace** all the ``/`` (front slash) with ``\`` (back slash0. 
    - The final UNC path should look like this ``\\fslogixprofilestgxxxxxx.file.core.windows.net\msixfile\msix.cer``.
 
-   ![ws name.](media/2avd60.png)
+      ![ws name.](media/2avd60.png)
 
 1. Click on **Run**   
    
@@ -175,7 +175,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
    - **Replace** all the ``/`` (front slash) with ``\`` (back slash0. 
    - The final UNC path should look like this ``\\fslogixprofilestgxxxxxx.file.core.windows.net\msixfile\msix.cer``.
 
-   ![ws name.](media/2avd60.png)
+      ![ws name.](media/2avd60.png)
 
 1. Click on **Run**   
    
