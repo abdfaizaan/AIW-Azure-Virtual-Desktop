@@ -1,4 +1,4 @@
-# Lab 10: Security Modules
+# Lab 11: Security Modules
 
 ## **Scenario**
 
