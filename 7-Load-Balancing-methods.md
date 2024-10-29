@@ -20,7 +20,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
 1. Navigate to the Azure portal, then search for **Microsoft Entra ID (1)** in the search bar and select **Microsoft Entra ID (2)** from the suggestions.
 
-   ![ws name.](media/dev3.png)
+    ![ws name.](media/dev3.png)
 
 1. Click on **Users** under *Manage* blade.
 
@@ -36,7 +36,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
    - Display Name: **AVDUser01 (2)**
    - Click on **Review + Create (3)** and then click on **Create.**
 
-    ![ws name.](media-1/avd-28.png)
+        ![ws name.](media-1/avd-28.png)
 
 1. Click on **+ New user** and select **Create new user** to add one more user, then add the following configurations under *Basics* tab and leave the rest to default.
 
@@ -44,7 +44,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
    - Display Name: **AVDUser02 (2)**
    - Click on **Review + Create (3)** and then click on **Create.***
    
-    ![ws name.](media-1/avd-29.png)
+        ![ws name.](media-1/avd-29.png)
 
 1. Both the newly created users will show up similarly as shown below. Copy the **user principal name** of both users and paste it into a text editor so that we can use it further.
 
@@ -99,14 +99,14 @@ Here, we will use Powershell to run a script that will change the passwords for 
    
 2. Run the following command in your terminal to set up your Azure account permissions locally.
 
-   ```
-   Connect-AzureAD
-   ```
+    ```
+    Connect-AzureAD
+    ```
 3. Your browser window will open and you will be prompted to authenticate to your Azure.
 
 4. Login to Azure with the username **<inject key="AzureAdUserEmail" />** and click on **Next**.
     
-     ![](media/lab7-avd2.png)
+       ![](media/lab7-avd2.png)
     
 5. Enter your password **<inject key="AzureAdUserPassword" />** and click on **Sign in**.
     
