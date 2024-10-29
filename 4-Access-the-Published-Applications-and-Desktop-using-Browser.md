@@ -30,15 +30,15 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
-   ![ws name.](media/avd-41.png)
+      ![ws name.](media/avd-41.png)
 
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
 
-   ![ws name.](media/avd-42.png)
+      ![ws name.](media/avd-42.png)
 
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
+      >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
-   ![](media/skipfornow.png)
+      ![](media/skipfornow.png)
 
 1. The AVD dashboard will launch. Click on **Word** to access it.  
 
@@ -54,7 +54,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
   
    - Password: **<inject key="AzureAdUserPassword" />**
 
-   ![ws name.](media/lab4-2.png)
+      ![ws name.](media/lab4-2.png)
       
 1. The Word application will launch and look similar to the screenshot below. Click on **Sign in**.
 
@@ -113,7 +113,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
   
    - Password: **<inject key="AzureAdUserPassword" />**
 
-   ![ws name.](media/lab4-2.png)
+      ![ws name.](media/lab4-2.png)
 
 1. The virtual desktop will launch and look similar to the screenshot below. 
 
