@@ -81,13 +81,13 @@ In this lab, we will be creating the Scaling plan, which lets us scale your sess
 
 In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature in the host pool which lets you save costs by allowing users to turn on their VMs only when they need them.
 
-## **Lab 10: Security Modules**
-
-In this lab, we will be configuring the Security Modules to prevent sensitive information by setting up the Multi-Factor Authentication (MFA) and will be Creating a Conditional Access Policy, Screen Capture Protection and App Locker.
-
-## **Lab 11: Multimedia redirection for Azure virtual desktop**
+## **Lab 10: Multimedia redirection for Azure virtual desktop**
 
 In this lab, we will be configuring Session Host for implementing MS Teams and configuring Hostpool for the team's requirements. Later we will be accessing MS Teams using the Remote Desktop Application
+
+## **Lab 11: Security Modules**
+
+In this lab, we will be configuring the Security Modules to prevent sensitive information by setting up the Multi-Factor Authentication (MFA) and will be Creating a Conditional Access Policy, Screen Capture Protection and App Locker.
 
 ## **Lab 12: MSIX App Attach**
 
