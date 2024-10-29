@@ -84,29 +84,29 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
      - Now a *Select* window will open, here search for ODL user and Select it **(5)**
      - Click on **Select** **(6)** button
    
-   ![](media-1/L10E2S7.png)
+         ![](media-1/L10E2S7.png)
    
-   - Click on **No target resources selected** **(1)** under Target resources option.
-   - Click on **Select apps** **(2)**
-   - Click on **Select (3)**
-   - Search for **Windows Virtual Desktop** and click on the **check box** of **Azure Virtual Desktop** **(4)** next to the search result
-   - Now Click on **Select** **(5)** button.
+      - Click on **No target resources selected** **(1)** under Target resources option.
+      - Click on **Select apps** **(2)**
+      - Click on **Select (3)**
+      - Search for **Windows Virtual Desktop** and click on the **check box** of **Azure Virtual Desktop** **(4)** next to the search result
+      - Now Click on **Select** **(5)** button.
 
-   ![](media-1/select-apps.png)
+         ![](media-1/select-apps.png)
   
-   - Click on **0 conditions selected** **(1)** under Conditions option.
-   - Then select **Client apps** **(2)**
-   - Now in the Client Apps blade toggle the *Configure* switch to **Yes** **(3)** and make sure that all the checkboxes below are selected.
-   - Then click on **Done** **(4)**
+      - Click on **0 conditions selected** **(1)** under Conditions option.
+      - Then select **Client apps** **(2)**
+      - Now in the Client Apps blade toggle the *Configure* switch to **Yes** **(3)** and make sure that all the checkboxes below are selected.
+      - Then click on **Done** **(4)**
 
-   ![](media-1/EX10-task2-step7c.png)
+         ![](media-1/EX10-task2-step7c.png)
   
-   - Click on **0 controls selected** under Access Control option.
-   - Click on **Grant** **(1)**
-   - Select the Check Box saying **Require multi-factor authentication** **(2)** 
-   - Then click on **Select** **(3)**
+      - Click on **0 controls selected** under Access Control option.
+      - Click on **Grant** **(1)**
+      - Select the Check Box saying **Require multi-factor authentication** **(2)** 
+      - Then click on **Select** **(3)**
 
-   ![](media-1/EX10-task2-step7d.png)
+         ![](media-1/EX10-task2-step7d.png)
    
 8. Toggle the **Enable Policy** switch to **On (1)** and click on **Create (2)**.
 
@@ -122,13 +122,13 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
 10. Now to log in, enter the lab credentials as mentioned below:
 
-   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
+      - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
-     ![ws name.](media/95.png)
+         ![ws name.](media/95.png)
 
-   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
+      - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
 
-     ![ws name.](media/96.png)
+         ![ws name.](media/96.png)
    
 11. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. Authenticate the login according to the authentication method you have chosen in exercise 1, step 7 to complete the verification.
 
