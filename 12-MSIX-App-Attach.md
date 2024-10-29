@@ -15,7 +15,7 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
 1. In the right pane, click on **File shares (1)** present under *Data Storage* blade and click on **+File Share (2)**.
 
-    ![ws name.](media/.png)
+    ![ws name.](media-2/avd-49.png)
  
 1. Enter the following name for your file share.
     

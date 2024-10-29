@@ -1,4 +1,4 @@
-# Lab 11: Multimedia redirection for Azure virtual desktop
+# Lab 10: Multimedia redirection for Azure virtual desktop
 
 
 ## **Overview**

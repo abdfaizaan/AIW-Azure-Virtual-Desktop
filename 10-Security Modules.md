@@ -1,4 +1,4 @@
-# Lab 10: Security Modules
+# Lab 11: Security Modules
 
 ## **Scenario**
 
@@ -8,7 +8,7 @@ Contoso wants its resources to be secure and protected from any kind of unethica
 
 In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authentication is a process where a user is prompted during the sign-in process for an additional form of identification, which increases the level of security.
 
-### Exercise 1: Setup Multi-Factor Authentication (MFA)
+## Exercise 1: Setup Multi-Factor Authentication (MFA)
 
 1. In your JumpVM launch browser and visit `https://AKA.ms/proofup` and if asked to log in then log in using the following credentials:
 
@@ -47,7 +47,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    ![](media-1/EX10-task1-step8.png)
   
-### Exercise 2: Creating Conditional Access Policy
+## Exercise 2: Creating Conditional Access Policy
 
 1. In Azure Portal search for **Microsoft Entra ID (1)** and click on it from the search result **(2)**.
 

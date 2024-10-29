@@ -18,7 +18,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    
 2.	On the AVD **Overview page (1)**, click on **Create a host pool (2)**.
 
-   ![image](https://user-images.githubusercontent.com/83349577/175352775-1ca92f9e-b510-4fee-89e5-8c476bcffa5b.png)
+    ![image](https://user-images.githubusercontent.com/83349577/175352775-1ca92f9e-b510-4fee-89e5-8c476bcffa5b.png)
 
 3.	On the **Basics** tab, provide the following information and click **Next: Virtual machines >**
 
@@ -67,14 +67,14 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
 6.	Verify the information and click **Create**.
 
-   ![](media/createhp5-new.png)
+    ![](media/createhp5-new.png)
 
 
-   > **NOTE:** Usually it takes 20 mins to get deployed successfully. Sometimes it might take up to 90 minutes.
+     > **NOTE:** Usually it takes 20 mins to get deployed successfully. Sometimes it might take up to 90 minutes.
 
 7.	Once the deployment is successful, click on **Go to resource**.
 
-   ![ws name.](media/gsw7.png)
+    ![ws name.](media/gsw7.png)
 
 8.	It will take you to the Host pool. The following resources were created:
 
