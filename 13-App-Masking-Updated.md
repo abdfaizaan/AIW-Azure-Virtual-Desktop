@@ -205,15 +205,15 @@ In this task, you will download the pre-created rule sets into the session host 
 
    - Username: *Enter the username*  **<inject key="Avd User 01" />** then click on **Next**.
    
-   ![ws name.](media/username.png)
+      ![ws name.](media/username.png)
 
    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
-   ![ws name.](media/password.png)
+      ![ws name.](media/password.png)
 
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
+      >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
-   ![](media/login1.png)
+      ![](media/login1.png)
 
 1. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
 
@@ -229,7 +229,7 @@ In this task, you will download the pre-created rule sets into the session host 
    
    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Submit**.
    
-   ![ws name.](media/lb52.png)
+      ![ws name.](media/lb52.png)
      
 1. Within the session desktop, go to Start and search for **Access (1)** and double-click on **Access (2)** to open the application. Here you will not be able to open the app due to the hiding rule applied to your session desktop through JumpVM. 
 
