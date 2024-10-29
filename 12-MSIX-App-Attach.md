@@ -337,12 +337,6 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 1. In Computer Management page, Under **Storage** select **Disk Management**. Here you'll see that VHD has been mounted. This is where the **VLC** is present and has been assigned to the session desktop dynamically. This confirms the implementation of MSIX App Attach.
 
    ![](media/msixv9.png)
-
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   - If you receive a success message, you can proceed to the next task.
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
-   <validation step="c7164c42-f33d-4af0-b15f-5dc2eb826c1b" />   
 
-1. Click on the **Next** button present in the bottom-right corner of this lab guide.
+* Click on the **Next** button present in the bottom-right corner of this lab guide.
