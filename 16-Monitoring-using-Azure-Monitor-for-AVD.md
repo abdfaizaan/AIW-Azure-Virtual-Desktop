@@ -29,11 +29,11 @@ In this exercise, We'll be reviewing monitoring data of the AVD environment usin
    
    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
-   ![ws name.](media/password2.png)
+      ![ws name.](media/password2.png)
 
-   >**NOTE**: If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
+      >**NOTE**: If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
-   ![](media/login2.png)
+      ![](media/login2.png)
     
 1. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only** if you are directed to the tab.
 
@@ -52,7 +52,7 @@ In this exercise, We'll be reviewing monitoring data of the AVD environment usin
   
 1. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop1.1.png)
+   ![ws name.](media/sessiondesktop1.1.png)
    
    >**NOTE**: **DO NOT** close the session or the AVD Remote client. Keep it running.
 

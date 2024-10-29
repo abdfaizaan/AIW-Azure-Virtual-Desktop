@@ -22,18 +22,18 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
 3.	On the **Basics** tab, provide the following information and click **Next: Virtual machines >**
 
-   - Load balancing algorithm: **Breadth-first (7)**
-   - Max session limit: **5** **(8)**
+    - Load balancing algorithm: **Breadth-first (7)**
+    - Max session limit: **5** **(8)**
 
-     ![](media-1/new-avd-lab13-13.jpg)
+      ![](media-1/new-avd-lab13-13.jpg)
 
 
 4.	On the **Virtual Machines** tab, provide the following information :
 
-   - Number of VMs: **2 (10)**
-   - OS disk type: **Standard SSD (11)**
+    - Number of VMs: **2 (10)**
+    - OS disk type: **Standard SSD (11)**
 
-     ![](media-1/new-avd-lab13-15.jpg)
+      ![](media-1/new-avd-lab13-15.jpg)
 
    B. **Network and security**
 
@@ -60,10 +60,10 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
 5.	On the Workspace tab, provide the following information and click **Review + create (3)**:
 
-   - Register desktop app group: **Yes (1)**
-   - To this workspace: **GS-AVD-WS (2)**
+    - Register desktop app group: **Yes (1)**
+    - To this workspace: **GS-AVD-WS (2)**
 
-     ![](media/createhp4-new.png)
+      ![](media/createhp4-new.png)
 
 6.	Verify the information and click **Create**.
 
@@ -78,13 +78,13 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
 8.	It will take you to the Host pool. The following resources were created:
 
-   - Host Pool: 1 (EB-AVD-AADJ-HP)
-   - Session Host: 2 (AVD-AADJ-SH-0, AVD-AADJ-SH-1)
-   - Application Group: 1 (EB-AVD-AADJ-HP-DAG)
-   - Application: 1 (SessionDesktop)
-   - Workspace: 1 (EB-AVD-WS)
+    - Host Pool: 1 (EB-AVD-AADJ-HP)
+    - Session Host: 2 (AVD-AADJ-SH-0, AVD-AADJ-SH-1)
+    - Application Group: 1 (EB-AVD-AADJ-HP-DAG)
+    - Application: 1 (SessionDesktop)
+    - Workspace: 1 (EB-AVD-WS)
      
-     ![ws name.](media/gsw8.png)
+      ![ws name.](media/gsw8.png)
    
 9. Click on the **Next** button present in the bottom-right corner of this lab guide.  
    
