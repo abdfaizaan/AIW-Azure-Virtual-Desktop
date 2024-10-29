@@ -35,7 +35,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
   
    - Click on **Review + Create (5)**
 
-   ![ws name.](media-1/avd2.png)
+      ![ws name.](media-1/avd2.png)
 
 1. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
 
@@ -63,7 +63,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    - Host Pool: **GS-AVD-HP (3)**
    - Time range: **Leave it to default (4)**
 
-   ![ws name.](media-2/avd-3.png)
+      ![ws name.](media-2/avd-3.png)
    
 1. On the **GS-AVD-HP | Insights** hostpool page, click on **Open Configuration Workbook**. 
 
@@ -74,7 +74,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    - Resource group: **avd-hostpool-rg-avd (1)**
    - Host Pool: **GS-AVD-HP (2)**
 
-   ![ws name.](media/avdlab2-3.png)
+      ![ws name.](media/avdlab2-3.png)
    
 1. Scroll down on the same page and click on **Configure host pool**.
 
@@ -126,6 +126,6 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    <validation step="a6bc1381-e5c9-48ad-af90-47a884ae601e" />
    
    
-1. Click on the **Next** button present in the bottom-right corner of this lab guide.
+* Click on the **Next** button present in the bottom-right corner of this lab guide.
 
  
