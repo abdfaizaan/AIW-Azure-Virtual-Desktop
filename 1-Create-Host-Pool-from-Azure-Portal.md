@@ -120,6 +120,6 @@ In this exercise, we will be creating the Host pool using **Quickstart** using m
  
       <validation step="ba322777-484a-4333-a812-4e7e4cf42e48" />   
    
-1. Click on the **Next** button present in the bottom-right corner of this lab guide.
+* Click on the **Next** button present in the bottom-right corner of this lab guide.
    
    
