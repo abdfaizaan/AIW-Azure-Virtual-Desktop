@@ -131,7 +131,7 @@ Here, we will use Powershell to run a script that will change the passwords for 
  
 7. The output of the script will be similar to the one shown below. The password for both **AVDUser01** and **AVDUser02** is reset to **Azure1234567**.
 
-   ![ws name.](media/avd-33.png)
+       ![ws name.](media/avd-33.png)
 
    >**Note**: ***Username*** and ***Password*** for ***AVDUser01*** and ***AVDUser02*** is present in Environment Details tab.
 
@@ -160,7 +160,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
         - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
-         ![ws name.](media/password.png)
+           ![ws name.](media/password.png)
 
          >**Note:** If you see the **Action Required** pop up, click on **Ask later.**
 
@@ -178,11 +178,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste the username*  **<inject key="Avd User 01" />** .
+    - Username: *Paste the username*  **<inject key="Avd User 01" />** .
    
-   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Submit**.
+    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Submit**.
    
-      ![ws name.](media/lab4-2.png)
+       ![ws name.](media/lab4-2.png)
 
 1. The virtual Desktop will launch as shown below. 
 
@@ -230,7 +230,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
    - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.* 
    
-      ![ws name.](media/lb37.png)
+       ![ws name.](media/lb37.png)
   
 1. The virtual Desktop will launch as shown below. 
 
