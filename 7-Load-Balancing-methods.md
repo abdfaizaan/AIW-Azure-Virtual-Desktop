@@ -318,10 +318,9 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-    - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on **Next**.*
-    - Password: *Paste the* **<inject key="AVD User Password" />** *and click on **OK**.* 
-   
-       ![ws name.](media/lb37.png)
+       - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on **Next**.*
+       - Password: *Paste the* **<inject key="AVD User Password" />** *and click on **OK**.* 
+          ![ws name.](media/lb37.png)
   
 1. The virtual Desktop will launch as shown below. 
 
@@ -335,9 +334,9 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
        ![ws name.](media-2/2users.png)
    
-     >**Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with the highest number of sessions. If there's a tie, the method selects the first session host in the query.
-    >
-    >Please follow [Depth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#depth-first-load-balancing-method) to learn more about it.
+       >**Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with the highest number of sessions. If there's a tie, the method selects the first session host in the query.
+       >
+       >Please follow [Depth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#depth-first-load-balancing-method) to learn more about it.
    
 1. Click on **Users** and verify that both users have been assigned to the particular session host. 
 
