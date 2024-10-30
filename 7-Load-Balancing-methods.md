@@ -211,9 +211,9 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
           ![ws name.](media/password2.png)
 
 
-       >**Note:** If you see the **Action Required** pop up, click on **Ask later.**
+          >**Note:** If you see the **Action Required** pop up, click on **Ask later.**
 
-       >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
+          >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
           ![](media/login2.png)
     
