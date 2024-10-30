@@ -99,9 +99,9 @@ Here, we will use Powershell to run a script that will change the passwords for 
    
 2. Run the following command in your terminal to set up your Azure account permissions locally.
 
-    ```
-    Connect-AzureAD
-    ```
+       ```
+       Connect-AzureAD
+       ```
 3. Your browser window will open and you will be prompted to authenticate to your Azure.
 
 4. Login to Azure with the username **<inject key="AzureAdUserEmail" />** and click on **Next**.
@@ -320,7 +320,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
         - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on **Next**.*
         - Password: *Paste the* **<inject key="AVD User Password" />** *and click on **OK**.* 
-        
+
           ![ws name.](media/lb37.png)
   
 1. The virtual Desktop will launch as shown below. 
