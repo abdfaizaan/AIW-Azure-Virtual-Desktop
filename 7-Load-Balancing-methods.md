@@ -95,7 +95,7 @@ Here, we will use Powershell to run a script that will change the passwords for 
 
 1. Inside the Jump VM, click on the Windows button look for **PowerShell (1)** and click on **Windows PowerShell (2)**.
    
-   ![ws name.](media/lab7-avd1.png)
+       ![ws name.](media/lab7-avd1.png)
    
 2. Run the following command in your terminal to set up your Azure account permissions locally.
 
@@ -110,7 +110,7 @@ Here, we will use Powershell to run a script that will change the passwords for 
     
 5. Enter your password **<inject key="AzureAdUserPassword" />** and click on **Sign in**.
     
-     ![](media/lab7-avd3.png)
+       ![](media/lab7-avd3.png)
 
 6. Copy and paste the following script and hit **Enter**.
 
@@ -150,15 +150,15 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to log in. 
 
-    ```
-    aka.ms/wvdarmweb
-    ```
+        ```
+        aka.ms/wvdarmweb
+        ```
 
-      - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
+        - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
    
-         ![ws name.](media/username.png)
+           ![ws name.](media/username.png)
 
-      - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
+        - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
          ![ws name.](media/password.png)
 
@@ -166,15 +166,15 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
          >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
-         ![](media/login1.png)
+            ![](media/login1.png)
 
 1. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
 
-    ![ws name.](media-2/avddesktop.png)
+       ![ws name.](media-2/avddesktop.png)
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-    ![ws name.](media/lab4-1.png)
+       ![ws name.](media/lab4-1.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -186,21 +186,21 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. The virtual Desktop will launch as shown below. 
 
-   ![ws name.](./media/sessiondesktop.png)
+      ![ws name.](./media/sessiondesktop.png)
    
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** search for **Remote desktop** and open the application with the exact icon as shown below.
 
-   ![ws name.](media/137.png)
+       ![ws name.](media/137.png)
    
 1. Click on the *ellipses* and select **Unsubscribe**. Click on **Continue** in the Are you sure you want to unsubscribe? tab.
 
-    ![ws name.](media/lb16.png)
+       ![ws name.](media/lb16.png)
 
-     >**Note:** We need to unsubscribe from the feed because in Exercise 4 we subscribed to the AVD feed using a different user.
+       >**Note:** We need to unsubscribe from the feed because in Exercise 4 we subscribed to the AVD feed using a different user.
 
 1. Click on the **Subscribe** button.
 
-    ![ws name.](media/a49.png)
+       ![ws name.](media/a49.png)
 
 1. Enter the user credentials to access the workspace.
 
