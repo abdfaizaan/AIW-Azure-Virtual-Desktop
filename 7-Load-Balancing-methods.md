@@ -204,18 +204,18 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter the user credentials to access the workspace.
 
-   - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on* **Next**.
+        - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on* **Next**.
    
-   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
+        - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
-      ![ws name.](media/password2.png)
+          ![ws name.](media/password2.png)
 
 
        >**Note:** If you see the **Action Required** pop up, click on **Ask later.**
 
        >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
-      ![](media/login2.png)
+          ![](media/login2.png)
     
 1. If prompted, make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
@@ -227,10 +227,10 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
-   - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.* 
+        - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
+        - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.* 
    
-       ![ws name.](media/lb37.png)
+          ![ws name.](media/lb37.png)
   
 1. The virtual Desktop will launch as shown below. 
 
@@ -298,11 +298,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-    - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
+        - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
    
-    - Password: *Paste the password* **<inject key="AVD User Password" />**.
+        - Password: *Paste the password* **<inject key="AVD User Password" />**.
    
-       ![ws name.](media/lab4-2.png)
+          ![ws name.](media/lab4-2.png)
 
 1. The virtual Desktop will launch as shown below. 
 
@@ -318,8 +318,9 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-       - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on **Next**.*
-       - Password: *Paste the* **<inject key="AVD User Password" />** *and click on **OK**.* 
+        - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on **Next**.*
+        - Password: *Paste the* **<inject key="AVD User Password" />** *and click on **OK**.* 
+        
           ![ws name.](media/lb37.png)
   
 1. The virtual Desktop will launch as shown below. 
