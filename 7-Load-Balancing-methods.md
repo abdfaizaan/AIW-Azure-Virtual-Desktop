@@ -219,11 +219,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
     
 1. If prompted, make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
-    ![ws name.](media/ex4t1s9.png)
+       ![ws name.](media/ex4t1s9.png)
 
 1. In the AVD client, double-click on the **Session Desktop** to access it. 
 
-    ![ws name.](media-2/avddesktop.png)
+       ![ws name.](media-2/avddesktop.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -234,27 +234,27 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
   
 1. The virtual Desktop will launch as shown below. 
 
-    ![ws name.](./media/sessiondesktop1.png) 
+       ![ws name.](./media/sessiondesktop1.png) 
 
 1. Return to the Azure portal in your browser inside the **JumpVM**, search for *host pools* and click on **Host pool** from the suggestion to open it.
 
-    ![ws name.](media/lb38.png)
+       ![ws name.](media/lb38.png)
    
 1. Now click on **GS-AVD-HP** host pool to access it.
 
-    ![ws name.](media-2/selecthp.png)
+       ![ws name.](media-2/selecthp.png)
  
 1. Under Manage Blade, click on **Session hosts**.
 
-    ![ws name.](media-2/sessionhosts.png)
+       ![ws name.](media-2/sessionhosts.png)
    
 1. You can see that both session hosts have one Active session each.
 
-    ![ws name.](media-2/sessionhosts1.png)
+       ![ws name.](media-2/sessionhosts1.png)
    
-     >**Note:** This shows how users are distributed among different session hosts, under the *Breadth-first load balancing method*. The breadth-first method first queries session hosts that allow new connections. The method then selects a session host randomly from half the set of session hosts with the least number of sessions. 
-   > 
-   >Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
+       >**Note:** This shows how users are distributed among different session hosts, under the *Breadth-first load balancing method*. The breadth-first method first queries session hosts that allow new connections. The method then selects a session host randomly from half the set of session hosts with the least number of sessions. 
+       > 
+       >Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
 
 1. Open the **AVD-HP01-SH-0....** session host and click on **Users (1)**, you can see the user logged in to that session host. Now select the user **(2)** and click on the **sign out users (3)** button and select **Sign out (4)** to the prompt asking *This will Sign out selected users from session host AVD-HP01-SH-0*.
 
@@ -264,7 +264,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
        ![ws name.](media-2/avd-35.png)
 
-        >**Note:** We need to log off the users from session hosts so that when users log in again, the connection is made based on the *Depth-first load balancing method*.
+       >**Note:** We need to log off the users from session hosts so that when users log in again, the connection is made based on the *Depth-first load balancing method*.
   
 **B**. **Depth-first**
    
