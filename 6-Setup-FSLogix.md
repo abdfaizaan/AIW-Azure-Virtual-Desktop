@@ -179,22 +179,22 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
 <validation step="7b9ee051-cf22-4867-acec-b74f44521a45" />
-  
+
 ## Exercise 3: Configure Session Hosts
 
 In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** session host using a Powershell script.
 
 1. In your Azure portal, search for **Virtual Machines** in the search bar and click on **Virtual Machines** from the suggestions.
 
-    ![ws name.](media/up11.png)
+     ![ws name.](media/up11.png)
       
 2. Click on **AVD-HP01-SH-0**.
 
-    ![ws name.](media/fs4.png)
+     ![ws name.](media/fs4.png)
       
 3. Then click on **Run command** under **Operations**.
 
-    ![ws name.](media-1/Ex6-task3-step3.png)
+     ![ws name.](media-1/Ex6-task3-step3.png)
   
 4. Now select **RunPowerShellScript**.
 
