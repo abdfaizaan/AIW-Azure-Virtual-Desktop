@@ -211,11 +211,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
           ![ws name.](media/password2.png)
 
 
-         >**Note:** If you see the **Action Required** pop up, click on **Ask later.**
+1. If you see the **Action Required** pop up, click on **Ask later.**
 
-         >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
+1. If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
-          ![](media/login2.png)
+       ![](media/login2.png)
     
 1. If prompted, make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
@@ -286,7 +286,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
     aka.ms/wvdarmweb
     ```
    
-    >**NOTE**: If the session desktop is disconnected, close the tab and perform the next step.
+1. If the session desktop is disconnected, close the tab and perform the next step.
    
 1. In the AVD dashboard, click on the **Session Desktop** to access it. 
 
