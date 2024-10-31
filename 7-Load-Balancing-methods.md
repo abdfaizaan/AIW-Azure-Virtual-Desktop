@@ -127,7 +127,7 @@ Here, we will use Powershell to run a script that will change the passwords for 
         $users | foreach{
         Update-AzADUser -UserPrincipalName $_ -PasswordPolicy DisablePasswordExpiration -PasswordProfile $PasswordProfile
         }
-        ```
+   ```
  
 7. The output of the script will be similar to the one shown below. The password for both **AVDUser01** and **AVDUser02** is reset to **Azure1234567**.
 
