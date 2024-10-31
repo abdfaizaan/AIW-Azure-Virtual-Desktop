@@ -131,7 +131,7 @@ Here, we will use Powershell to run a script that will change the passwords for 
  
 7. The output of the script will be similar to the one shown below. The password for both **AVDUser01** and **AVDUser02** is reset to **Azure1234567**.
 
-   ![ws name.](media/avd-33.png)
+    ![ws name.](media/avd-33.png)
 
    >**Note**: ***Username*** and ***Password*** for ***AVDUser01*** and ***AVDUser02*** is present in Environment Details tab.
 
@@ -150,21 +150,22 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to log in. 
 
-   ```
+      ```
         aka.ms/wvdarmweb
-    ```
+      ```
 
-   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
+    - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
    
       ![ws name.](media/username.png)
 
-   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
+    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
       ![ws name.](media/password.png)
 
         >**Note:** If you see the **Action Required** pop up, click on **Ask later.**
 
         >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
+
 
        ![](media/login1.png)
 
@@ -174,15 +175,15 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/lab4-1.png)
+    ![ws name.](media/lab4-1.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-    - Username: *Paste the username*  **<inject key="Avd User 01" />** .
+     - Username: *Paste the username*  **<inject key="Avd User 01" />** .
    
-    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Submit**.
+     - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Submit**.
    
-   ![ws name.](media/lab4-2.png)
+    ![ws name.](media/lab4-2.png)
 
 1. The virtual Desktop will launch as shown below. 
 
@@ -190,24 +191,24 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** search for **Remote desktop** and open the application with the exact icon as shown below.
 
-    ![ws name.](media/137.png)
+     ![ws name.](media/137.png)
    
 1. Click on the *ellipses* and select **Unsubscribe**. Click on **Continue** in the Are you sure you want to unsubscribe? tab.
 
-    ![ws name.](media/lb16.png)
+     ![ws name.](media/lb16.png)
 
-       >**Note:** We need to unsubscribe from the feed because in Exercise 4 we subscribed to the AVD feed using a different user.
+      >**Note:** We need to unsubscribe from the feed because in Exercise 4 we subscribed to the AVD feed using a different user.
 
 1. Click on the **Subscribe** button.
 
-    ![ws name.](media/a49.png)
+     ![ws name.](media/a49.png)
 
 1. Enter the user credentials to access the workspace.
 
-   - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on* **Next**.
+    - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on* **Next**.
 
    
-   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
+    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
       ![ws name.](media/password2.png)
 
@@ -216,7 +217,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
-   ![](media/login2.png)
+    ![](media/login2.png)
     
 1. If prompted, make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
@@ -228,9 +229,9 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
+    - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
      
-   - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.* 
+    - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.* 
    
       ![ws name.](media/lb37.png)
   
@@ -254,9 +255,9 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
      ![ws name.](media-2/sessionhosts1.png)
    
-       >**Note:** This shows how users are distributed among different session hosts, under the *Breadth-first load balancing method*. The breadth-first method first queries session hosts that allow new connections. The method then selects a session host randomly from half the set of session hosts with the least number of sessions. 
-       > 
-       >Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
+      >**Note:** This shows how users are distributed among different session hosts, under the *Breadth-first load balancing method*. The breadth-first method first queries session hosts that allow new connections. The method then selects a session host randomly from half the set of session hosts with the least number of sessions. 
+       
+      >**Note** Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
 
 1. Open the **AVD-HP01-SH-0....** session host and click on **Users (1)**, you can see the user logged in to that session host. Now select the user **(2)** and click on the **sign out users (3)** button and select **Sign out (4)** to the prompt asking *This will Sign out selected users from session host AVD-HP01-SH-0*.
 
@@ -266,7 +267,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
      ![ws name.](media-2/avd-35.png)
 
-       >**Note:** We need to log off the users from session hosts so that when users log in again, the connection is made based on the *Depth-first load balancing method*.
+     >**Note:** We need to log off the users from session hosts so that when users log in again, the connection is made based on the *Depth-first load balancing method*.
   
 **B**. **Depth-first**
    
@@ -286,6 +287,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
         ```
         aka.ms/wvdarmweb
+   
         ```
    
 1. If the session desktop is disconnected, close the tab and perform the next step.
@@ -300,11 +302,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-        - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
    
-        - Password: *Paste the password* **<inject key="AVD User Password" />**.
+   - Password: *Paste the password* **<inject key="AVD User Password" />**.
    
-          ![ws name.](media/lab4-2.png)
+      ![ws name.](media/lab4-2.png)
 
 1. The virtual Desktop will launch as shown below. 
 
@@ -338,8 +340,8 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
       ![ws name.](media-2/2users.png)
    
        >**Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with the highest number of sessions. If there's a tie, the method selects the first session host in the query.
-       >
-       >Please follow [Depth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#depth-first-load-balancing-method) to learn more about it.
+       
+       >**Note** Please follow [Depth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#depth-first-load-balancing-method) to learn more about it.
    
 1. Click on **Users** and verify that both users have been assigned to the particular session host. 
 
