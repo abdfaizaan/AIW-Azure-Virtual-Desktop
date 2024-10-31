@@ -114,20 +114,20 @@ Here, we will use Powershell to run a script that will change the passwords for 
 
 6. Copy and paste the following script and hit **Enter**.
 
-   ```
-   Get-AzureADDOmain
-   $domain = Get-AzureADDOmain
-   $domain = $domain.Name
-   $PasswordProfile = @{
-   Password = 'Azure1234567'
-   ForceChangePasswordNextSignIn = $False
-   }
-   $users = @("AVDUser01@$domain","AVDUser02@$domain")
-   $users
-   $users | foreach{
-   Update-AzADUser -UserPrincipalName $_ -PasswordPolicy DisablePasswordExpiration -PasswordProfile $PasswordProfile
-   }
-   ```
+        ```
+        Get-AzureADDOmain
+        $domain = Get-AzureADDOmain
+        $domain = $domain.Name
+        $PasswordProfile = @{
+        Password = 'Azure1234567'
+        ForceChangePasswordNextSignIn = $False
+        }
+        $users = @("AVDUser01@$domain","AVDUser02@$domain")
+        $users
+        $users | foreach{
+        Update-AzADUser -UserPrincipalName $_ -PasswordPolicy DisablePasswordExpiration -PasswordProfile $PasswordProfile
+        }
+        ```
  
 7. The output of the script will be similar to the one shown below. The password for both **AVDUser01** and **AVDUser02** is reset to **Azure1234567**.
 
@@ -286,7 +286,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
     aka.ms/wvdarmweb
     ```
    
-   >**NOTE**: If the session desktop is disconnected, close the tab and perform the next step.
+      >**NOTE**: If the session desktop is disconnected, close the tab and perform the next step.
    
 1. In the AVD dashboard, click on the **Session Desktop** to access it. 
 
