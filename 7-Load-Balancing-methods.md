@@ -285,10 +285,10 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
 1. Paste the below-mentioned link in your browser, in the **JumpVM** and enter your **credentials** to log in. 
 
-        ```
+    ```
         aka.ms/wvdarmweb
    
-        ```
+     ```
    
 1. If the session desktop is disconnected, close the tab and perform the next step.
    
