@@ -166,7 +166,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
      >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
-     > ![sdad](media/login1.png)
+        ![sdad](media/login1.png)
 
 1. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
 
@@ -203,10 +203,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
      ![ws name.](media/a49.png)
 
 1. Enter the user credentials to access the workspace.
-
-    - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on* **Next**.
-
-    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
+   
+   - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on* **Next**.
+   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
+  
+      
        ![ws name.](media/password2.png)
 
 
