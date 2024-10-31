@@ -150,15 +150,15 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to log in. 
 
-        ```
+   ```
         aka.ms/wvdarmweb
-        ```
+    ```
 
-        - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
    
       ![ws name.](media/username.png)
 
-        - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
+    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
       ![ws name.](media/password.png)
 
