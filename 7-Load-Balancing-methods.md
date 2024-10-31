@@ -286,7 +286,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
     aka.ms/wvdarmweb
     ```
    
-       >**NOTE**: If the session desktop is disconnected, close the tab and perform the next step.
+      >**NOTE**: If the session desktop is disconnected, close the tab and perform the next step.
    
 1. In the AVD dashboard, click on the **Session Desktop** to access it. 
 
