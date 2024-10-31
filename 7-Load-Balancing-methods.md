@@ -219,38 +219,38 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
     
 1. If prompted, make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
-       ![ws name.](media/ex4t1s9.png)
+     ![ws name.](media/ex4t1s9.png)
 
 1. In the AVD client, double-click on the **Session Desktop** to access it. 
 
-       ![ws name.](media-2/avddesktop.png)
+     ![ws name.](media-2/avddesktop.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
         - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
         - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.* 
    
-          ![ws name.](media/lb37.png)
+      ![ws name.](media/lb37.png)
   
 1. The virtual Desktop will launch as shown below. 
 
-       ![ws name.](./media/sessiondesktop1.png) 
+     ![ws name.](./media/sessiondesktop1.png) 
 
 1. Return to the Azure portal in your browser inside the **JumpVM**, search for *host pools* and click on **Host pool** from the suggestion to open it.
 
-       ![ws name.](media/lb38.png)
+     ![ws name.](media/lb38.png)
    
 1. Now click on **GS-AVD-HP** host pool to access it.
 
-       ![ws name.](media-2/selecthp.png)
+     ![ws name.](media-2/selecthp.png)
  
 1. Under Manage Blade, click on **Session hosts**.
 
-       ![ws name.](media-2/sessionhosts.png)
+     ![ws name.](media-2/sessionhosts.png)
    
 1. You can see that both session hosts have one Active session each.
 
-       ![ws name.](media-2/sessionhosts1.png)
+     ![ws name.](media-2/sessionhosts1.png)
    
        >**Note:** This shows how users are distributed among different session hosts, under the *Breadth-first load balancing method*. The breadth-first method first queries session hosts that allow new connections. The method then selects a session host randomly from half the set of session hosts with the least number of sessions. 
        > 
@@ -258,11 +258,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Open the **AVD-HP01-SH-0....** session host and click on **Users (1)**, you can see the user logged in to that session host. Now select the user **(2)** and click on the **sign out users (3)** button and select **Sign out (4)** to the prompt asking *This will Sign out selected users from session host AVD-HP01-SH-0*.
 
-       ![ws name.](media-1/avd-34.png)
+     ![ws name.](media-1/avd-34.png)
 
 1. Navigate back to *Session hosts* and open **AVD-HP01-SH-1...** session host, click on **Users (1)** and you can see the user logged in to that session host. Now select the user **(2)** and click on the **Sign out users (3)** button and select **Sign out (4)** to the prompt asking *This will Sign out selected users from session host AVD-HP01-SH-1*.
 
-       ![ws name.](media-2/avd-35.png)
+     ![ws name.](media-2/avd-35.png)
 
        >**Note:** We need to log off the users from session hosts so that when users log in again, the connection is made based on the *Depth-first load balancing method*.
   
@@ -274,11 +274,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. In *GS-AVD-HP* host pool, click on **Properties** under *Settings* blade.
 
-       ![ws name.](media-2/properties.png)
+     ![ws name.](media-2/properties.png)
    
 1. From Properties in the left menu, change the load balancing algorithm to **Depth-first (1)** then click on **Save icon (2)**.
 
-       ![ws name.](media-2/depth.png)
+     ![ws name.](media-2/depth.png)
    
 1. Paste the below-mentioned link in your browser, in the **JumpVM** and enter your **credentials** to log in. 
 
@@ -290,11 +290,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
 1. In the AVD dashboard, click on the **Session Desktop** to access it. 
 
-       ![ws name.](media-2/avddesktop.png)
+     ![ws name.](media-2/avddesktop.png)
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-       ![ws name.](media/lab4-1.png)
+     ![ws name.](media/lab4-1.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -306,34 +306,34 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. The virtual Desktop will launch as shown below. 
 
-       ![ws name.](./media/sessiondesktop.png)
+     ![ws name.](./media/sessiondesktop.png)
     
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** search for **Remote desktop** and open the application with the exact icon as shown below.
 
-       ![ws name.](media/137.png)
+     ![ws name.](media/137.png)
 
 1. In the AVD client, double-click on the **Session Desktop** to access it. 
 
-       ![ws name.](media-2/avddesktop.png)
+     ![ws name.](media-2/avddesktop.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
         - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on **Next**.*
         - Password: *Paste the* **<inject key="AVD User Password" />** *and click on **OK**.* 
 
-          ![ws name.](media/lb37.png)
+      ![ws name.](media/lb37.png)
   
 1. The virtual Desktop will launch as shown below. 
 
-       ![ws name.](./media/sessiondesktop1.png) 
+     ![ws name.](./media/sessiondesktop1.png) 
 
 1. Return back to the Azure portal in the **JumpVM**, navigate to **GS-AVD-HP** host pool and open **Session Hosts** present under *Manage* blade.
 
-       ![ws name.](media-2/avdsession.png)
+     ![ws name.](media-2/avdsession.png)
    
 1. Here one of the session hosts, either *AVD-HP01-SH-0* or *AVD-HP01-SH-1* will have 2 Active sessions. Click on that session host to open it.
 
-       ![ws name.](media-2/2users.png)
+      ![ws name.](media-2/2users.png)
    
        >**Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with the highest number of sessions. If there's a tie, the method selects the first session host in the query.
        >
@@ -341,6 +341,6 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
 1. Click on **Users** and verify that both users have been assigned to the particular session host. 
 
-       ![ws name.](media-2/users.png)
+      ![ws name.](media-2/users.png)
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.
