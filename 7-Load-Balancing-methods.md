@@ -303,9 +303,10 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
+    - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
    
-   - Password: *Paste the password* **<inject key="AVD User Password" />**.
+    - Password: *Paste the password* **<inject key="AVD User Password" />**.
+
    
       ![ws name.](media/lab4-2.png)
 
