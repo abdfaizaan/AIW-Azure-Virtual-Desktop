@@ -114,7 +114,7 @@ Here, we will use Powershell to run a script that will change the passwords for 
 
 6. Copy and paste the following script and hit **Enter**.
 
-        ```
+   ```
         Get-AzureADDOmain
         $domain = Get-AzureADDOmain
         $domain = $domain.Name
