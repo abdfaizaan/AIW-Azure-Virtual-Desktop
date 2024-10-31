@@ -158,13 +158,13 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
       ![ws name.](media/username.png)
 
-    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
+   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
       ![ws name.](media/password.png)
 
-         >**Note:** If you see the **Action Required** pop up, click on **Ask later.**
+        >**Note:** If you see the **Action Required** pop up, click on **Ask later.**
 
-         >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
+        >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
        ![](media/login1.png)
 
@@ -178,9 +178,9 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-        - Username: *Paste the username*  **<inject key="Avd User 01" />** .
+    - Username: *Paste the username*  **<inject key="Avd User 01" />** .
    
-        - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Submit**.
+    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Submit**.
    
    ![ws name.](media/lab4-2.png)
 
@@ -204,9 +204,10 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter the user credentials to access the workspace.
 
-        - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on* **Next**.
+   - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on* **Next**.
+
    
-        - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
+   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
       ![ws name.](media/password2.png)
 
@@ -227,8 +228,9 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-        - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
-        - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.* 
+   - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
+     
+   - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.* 
    
       ![ws name.](media/lb37.png)
   
