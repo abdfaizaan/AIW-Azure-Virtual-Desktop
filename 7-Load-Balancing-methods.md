@@ -154,20 +154,20 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
         aka.ms/wvdarmweb
       ```
 
-    - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
    
       ![ws name.](media/username.png)
 
-    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
+   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
       ![ws name.](media/password.png)
 
-        >**Note:** If you see the **Action Required** pop up, click on **Ask later.**
+     >**Note:** If you see the **Action Required** pop up, click on **Ask later.**
 
-        >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
+     >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
 
-         ![](media/login1.png)
+        ![](media/login1.png)
 
 1. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
 
@@ -179,23 +179,23 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-     - Username: *Paste the username*  **<inject key="Avd User 01" />** .
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** .
    
-     - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Submit**.
+   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Submit**.
    
-     ![ws name.](media/lab4-2.png)
+      ![ws name.](media/lab4-2.png)
 
 1. The virtual Desktop will launch as shown below. 
 
-      ![ws name.](./media/sessiondesktop.png)
+    ![ws name.](./media/sessiondesktop.png)
    
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** search for **Remote desktop** and open the application with the exact icon as shown below.
 
-     ![ws name.](media/137.png)
+    ![ws name.](media/137.png)
    
 1. Click on the *ellipses* and select **Unsubscribe**. Click on **Continue** in the Are you sure you want to unsubscribe? tab.
 
-     ![ws name.](media/lb16.png)
+    ![ws name.](media/lb16.png)
 
       >**Note:** We need to unsubscribe from the feed because in Exercise 4 we subscribed to the AVD feed using a different user.
 
@@ -206,9 +206,9 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 1. Enter the user credentials to access the workspace.
 
 
-    - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on* **Next**.
+   - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on* **Next**.
    
-    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
+   - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
       ![ws name.](media/password2.png)
 
@@ -229,9 +229,9 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-    - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
      
-    - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.* 
+   - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.* 
    
       ![ws name.](media/lb37.png)
   
