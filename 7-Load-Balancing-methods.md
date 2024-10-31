@@ -167,7 +167,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
         >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
 
-       ![](media/login1.png)
+         ![](media/login1.png)
 
 1. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
 
