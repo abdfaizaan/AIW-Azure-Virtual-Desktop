@@ -95,22 +95,22 @@ Here, we will use Powershell to run a script that will change the passwords for 
 
 1. Inside the Jump VM, click on the Windows button look for **PowerShell (1)** and click on **Windows PowerShell (2)**.
    
-       ![ws name.](media/lab7-avd1.png)
+   ![ws name](media/lab7-avd1.png)
    
 2. Run the following command in your terminal to set up your Azure account permissions locally.
 
-       ```
+   ```
        Connect-AzureAD
-       ```
+   ```
 3. Your browser window will open and you will be prompted to authenticate to your Azure.
 
 4. Login to Azure with the username **<inject key="AzureAdUserEmail" />** and click on **Next**.
     
-       ![](media/lab7-avd2.png)
+   ![](media/lab7-avd2.png)
     
 5. Enter your password **<inject key="AzureAdUserPassword" />** and click on **Sign in**.
     
-       ![](media/lab7-avd3.png)
+   ![](media/lab7-avd3.png)
 
 6. Copy and paste the following script and hit **Enter**.
 
@@ -131,7 +131,7 @@ Here, we will use Powershell to run a script that will change the passwords for 
  
 7. The output of the script will be similar to the one shown below. The password for both **AVDUser01** and **AVDUser02** is reset to **Azure1234567**.
 
-       ![ws name.](media/avd-33.png)
+   ![ws name.](media/avd-33.png)
 
    >**Note**: ***Username*** and ***Password*** for ***AVDUser01*** and ***AVDUser02*** is present in Environment Details tab.
 
@@ -156,11 +156,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
         - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
    
-           ![ws name.](media/username.png)
+      ![ws name.](media/username.png)
 
         - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
-           ![ws name.](media/password.png)
+      ![ws name.](media/password.png)
 
          >**Note:** If you see the **Action Required** pop up, click on **Ask later.**
 
@@ -170,11 +170,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Now in the AVD dashboard, click on the **Session Desktop** to access it. 
 
-       ![ws name.](media-2/avddesktop.png)
+   ![ws name.](media-2/avddesktop.png)
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-       ![ws name.](media/lab4-1.png)
+   ![ws name.](media/lab4-1.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
@@ -182,7 +182,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
         - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Submit**.
    
-          ![ws name.](media/lab4-2.png)
+   ![ws name.](media/lab4-2.png)
 
 1. The virtual Desktop will launch as shown below. 
 
@@ -190,17 +190,17 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** search for **Remote desktop** and open the application with the exact icon as shown below.
 
-       ![ws name.](media/137.png)
+    ![ws name.](media/137.png)
    
 1. Click on the *ellipses* and select **Unsubscribe**. Click on **Continue** in the Are you sure you want to unsubscribe? tab.
 
-       ![ws name.](media/lb16.png)
+    ![ws name.](media/lb16.png)
 
        >**Note:** We need to unsubscribe from the feed because in Exercise 4 we subscribed to the AVD feed using a different user.
 
 1. Click on the **Subscribe** button.
 
-       ![ws name.](media/a49.png)
+    ![ws name.](media/a49.png)
 
 1. Enter the user credentials to access the workspace.
 
@@ -208,14 +208,14 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    
         - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
 
-           ![ws name.](media/password2.png)
+      ![ws name.](media/password2.png)
 
 
 1. If you see the **Action Required** pop up, click on **Ask later.**
 
 1. If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
-       ![](media/login2.png)
+   ![](media/login2.png)
     
 1. If prompted, make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
