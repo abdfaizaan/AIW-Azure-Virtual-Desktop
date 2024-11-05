@@ -38,7 +38,7 @@ In the following task, we will be creating a storage account with a file share w
    
    - At last, click on **Next (8)**
    
-      ![ws name.](media/avd-40.png)
+      ![ws name.](media/avdstoarge.png)
    
 4. On the _Advanced_ tab, make sure to enable **Require secure transfer for REST API operations**, **Allow enabling anonymous access on individual containers**, and **Enable storage account key access** options. Once enabled, click on the **Next** button.
 
