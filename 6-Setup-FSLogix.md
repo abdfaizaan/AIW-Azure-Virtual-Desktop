@@ -263,7 +263,7 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
  
  
  
-    ![ws name.](media/uiupdate12.png)
+   ![ws name.](media/uiupdate12.png)
    
    >**Note:** The above script will :
    >
