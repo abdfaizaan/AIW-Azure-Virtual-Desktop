@@ -94,39 +94,40 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 Here, we will use Powershell to run a script that will change the passwords for the users created, as the user needs to reset the password after registering to AADDS. 
 
 1. Inside the Jump VM, click on the Windows button look for **PowerShell (1)** and click on **Windows PowerShell (2)**.
-   
+
    ![ws name](media/lab7-avd1.png)
-   
+
 2. Run the following command in your terminal to set up your Azure account permissions locally.
 
    ```
-       Connect-AzureAD
+   Connect-AzureAD
    ```
+
 3. Your browser window will open and you will be prompted to authenticate to your Azure.
 
 4. Login to Azure with the username **<inject key="AzureAdUserEmail" />** and click on **Next**.
-    
+
    ![](media/lab7-avd2.png)
-    
+
 5. Enter your password **<inject key="AzureAdUserPassword" />** and click on **Sign in**.
-    
+
    ![](media/lab7-avd3.png)
 
 6. Copy and paste the following script and hit **Enter**.
 
    ```
-        Get-AzureADDOmain
-        $domain = Get-AzureADDOmain
-        $domain = $domain.Name
-        $PasswordProfile = @{
-        Password = 'Azure1234567'
-        ForceChangePasswordNextSignIn = $False
-        }
-        $users = @("AVDUser01@$domain","AVDUser02@$domain")
-        $users
-        $users | foreach{
-        Update-AzADUser -UserPrincipalName $_ -PasswordPolicy DisablePasswordExpiration -PasswordProfile $PasswordProfile
-        }
+   Get-AzureADDOmain
+   $domain = Get-AzureADDOmain
+   $domain = $domain.Name
+   $PasswordProfile = @{
+   Password = 'Azure1234567'
+   ForceChangePasswordNextSignIn = $False
+   }
+   $users = @("AVDUser01@$domain","AVDUser02@$domain")
+   $users
+   $users | foreach{
+   Update-AzADUser -UserPrincipalName $_ -PasswordPolicy DisablePasswordExpiration -PasswordProfile $PasswordProfile
+   }
    ```
  
 7. The output of the script will be similar to the one shown below. The password for both **AVDUser01** and **AVDUser02** is reset to **Azure1234567**.
@@ -145,14 +146,14 @@ Here, we will use Powershell to run a script that will change the passwords for 
 ## Exercise 3: Change and experience Load Balancing methods
 
 **A**. **Breadth-first**
-   
+
 While creating the EB-AVD-HP host pool, we selected the load balancing method as *Breadth-first*. Now, we are going to log in to the Desktop App created on EB-AVD-HP with both users simultaneously and see the user distribution.
 
 1. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to log in. 
 
-    ```
-      aka.ms/wvdarmweb
-    ```
+   ```
+   aka.ms/wvdarmweb
+   ```
 
    - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
    
@@ -177,21 +178,21 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
     ![ws name.](media/lab4-1.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
- 
+
    - Username: *Paste the username*  **<inject key="Avd User 01" />** .
-   
+
    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Submit**.
-   
+
       ![ws name.](media/lab4-2.png)
 
 1. The virtual Desktop will launch as shown below. 
 
     ![ws name.](./media/sessiondesktop.png)
-   
+
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** search for **Remote desktop** and open the application with the exact icon as shown below.
 
     ![ws name.](media/137.png)
-   
+
 1. Click on the *ellipses* and select **Unsubscribe**. Click on **Continue** in the Are you sure you want to unsubscribe? tab.
 
     ![ws name.](media/lb16.png)
@@ -203,20 +204,19 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
      ![ws name.](media/a49.png)
 
 1. Enter the user credentials to access the workspace.
-   
+
    - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on* **Next**.
    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
-  
-      
-       ![ws name.](media/password2.png)
 
+
+       ![ws name.](media/password2.png)
 
 1. If you see the **Action Required** pop up, click on **Ask later.**
 
 1. If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
 
     ![](media/login2.png)
-    
+
 1. If prompted, make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
      ![ws name.](media/ex4t1s9.png)
@@ -228,11 +228,11 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 1. Enter your **credentials** to access the application and click on **Submit**.
 
    - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
-     
+
    - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.* 
-   
+
       ![ws name.](media/lb37.png)
-  
+
 1. The virtual Desktop will launch as shown below. 
 
      ![ws name.](./media/sessiondesktop1.png) 
@@ -240,21 +240,21 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 1. Return to the Azure portal in your browser inside the **JumpVM**, search for *host pools* and click on **Host pool** from the suggestion to open it.
 
      ![ws name.](media/lb38.png)
-   
+
 1. Now click on **GS-AVD-HP** host pool to access it.
 
      ![ws name.](media-2/selecthp.png)
- 
+
 1. Under Manage Blade, click on **Session hosts**.
 
      ![ws name.](media-2/sessionhosts.png)
-   
+
 1. You can see that both session hosts have one Active session each.
 
      ![ws name.](media-2/sessionhosts1.png)
-   
+
       >**Note:** This shows how users are distributed among different session hosts, under the *Breadth-first load balancing method*. The breadth-first method first queries session hosts that allow new connections. The method then selects a session host randomly from half the set of session hosts with the least number of sessions. 
-       
+
       >**Note** Please follow [Breadth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#breadth-first-load-balancing-method) to learn more about it.
 
 1. Open the **AVD-HP01-SH-0....** session host and click on **Users (1)**, you can see the user logged in to that session host. Now select the user **(2)** and click on the **sign out users (3)** button and select **Sign out (4)** to the prompt asking *This will Sign out selected users from session host AVD-HP01-SH-0*.
@@ -266,9 +266,9 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
      ![ws name.](media-2/avd-35.png)
 
      >**Note:** We need to log off the users from session hosts so that when users log in again, the connection is made based on the *Depth-first load balancing method*.
-  
+
 **B**. **Depth-first**
-   
+
    Here, we will change the load balancing method of the *EB-AVD-HP* host pool to *Depth-first* and see how user distribution changes in the Host pool.
 
    >**Note:** If the previous session is closed, visit `aka.ms/wvdarmweb`, then click on *Default Desktop* and log in with *AVDUser01* credentials.
@@ -276,20 +276,20 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 1. In *GS-AVD-HP* host pool, click on **Properties** under *Settings* blade.
 
      ![ws name.](media-2/properties.png)
-   
+
 1. From Properties in the left menu, change the load balancing algorithm to **Depth-first (1)** then click on **Save icon (2)**.
 
      ![ws name.](media-2/depth.png)
-   
+
 1. Paste the below-mentioned link in your browser, in the **JumpVM** and enter your **credentials** to log in. 
 
-    ```
-        aka.ms/wvdarmweb
+   ```
+   aka.ms/wvdarmweb
    
-     ```
+   ```
    
 1. If the session desktop is disconnected, close the tab and perform the next step.
-   
+
 1. In the AVD dashboard, click on the **Session Desktop** to access it. 
 
      ![ws name.](media-2/avddesktop.png)
@@ -301,16 +301,15 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 1. Enter your **credentials** to access the application and click on **Submit**.
 
     - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
-   
+
     - Password: *Paste the password* **<inject key="AVD User Password" />**.
 
-   
       ![ws name.](media/lab4-2.png)
 
 1. The virtual Desktop will launch as shown below. 
 
      ![ws name.](./media/sessiondesktop.png)
-    
+
 1. Navigate to **Your Own PC/computer/workstation**, go to **Start** search for **Remote desktop** and open the application with the exact icon as shown below.
 
      ![ws name.](media/137.png)
@@ -325,23 +324,23 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    - Password: *Paste the* **<inject key="AVD User Password" />** *and click on **OK**.* 
 
       ![ws name.](media/lb37.png)
-  
-1. The virtual Desktop will launch as shown below. 
+
+1. The virtual Desktop will launch as shown below.
 
      ![ws name.](./media/sessiondesktop1.png) 
 
 1. Return back to the Azure portal in the **JumpVM**, navigate to **GS-AVD-HP** host pool and open **Session Hosts** present under *Manage* blade.
 
      ![ws name.](media-2/avdsession.png)
-   
+
 1. Here one of the session hosts, either *AVD-HP01-SH-0* or *AVD-HP01-SH-1* will have 2 Active sessions. Click on that session host to open it.
 
       ![ws name.](media-2/2users.png)
-   
+
    >**Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with the highest number of sessions. If there's a tie, the method selects the first session host in the query.
-       
+
    >**Note** Please follow [Depth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#depth-first-load-balancing-method) to learn more about it.
-   
+
 1. Click on **Users** and verify that both users have been assigned to the particular session host. 
 
       ![ws name.](media-2/users.png)
