@@ -16,23 +16,23 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
    ![ws name.](media/2avd1.png)
 
-1.	On the AVD **Overview page (1)**, click on **Create a host pool (2)**.
+1. On the AVD **Overview page (1)**, click on **Create a host pool (2)**.
 
-    ![ws name.](media/avd-v3-lab15-first.png)
+   ![ws name.](media/avd-v3-lab15-first.png)
 
-1.	On the **Basics** tab, provide the following information and click **Next: Virtual machines >**.
+1. On the **Basics** tab, provide the following information and click **Next: Virtual machines >**.
 
     - Load balancing algorithm: **Breadth-first (7)**
     - Max session limit: **5** **(8)**
 
-     ![](media-1/new-avd-lab13-13.jpg)
+        ![](media-1/new-avd-lab13-13.jpg)
 
-1.	On the **Virtual Machines** tab, provide the following information :
+1. On the **Virtual Machines** tab, provide the following information :
 
     - Number of VMs: **2 (10)**
     - OS disk type: **Standard SSD (11)**
 
-     ![](media-1/new-avd-lab13-15.jpg)
+        ![](media-1/new-avd-lab13-15.jpg)
 
 1. **Network and security**
 
@@ -40,40 +40,40 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
     - Network security group: **Basic (2)**
     - Public inbound ports: **No (3)**
 
-     ![](media/createhp3-new.png)
+        ![](media/createhp3-new.png)
 
 1. **Domain to join**
 
     - Select which directory you would like to join: **Microsoft Entra ID (1)**
     - Enroll VM with Intune: **No (2)**
 
-     ![](media-1/avd1.4.png)
+        ![](media-1/avd1.4.png)
 
 1. **Virtual Machine Administrator account**
 
     - Confirm password: **Password.1!!** **(3)**
     - Click on **Next : Workspace > (4)**
 
-     ![](media/vmadminaccount.png)
+        ![](media/vmadminaccount.png)
 
-1.	On the Workspace tab, provide the following information and click **Review + create (3)**:
+1. On the Workspace tab, provide the following information and click **Review + create (3)**:
 
     - Register desktop app group: **Yes (1)**
     - To this workspace: **GS-AVD-WS (2)**
 
-     ![](media/createhp4-new.png)
+        ![](media/createhp4-new.png)
 
-1.	Verify the information and click **Create**.
+1. Verify the information and click **Create**.
 
     ![](media/createhp5-new.png)
 
     > **NOTE:** Usually it takes 20 mins to get deployed successfully. Sometimes it might take up to 90 minutes.
 
-1.	Once the deployment is successful, click on **Go to resource**.
+1. Once the deployment is successful, click on **Go to resource**.
 
     ![ws name.](media/gsw7.png)
 
-1.	It will take you to the Host pool. The following resources were created:
+1. It will take you to the Host pool. The following resources were created:
 
     - Host Pool: 1 (EB-AVD-AADJ-HP)
     - Session Host: 2 (AVD-AADJ-SH-0, AVD-AADJ-SH-1)
@@ -81,6 +81,6 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
     - Application: 1 (SessionDesktop)
     - Workspace: 1 (EB-AVD-WS)
 
-     ![ws name.](media/gsw8.png)
+        ![ws name.](media/gsw8.png)
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.
