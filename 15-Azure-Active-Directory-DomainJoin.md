@@ -18,14 +18,14 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
    
 2.	On the AVD **Overview page (1)**, click on **Create a host pool (2)**.
 
-    ![image](media/avd-v3-lab15-first.png)
+  ![image](media/avd-v3-lab15-first.png)
 
 3.	On the **Basics** tab, provide the following information and click **Next: Virtual machines >**
 
     - Load balancing algorithm: **Breadth-first (7)**
     - Max session limit: **5** **(8)**
 
-      ![](media-1/new-avd-lab13-13.jpg)
+    ![](media-1/new-avd-lab13-13.jpg)
 
 
 4.	On the **Virtual Machines** tab, provide the following information :
@@ -33,7 +33,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
     - Number of VMs: **2 (10)**
     - OS disk type: **Standard SSD (11)**
 
-      ![](media-1/new-avd-lab13-15.jpg)
+    ![](media-1/new-avd-lab13-15.jpg)
 
    B. **Network and security**
 
@@ -61,17 +61,17 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
     - Register desktop app group: **Yes (1)**
     - To this workspace: **GS-AVD-WS (2)**
 
-      ![](media/createhp4-new.png)
+    ![](media/createhp4-new.png)
 
 6.	Verify the information and click **Create**.
 
-    ![](media/createhp5-new.png)
+  ![](media/createhp5-new.png)
 
-    > **NOTE:** Usually it takes 20 mins to get deployed successfully. Sometimes it might take up to 90 minutes.
+  > **NOTE:** Usually it takes 20 mins to get deployed successfully. Sometimes it might take up to 90 minutes.
 
 7.	Once the deployment is successful, click on **Go to resource**.
 
-    ![ws name.](media/gsw7.png)
+  ![ws name.](media/gsw7.png)
 
 8.	It will take you to the Host pool. The following resources were created:
 
@@ -81,7 +81,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
     - Application: 1 (SessionDesktop)
     - Workspace: 1 (EB-AVD-WS)
 
-      ![ws name.](media/gsw8.png)
+    ![ws name.](media/gsw8.png)
    
 9. Click on the **Next** button present in the bottom-right corner of this lab guide.  
    
