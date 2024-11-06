@@ -6,8 +6,8 @@
 
 ## **Overview**
 
- A Host Pool is a collection of Azure virtual machines that register to Azure Virtual Desktop as session hosts when you run the Azure Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. To start with, we will log in to the Azure portal.
- 
+A Host Pool is a collection of Azure virtual machines that register to Azure Virtual Desktop as session hosts when you run the Azure Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. To start with, we will log in to the Azure portal.
+
 ## Exercise 1: Create a Host Pool using the Getting Started Wizard
 
 In this exercise, We'll be creating the Host pool using **Getting Started Wizard** using minimum effort and information.
@@ -15,18 +15,17 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 1. On the **Azure portal** search for **Azure Virtual Desktop** in the **search bar** **(1)** and select **Azure Virtual Desktop** **(2)** from the suggestions.
 
    ![ws name.](media/2avd1.png)
-   
+
 2.	On the AVD **Overview page (1)**, click on **Create a host pool (2)**.
 
   ![image](media/avd-v3-lab15-first.png)
 
-3.	On the **Basics** tab, provide the following information and click **Next: Virtual machines >**
+3.	On the **Basics** tab, provide the following information and click **Next: Virtual machines >**.
 
     - Load balancing algorithm: **Breadth-first (7)**
     - Max session limit: **5** **(8)**
 
     ![](media-1/new-avd-lab13-13.jpg)
-
 
 4.	On the **Virtual Machines** tab, provide the following information :
 
@@ -82,6 +81,5 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
     - Workspace: 1 (EB-AVD-WS)
 
     ![ws name.](media/gsw8.png)
-   
-9. Click on the **Next** button present in the bottom-right corner of this lab guide.  
-   
+
+9. Click on the **Next** button present in the bottom-right corner of this lab guide.
