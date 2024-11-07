@@ -1,12 +1,34 @@
-# Getting Started with Lab	
+# Getting Started with your Azure Virtual Desktop Workshop
 
-1. Once you launch the lab, a virtual machine (JumpVM) on the left and a lab guide on the right will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.	
+Welcome to your Azure Virtual Desktop Workshop! We've prepared a seamless environment for you to explore and learn about Azure Virtual Desktop services. Let's begin by making the most of this experience:
 
-   ![](media/jumpvm.png)	
+## Accessing Your Lab Environment
 
-2. To get lab environment details, click on the **Environment Details** tab located next to the *Lab Guide* tab. 	
+Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+ 
+![Access Your VM and Lab Guide](./media/labguide.png)
 
-   ![](media/environmentdetails.png)	
+### Virtual Machine & Lab Guide
+ 
+Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
+ 
+## Exploring Your Lab Resources
+ 
+To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
+ 
+![Explore Lab Resources](./media/env.png)
+ 
+## Utilizing the Split Window Feature
+ 
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
+ 
+![Use the Split Window Feature](./media/spl.png)
+ 
+## Managing Your Virtual Machine
+ 
+Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+ 
+![Manage Your Virtual Machine](./media/res.png)	
 
 ## Exercise 1: Log in to Azure Portal
 
