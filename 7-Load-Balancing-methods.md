@@ -86,9 +86,9 @@ The following load-balancing methods are available in Azure Virtual Desktop:
    - If you receive a success message, you can proceed to the next task.
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
- 
-   <validation step="6766e50d-ab21-479c-82d4-1536050c9745" />   
-     
+
+   <validation step="6766e50d-ab21-479c-82d4-1536050c9745" />
+
 ## Exercise 2: Update Passwords for the new users
 
 Here, we will use Powershell to run a script that will change the passwords for the users created, as the user needs to reset the password after registering to AADDS. 
