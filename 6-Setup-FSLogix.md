@@ -47,16 +47,15 @@ In the following task, we will be creating a storage account with a file share w
 5. In the _Networking_ tab, use the following configurations:
 
    - Network access: Select **Enable public access from selected virtual networks and IP addresses (1)**
-     
       >**Note:** This will make sure that your storage account is not accessible from the public network, making it more secure.
    - Virtual network subscription: Leave it to ***default (2)***.
    - Virtual Network: **aadds-vnet (3)**
    - Subnets: **sessionhost-subnet (10.0.1.0/24) (4)**
    - Leave the rest to default settings.
    - Click on **Review + create(5)**.
-     
+
       ![ws name.](media/lab6-3.png)
-     
+
 6. Click on **Create**.
 
    ![ws name.](media/up3.png)
@@ -210,7 +209,7 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
 
 
    ```
-    #Variables
+   #Variables
    $storageAccountName = "NameofStorageAccount" 
    
    #Create Directories
@@ -223,13 +222,14 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
    New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
    }
    
-    #Download FSLogix Installation bundle
+   #Download FSLogix Installation bundle
    
-    if(!(Test-path -Path "$LabFilesDirectory\FSLogix_Apps_Installation.zip")){
-          Invoke-WebRequest -Uri "https://avdv2.blob.core.windows.net/blob/FSLogix_Apps_Installation.zip" -OutFile     "$LabFilesDirectory\FSLogix_Apps_Installation.zip"
+   if(!(Test-path -Path "$LabFilesDirectory\FSLogix_Apps_Installation.zip")){
+   Invoke-WebRequest -Uri "https://avdv2.blob.core.windows.net/blob/FSLogix_Apps_Installation.zip" -OutFile  
+   "$LabFilesDirectory\FSLogix_Apps_Installation.zip"
    
-    #Extract the downloaded FSLogix bundle
-    function Expand-ZIPFile($file, $destination){
+   #Extract the downloaded FSLogix bundle
+   function Expand-ZIPFile($file, $destination){
         $shell = new-object -com shell.application
         $zip = $shell.NameSpace($file)
         foreach($item in $zip.items()){
@@ -240,29 +240,28 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
     Expand-ZIPFile -File "$LabFilesDirectory\FSLogix_Apps_Installation.zip" -Destination "$LabFilesDirectory\FSLogix"
    
    }
-      #Install FSLogix
-      if(!(Get-WmiObject -Class Win32_Product | where vendor -eq "FSLogix, Inc." | select Name, Version)){
+   #Install FSLogix
+   if(!(Get-WmiObject -Class Win32_Product | where vendor -eq "FSLogix, Inc." | select Name, Version)){
           $pathvargs = {C:\LabFiles\FSLogix\x64\Release\FSLogixAppsSetup.exe /quiet /install }
           Invoke-Command -ScriptBlock $pathvargs
       }
-      #Create registry key 'Profiles' under 'HKLM:\SOFTWARE\FSLogix'
-      $registryPath = "HKLM:\SOFTWARE\FSLogix\Profiles"
+   #Create registry key 'Profiles' under 'HKLM:\SOFTWARE\FSLogix'
+   $registryPath = "HKLM:\SOFTWARE\FSLogix\Profiles"
       if(!(Test-path $registryPath)){
           New-Item -Path $registryPath -Force | Out-Null
       }
    
-      #Add registry values to enable FSLogix profiles, add VHD Locations, Delete local profile and FlipFlop Directory name
-      New-ItemProperty -Path $registryPath -Name "VHDLocations" -Value "\\$storageAccountName.file.core.windows.net\userprofile" -PropertyType String -Force | Out-Null
-      New-ItemProperty -Path $registryPath -Name "Enabled" -Value 1 -PropertyType DWord -Force | Out-Null
-      New-ItemProperty -Path $registryPath -Name "DeleteLocalProfileWhenVHDShouldApply" -Value 1 -PropertyType DWord -Force | Out-Null
-      New-ItemProperty -Path $registryPath -Name "FlipFlopProfileDirectoryName" -Value 1 -PropertyType DWord -Force | Out-Null
+   #Add registry values to enable FSLogix profiles, add VHD Locations, Delete local profile and FlipFlop Directory name
+   New-ItemProperty -Path $registryPath -Name "VHDLocations" -Value "\\$storageAccountName.file.core.windows.net\userprofile" -PropertyType String - 
+   Force | Out-Null
+   New-ItemProperty -Path $registryPath -Name "Enabled" -Value 1 -PropertyType DWord -Force | Out-Null
+   New-ItemProperty -Path $registryPath -Name "DeleteLocalProfileWhenVHDShouldApply" -Value 1 -PropertyType DWord -Force | Out-Null
+   New-ItemProperty -Path $registryPath -Name "FlipFlopProfileDirectoryName" -Value 1 -PropertyType DWord -Force | Out-Null
    
-      #Display script completion in the console
-      Write-Host "Script Executed successfully"
+   #Display script completion in the console
+   Write-Host "Script Executed successfully"
    ```
- 
- 
- 
+
    ![ws name.](media/uiupdate12.png)
    
    >**Note:** The above script will :
@@ -299,7 +298,7 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
 >**Note :** **Do Not** run the script right away.
 
    ```
-    #Variables
+   #Variables
    $storageAccountName = "NameofStorageAccount" 
    
    #Create Directories
@@ -312,13 +311,14 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
    New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
    }
    
-    #Download FSLogix Installation bundle
+   #Download FSLogix Installation bundle
    
-    if(!(Test-path -Path "$LabFilesDirectory\FSLogix_Apps_Installation.zip")){
-          Invoke-WebRequest -Uri "https://avdv2.blob.core.windows.net/blob/FSLogix_Apps_Installation.zip" -OutFile     "$LabFilesDirectory\FSLogix_Apps_Installation.zip"
+   if(!(Test-path -Path "$LabFilesDirectory\FSLogix_Apps_Installation.zip")){
+   Invoke-WebRequest -Uri "https://avdv2.blob.core.windows.net/blob/FSLogix_Apps_Installation.zip" -OutFile     
+   "$LabFilesDirectory\FSLogix_Apps_Installation.zip"
    
-    #Extract the downloaded FSLogix bundle
-    function Expand-ZIPFile($file, $destination){
+   #Extract the downloaded FSLogix bundle
+   function Expand-ZIPFile($file, $destination){
         $shell = new-object -com shell.application
         $zip = $shell.NameSpace($file)
         foreach($item in $zip.items()){
@@ -326,33 +326,33 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
         }
     }
    
-    Expand-ZIPFile -File "$LabFilesDirectory\FSLogix_Apps_Installation.zip" -Destination "$LabFilesDirectory\FSLogix"
+   Expand-ZIPFile -File "$LabFilesDirectory\FSLogix_Apps_Installation.zip" -Destination "$LabFilesDirectory\FSLogix"
    
    }
-      #Install FSLogix
+   #Install FSLogix
       if(!(Get-WmiObject -Class Win32_Product | where vendor -eq "FSLogix, Inc." | select Name, Version)){
           $pathvargs = {C:\LabFiles\FSLogix\x64\Release\FSLogixAppsSetup.exe /quiet /install }
           Invoke-Command -ScriptBlock $pathvargs
       }
-      #Create registry key 'Profiles' under 'HKLM:\SOFTWARE\FSLogix'
-      $registryPath = "HKLM:\SOFTWARE\FSLogix\Profiles"
+   #Create registry key 'Profiles' under 'HKLM:\SOFTWARE\FSLogix'
+   $registryPath = "HKLM:\SOFTWARE\FSLogix\Profiles"
       if(!(Test-path $registryPath)){
           New-Item -Path $registryPath -Force | Out-Null
       }
    
-      #Add registry values to enable FSLogix profiles, add VHD Locations, Delete local profile and FlipFlop Directory name
-      New-ItemProperty -Path $registryPath -Name "VHDLocations" -Value "\\$storageAccountName.file.core.windows.net\userprofile" -PropertyType String -Force | Out-Null
-      New-ItemProperty -Path $registryPath -Name "Enabled" -Value 1 -PropertyType DWord -Force | Out-Null
-      New-ItemProperty -Path $registryPath -Name "DeleteLocalProfileWhenVHDShouldApply" -Value 1 -PropertyType DWord -Force | Out-Null
-      New-ItemProperty -Path $registryPath -Name "FlipFlopProfileDirectoryName" -Value 1 -PropertyType DWord -Force | Out-Null
+   #Add registry values to enable FSLogix profiles, add VHD Locations, Delete local profile and FlipFlop Directory name
+   New-ItemProperty -Path $registryPath -Name "VHDLocations" -Value "\\$storageAccountName.file.core.windows.net\userprofile" -PropertyType String - 
+   Force | Out-Null
+   New-ItemProperty -Path $registryPath -Name "Enabled" -Value 1 -PropertyType DWord -Force | Out-Null
+   New-ItemProperty -Path $registryPath -Name "DeleteLocalProfileWhenVHDShouldApply" -Value 1 -PropertyType DWord -Force | Out-Null
+   New-ItemProperty -Path $registryPath -Name "FlipFlopProfileDirectoryName" -Value 1 -PropertyType DWord -Force | Out-Null
    
-      #Display script completion in the console
-      Write-Host "Script Executed successfully"
+   #Display script completion in the console
+   Write-Host "Script Executed successfully"
    ```
 
    ![ws name.](media/uiupdate12.png)
-   
-    
+ 
    > **Note:** The above script will :
    >
    > i) Install FSLogix Profile Container application
@@ -360,7 +360,6 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
    > ii) Configure the required registries
    > 
    >iii) Set the profile container location to the Azure file share location we created.
- 
 
 13. In line 2, we have to replace the name of the storage account with the **"NameofStorageAccount"** block.
 
@@ -396,8 +395,7 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
 
     ```
     aka.ms/wvdarmweb
-    ```  
-
+    ```
     - Username: Paste username **<inject key="AzureAdUserEmail" />**, then click on **Next**.
    
     ![ws name.](media/w24.png)
