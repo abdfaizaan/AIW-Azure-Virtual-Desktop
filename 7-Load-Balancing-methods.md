@@ -140,8 +140,8 @@ Here, we will use Powershell to run a script that will change the passwords for 
    - If you receive a success message, you can proceed to the next task.
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
- 
-   <validation step="238e92b5-93b0-4f35-a441-10c4befa350b" />   
+
+   <validation step="238e92b5-93b0-4f35-a441-10c4befa350b" />
 
 ## Exercise 3: Change and experience Load Balancing methods
 
@@ -207,7 +207,6 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
    - Username: *Paste the username*  **<inject key="Avd User 02" />** *then click on* **Next**.
    - Password: *Paste the password*  **<inject key="AVD User Password" />** *and click on* **Sign in**.
-
 
        ![ws name.](media/password2.png)
 
