@@ -38,11 +38,11 @@ In the following task, we will be creating a storage account with a file share w
    
    - At last, click on **Next (8)**
    
-      ![ws name.](media/avdstoarge.png)
+      ![ws name.](media/avdstoargen.png)
    
 4. On the _Advanced_ tab, make sure to enable **Require secure transfer for REST API operations**, **Allow enabling anonymous access on individual containers**, and **Enable storage account key access** options. Once enabled, click on the **Next** button.
 
-   ![ws name.](media/lab6-2.png)
+   ![ws name.](media/lab6-2n.png)
 
 5. In the _Networking_ tab, use the following configurations:
 
@@ -54,13 +54,13 @@ In the following task, we will be creating a storage account with a file share w
    - Leave the rest to default settings.
    - Click on **Review + create(5)**.
 
-      ![ws name.](media/lab6-3.png)
+      ![ws name.](media/lab6-3n.png)
 
 6. Click on **Create**.
 
    ![ws name.](media/up3.png)
 
-7. After deployment completes, click on the notification icon on your Azure portal, then click on **Go to resource**.
+7. After deployment completes, click on **Go to resource**.
 
    ![ws name.](media/a59.png)
    

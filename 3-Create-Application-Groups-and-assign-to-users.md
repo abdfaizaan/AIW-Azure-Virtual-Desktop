@@ -21,7 +21,7 @@ An application group of type ‘Desktop’, was created automatically while crea
 
 1. You will be directed towards the **Azure Virtual Desktop** management window.  
 
-   ![ws name.](media-1/Ex3-task1-step2.png)
+   ![ws name.](media-1/Ex3-task1-step2n.png)
 
 1. Click on the **Application Groups** tab under ***Manage*** blade and you will see the default Application Group there. 
 
