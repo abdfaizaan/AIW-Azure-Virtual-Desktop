@@ -145,7 +145,6 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
 ## Exercise 3: Screen Capture Protection
 
-
 1. Return to the Azure portal in your browser inside the **JumpVM**, search for *host pools* and click on **Host pools** from the search result.
 
    ![ws name.](media/lb38.png)
@@ -387,8 +386,6 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
     ![](media-1/appblock.png)
 
-  
 1. Now you have successfully created an App Locker for all Apps in the Session desktop.
 
-    
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.

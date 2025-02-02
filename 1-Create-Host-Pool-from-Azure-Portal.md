@@ -2,7 +2,7 @@
 
 ## **Scenario**
 
- Contoso is planning to set up its infrastructure on Azure. As a first step, Contoso needs you to provision a host pool which is the main component of AVD. The creation of a host pool also includes session hosts, a default application group, and a workspace.
+Contoso is planning to set up its infrastructure on Azure. As a first step, Contoso needs you to provision a host pool which is the main component of AVD. The creation of a host pool also includes session hosts, a default application group, and a workspace.
 
 ## **Overview**
 
@@ -15,7 +15,11 @@ In this exercise, we will be creating the Host pool using **Quickstart** using m
 1. On the **Azure portal** search for **Azure Virtual Desktop** **(1)** in the search bar and select **Azure Virtual Desktop** **(2)** from the suggestions.
 
    ![ws name.](media/2avd1.png)
-   
+
+1. On the Azure Virtual Destop Page, **Click** on the **Host Pools** under the **Manage**.
+
+   ![ws name.](media/2avd2.png)
+
 1. On the Azure Virtual Desktop Page, **Click** on the **Quickstart** **(1)** from the side blade and click on **Start** **(2)**.
 
    ![ws name.](media-1/L1E1T2.png)

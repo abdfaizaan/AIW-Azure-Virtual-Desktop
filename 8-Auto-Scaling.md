@@ -1,10 +1,8 @@
-
 # Lab 8: Auto Scaling
-
 
 ### Overview
 
- Azure Virtual Desktop uses Autoscale which let's scale your session virtual machines (VMs) in a host pool up or down to optimize deployment costs. You can create a scaling plan based on:
+Azure Virtual Desktop uses Autoscale which let's scale your session virtual machines (VMs) in a host pool up or down to optimize deployment costs. You can create a scaling plan based on:
 
    - Time of day
    - Specific days of the week
@@ -14,7 +12,7 @@
 
 1. In the Azure Portal, search for **Subscriptions (1)** and select it from the search result **(2)**.
 
-    ![](./media/subscriptions.png)
+   ![](./media/subscriptions.png)
     
 2. Select your **Subscription** from **Subscriptions** page.
 
@@ -22,7 +20,7 @@
    
 3. Now select **Access Control (IAM) (1)** and click on **+ Add (2)** then select **Add custom role (3)**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/customrole1.png)
+   ![](../Azure-Virtual-Desktop-v3/media/customrole1.png)
     
 4. On the **Basics** tab, follow the below instructions:
 
@@ -94,9 +92,9 @@
 
     ![](/media-1/Ex8-task1-add1.png)
 
-19. From the Azure Portal menu, search for **Azure Virtual Desktop (1)** and select it **(2)**.
+19. From the Azure Portal menu, search for **Azure Virtual Desktop (1)** and select it.
 
-    ![](./media/avd2.png)
+    ![ws name.](media/w1.png)
    
 20. On the **Azure Virtual Desktop** page, click on **Scaling plans (1)** under *Manage* blade and select **Create scaling plan (2)**.
 
