@@ -140,8 +140,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
 12. The AVD dashboard will be launched. 
 
-     ![](media-2/gsavdws.png)
-
+    ![ws name.](media/ex4t2s2.png)
 
 ## Exercise 3: Screen Capture Protection
 
@@ -368,8 +367,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
     - Click on **Next**.
 
        ![](media-1/nexttoexception.png)
-       
-       
+         
     - On **Exceptions (1)** tab, leave everything as default and click on **Create (2)**.
 
       ![](media-1/create2.png)

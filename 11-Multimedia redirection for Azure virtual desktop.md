@@ -32,12 +32,13 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    
 1. The AVD desktop client will launch, then double-click on the SessionDesktop application to access it.
 
+   ![ws name.](media/ex4t2s2.png)
    ![ws name.](media-2/sessiondesktop.png)
    
 1. A window saying *Starting your app*, will appear. Wait for a few seconds, then enter your password to access the Application.
 
     - Password: **<inject key="AzureAdUserPassword" />**
-   
+
     ![ws name.](media/ch14.png)
 
 1. After the desktop has loaded, search for **Teams (1)** and click **Open (2)**, as shown in the screenshot below.

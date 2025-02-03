@@ -104,7 +104,7 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
 
     - Subscription: Leave it to **default (1)**
     - Resource group: Select **AVD-HostPool-RG-avd (2)**
-    - Name: Enter **AVD-SP-01 (3)**
+    - Scaling plan name: Enter **AVD-SP-01 (3)**
     - Location: Select **<inject key="Region" />** from the drop-down list **(4)**
     - Friendly name: Enter **AVD-SP-01 (5)**
     - Time zone: Select your **Time Zone (6)**
@@ -124,8 +124,9 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
 
     - Start time (12 hour system): Enter your **Start time (1)**
     - Load Balancing Algorithm: Choose **Breadth-first (2)**
-    - Minimum percentage of hosts (%): **20 (3)**
-    - Capacity threshold (%): **60 (4)**
+    - Capacity threshold (%): **60 (3)**
+    - Minimum percentage of hosts (%): **20 (4)**
+    
     - Click on **Next (5)**
     
         ![](./media/L8E1S24.png)
@@ -142,10 +143,10 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
 
      - Start time (12 hour system): Enter your **Start time (1)**
      - Load Balancing Algorithm: Choose **Depth-first (2)**
-     - Minimum percentage of hosts (%): Enter **10 (3)**
-     - Capacity threshold (%): **90 (4)**
-     - Force logoff users: Choose **Yes (5)**
-     - Delay time before logging out users and shutting down VMs (min): Enter **30 (6)**
+     - Capacity threshold (%): **90 (3)**
+     - Force logoff users: Choose **Yes (4)**
+     - Delay time before logging out users and shutting down VMs (min): Enter **30 (5)**
+     - Minimum percentage of hosts (%): Enter **10 (6)**
      - Click on **Next (7)**
 
         ![](./media/L8E1S26.png)

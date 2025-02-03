@@ -1,4 +1,4 @@
-# Lab 12: MSIX App Attach (Optional - Read-Only)
+# Lab 12: MSIX App Attach ( Read-Only)
 
 ## **Scenario**
 
@@ -94,6 +94,8 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 1. Under the **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
     
    ![ws name.](media/msix13.png)
+
+   >**Note**: Make sure VM is in Running State.
   
 1. **Paste** the **code** which you copied earlier into the window and select **Run**. Once the execution is completed, Output will be displayed as mentioned in the screenshot below.
 

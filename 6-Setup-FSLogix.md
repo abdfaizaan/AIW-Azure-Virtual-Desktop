@@ -209,7 +209,7 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
 
    ```
    # Variables
-   $storageAccountName = "fslogixprofilestg1580476"
+   $storageAccountName = "NameofStorageAccount"
 
    # Create Directories
    $LabFilesDirectory = "C:\LabFiles"
