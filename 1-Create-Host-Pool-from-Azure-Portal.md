@@ -136,7 +136,7 @@ In this exercise, we will be creating the Host pool.
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
-      <validation step="ba322777-484a-4333-a812-4e7e4cf42e48" />   
+      <validation step="97d211ae-121b-445b-a278-054cda35de33" />   
    
 * Click on the **Next** button present in the bottom-right corner of this lab guide.
    

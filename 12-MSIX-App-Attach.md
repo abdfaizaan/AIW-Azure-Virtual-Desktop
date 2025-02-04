@@ -339,6 +339,5 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 1. In Computer Management page, Under **Storage** select **Disk Management**. Here you'll see that VHD has been mounted. This is where the **VLC** is present and has been assigned to the session desktop dynamically. This confirms the implementation of MSIX App Attach.
 
    ![](media/msixv9.png)
- 
 
 * Click on the **Next** button present in the bottom-right corner of this lab guide.
