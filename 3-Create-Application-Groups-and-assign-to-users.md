@@ -21,7 +21,7 @@ An application group of type ‘Desktop’, was created automatically while crea
 
 1. You will be directed towards the **Azure Virtual Desktop** management window.  
 
-   ![ws name.](media-1/Ex3-task1-step2.png)
+   ![ws name.](media-1/Ex3-task1-step2n.png)
 
 1. Click on the **Application Groups** tab under ***Manage*** blade and you will see the default Application Group there. 
 
@@ -59,12 +59,11 @@ An application group of type ‘Desktop’, was created automatically while crea
    ii. Fill in the remaining parameters below:  
    
       - Resource Group: *Select* **AVD-Hostpool-RG-avd (1)** *from the dropdown*.
-      - Host Pool: *Select* **GS-AVD-HP (2)** *Host pool from the dropdown*.
-      - Application Group Type: **RemoteApp (3)** 
-      - Application Group Name: **AVD-AG-01 (4)**
-      - Click on **Next: Applications > (5)**
+      - Application Group Type: **RemoteApp (2)** 
+      - Application Group Name: **AVD-AG-01 (3)**
+      - Click on **Next: Applications > (4)**
 
-         ![ws name.](media-2/avd-38.png)
+         ![ws name.](media-2/avd-38n.png)
 
 1. On the *Applications* tab, click on **+ Add Applications** to add applications to this application group.
 
@@ -135,7 +134,7 @@ An application group of type ‘Desktop’, was created automatically while crea
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
-   <validation step="fb6ccd7f-7ee8-472c-bbad-0570b999a0b5" />
+   <validation step="3816cf87-5d86-4cff-a599-63b4332838e5" />
    
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide. 

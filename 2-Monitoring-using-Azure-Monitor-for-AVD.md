@@ -1,6 +1,5 @@
 # Lab 2(A) : Monitoring using Log Analytics
 
-
 ## **Scenario**
 
 Contoso is interested in setting up an operation center focused on monitoring the host pools, user access, and many more. You will help Contoso set up a monitoring solution with the help of features available in Azure virtual desktop and Azure monitoring resources. You will create a Log Analytics workspace and map it to the AVD environment using Azure Insights.
@@ -11,17 +10,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 ## Exercise 1: Create Log Analytics
 
-1. On the Azure portal, click on **+ Create a resource** given under *Azure services*.
+1. In the search bar of the Azure portal, type **Log Analytics workspace (1)**. From the search results, select **Log Analytics workspace (2)**.
 
-   ![ws name.](media/wiw.png)
+   ![ws name.](media/log-analytics.png)
 
-1. Type *Log Analytics Workspace* in the search bar and click on **log analytics workspace** from the suggestions.
-
-   ![ws name.](media/lab2-1.png)
-
-1. On the Marketplace page, Select the **drop down (1)**  and click on **Log Analytics Workspace (2)**.
-
-   ![ws name.](media/savd1.jpg)
+1. Click on **+ Create**.
 
 1. Now add the following configurations:
 
@@ -44,7 +37,6 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 1. Once the deployment succeeds, it will look like the image shown below:
 
    ![ws name.](media-1/Ex2-task1-step6.png)
-   
 
 ## Exercise 2: Enable diagnostics for Workspace
  
@@ -65,7 +57,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
       ![ws name.](media-2/avd-3.png)
    
-1. On the **GS-AVD-HP | Insights** hostpool page, click on **Open Configuration Workbook**. 
+1. On the **GS-AVD-HP | Insights** **(1)** hostpool page, click on **Open Configuration Workbook** **(2)**. 
 
    ![ws name.](media-1/avdmon1.1.png)
 
@@ -74,13 +66,13 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    - Resource group: **avd-hostpool-rg-avd (1)**
    - Host Pool: **GS-AVD-HP (2)**
 
-      ![ws name.](media/avdlab2-3.png)
+      ![ws name.](media/avdlab2-3n.png)
    
 1. Scroll down on the same page and click on **Configure host pool**.
 
    >**Note**: Sometimes, monitoring for the host pool gets configured automatically. Please **re-configure** monitoring for the host pool as a few components might not be configured.
 
-    ![ws name.](media/avd-4.png)
+    ![ws name.](media/avd-4n.png)
    
 1. On the **Deploy template** page, the diagnostic settings for the host pool are automated using a template. Look through the categories select and click on **deploy**.
 
@@ -92,15 +84,15 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. Scroll down on the same page and click on **Configure workspace**.
 
-   ![ws name.](media/lab2a-config-ws.png)
+   ![ws name.](media/lab2a-config-wsn.png)
    
 1. On the **Deploy template** page, click on **deploy**. (Note: The diagnostic settings for the host pool are automated using a template).
 
-   ![ws name.](media/lab2-8.png) 
+   ![ws name.](media/lab2-8n.png) 
 
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page 2-3 times as it takes some time to load the details. You'll be able to see the settings applied to the workspace.
 
-   ![ws name.](media/lab2-9.png)
+   ![ws name.](media/lab2-9n.png)
    
 1. On **CheckAMAConfiguration** page, Select **Session host data settings (1)**. Then, select the **<inject key="Log Analytics Workspace Name	" /> (2)** analytics workspace.
 
@@ -123,7 +115,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
-   <validation step="a6bc1381-e5c9-48ad-af90-47a884ae601e" />
+   <validation step="53c5dd73-f7c0-41ed-bd9a-9f6a03ef630a" />
    
    
 * Click on the **Next** button present in the bottom-right corner of this lab guide.

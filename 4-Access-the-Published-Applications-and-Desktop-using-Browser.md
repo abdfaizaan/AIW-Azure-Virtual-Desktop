@@ -87,15 +87,17 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 1. Once signed in, the application will look like the screenshot below.
 
-   ![ws name.](media/ch8.png)
+   ![ws name.](media/ch8n.png)
 
 ## Exercise 2: Access the published Desktop
 
-1.  Navigate to Azure portal, then search for *Host pools (1)* in search bar and select **Host pools (2)** from the suggestions.
+1.  Navigate to Azure portal, then search for **Host pools (1)** in search bar and select **Host pools (2)** from the suggestions.
 
     ![ws name.](media/avd-9.png)
 
-1. Navigate to **GS-AVD-HP**, then go to **Properties**. Under the **Preferred app group type**, choose **Desktop** and click **Save**.
+1. Navigate to **GS-AVD-HP**, then go to **Properties (1)**. Under the **Preferred app group type**, choose **Desktop (2)** and click **Save (3)**.
+
+    ![ws name.](media/avd-9na.png)
    
 1. Refresh the **Remote Desktop Web Client** page.
 

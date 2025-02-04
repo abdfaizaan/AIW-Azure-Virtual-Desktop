@@ -32,57 +32,50 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    
 1. The AVD desktop client will launch, then double-click on the SessionDesktop application to access it.
 
+   ![ws name.](media/ex4t2s2.png)
    ![ws name.](media-2/sessiondesktop.png)
    
 1. A window saying *Starting your app*, will appear. Wait for a few seconds, then enter your password to access the Application.
 
     - Password: **<inject key="AzureAdUserPassword" />**
-   
+
     ![ws name.](media/ch14.png)
-    
-1. Teams application will start loading.
 
-   ![ws name.](media/avdv235.png)
-   
-1. Once the Desktop is loaded as shown in the below screenshot. In the Welcome to Microsoft Teams pane, click on Continue as **<inject key="AzureAdUserEmail" />**.
+1. After the desktop has loaded, search for **Teams (1)** and click **Open (2)**, as shown in the screenshot below.
 
-   ![ws name.](./media/teamsopen.png)
+   ![ws name.](./media/teamsopenn.png)
+
+1. In the Everyone together in Teams pane, click on Sign in as **<inject key="AzureAdUserEmail" />**.
+
+   ![ws name.](./media/teamsopena.png)
    
 1. Enter password: **<inject key="AzureAdUserPassword" />**
 
    ![ws name.](media/lab11-teams-signin.png) 
    
-1. After the Teams application is launched, click on the **three dots** **(1)** then **About** **(2)** and click on **Version** **(3)**.
+1. After the Teams application is launched, click on the **three dots** **(1)** then, click on **Settings** **(2)**.
 
-   ![ws name.](media/avdv215.png)
+   ![ws name.](media/avdv215n.png)
 
-1. Now we will get a message on top of the Teams application saying **The Teams Version 1.x.x.. is AVD Media Optimized**.
+1. Click on **About (1)** at the bottom. You will see a message stating **You have Microsoft Teams Version x.x.x, which is AVD SlimCore Media Optimized (2)**.
 
-   ![ws name.](media-1/TeamsAVD.png)
+   ![ws name.](media-1/TeamsAVDn.png)
    
-   >**Note**: If you see a message saying **AVD Media not connected**. Please skip the step and continue with the lab.
+   >**Note**: If you not see a message saying **AVD SlimCore Media not connected**. Please skip the step and continue with the lab.
    
-1. Again, click on the **three dots** **(1)** on the top and select **Settings** **(2)**.
+1. Click on **Devices (1)** and explore the media devices connected to your local desktop **(2)**.
 
-   ![ws name.](media/avdv217.png)
-   
-1. Now under Settings, click on **Devices (1)** and explore the media devices connected to your local desktop **(2)**.
-
-   ![ws name.](media/avdv218.png)
+   ![ws name.](media/avdv218n.png)
    
    >**Note**: If you are not able to select other audio devices. Please skip the step and continue with the lab.
    
-1. Now, Close the settings tab and go to **calendar** **(1)** which is located in the side blade. Select **Meet now** **(2)**.
+1. Navigate to the **Calendar (1)** in the side panel. Click on **Meet now (2)**, keep the **Meeting name (3)** as default, and select **Start meeting (4)**.
 
-   ![ws name.](media/teams13.png)
+   ![ws name.](media/teams15n.png)
    
-1. Leave the **Meeting name** as default and click on **Start meeting**.
+1. Make sure both **Audio** **(1)**, and **Video** **(2)** are enabled. Click on **Join now** **(3)**.
 
-   ![ws name.](media/teams14.png)
-   
-1. Make sure both Video **(1)**, and Audio **(2)** are enabled. Click on **Join now** **(3)**.
-
-   ![ws name.](media/teams15.png)
+   ![ws name.](media/teams14n.png)
    
    >**Note**: If the audio is not working. Please skip the step and continue with the lab as this is an expected issue.
    
@@ -90,10 +83,10 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/teams16.png)
    
-   >**NOTE**: If the **Invite others** prompt appears, close the tab and continue.
+   >**NOTE**: If the **Invite People to join you** prompt appears, close the tab and continue.
   
 1. Now, you should be able to see yourself as the video is On.
 
-   ![](./media/cam.png)
+   ![](./media/camn.png)
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.

@@ -1,4 +1,4 @@
-# Lab 12: MSIX App Attach (Optional - Read-Only)
+# Lab 12: MSIX App Attach ( Read-Only)
 
 ## **Scenario**
 
@@ -94,6 +94,8 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 1. Under the **Operations** blade, Select Run Command. Select **RunPowerShellScript**.
     
    ![ws name.](media/msix13.png)
+
+   >**Note**: Make sure VM is in Running State.
   
 1. **Paste** the **code** which you copied earlier into the window and select **Run**. Once the execution is completed, Output will be displayed as mentioned in the screenshot below.
 
@@ -337,6 +339,5 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 1. In Computer Management page, Under **Storage** select **Disk Management**. Here you'll see that VHD has been mounted. This is where the **VLC** is present and has been assigned to the session desktop dynamically. This confirms the implementation of MSIX App Attach.
 
    ![](media/msixv9.png)
- 
 
 * Click on the **Next** button present in the bottom-right corner of this lab guide.
