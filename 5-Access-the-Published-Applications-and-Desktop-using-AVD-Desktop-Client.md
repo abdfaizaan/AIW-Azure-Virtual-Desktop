@@ -124,7 +124,9 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/avd-9.png)
 
-1. Navigate to **GS-AVD-HP**, then go to **Properties**. Under the **Preferred app group type**, choose **Desktop** and click **Save**.
+1. Navigate to **GS-AVD-HP**, then go to **Properties (1)**. Under the **Preferred app group type**, choose **Desktop (2)** and click **Save (3)**.
+
+    ![ws name.](media/avd-9na.png)
 
 1. Return to WVD client application then click on three vertical dot then select **Refresh**.
 

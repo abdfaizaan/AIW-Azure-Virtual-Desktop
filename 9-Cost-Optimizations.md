@@ -131,7 +131,7 @@ In this task, you will through the process to understand the creation of a custo
    
    - Password: *Paste the password*  **<inject key="AzureAdUserPassword" />** *and click on* **Sign in**.
 
-      ![ws name.](media/96.png))
+      ![ws name.](media/96.png)
 
 1. Return to AVD client application. On the AVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
 
@@ -147,13 +147,9 @@ In this task, you will through the process to understand the creation of a custo
    
    ![](media/login.png)
 
-1. While the Session Desktop is connecting, we can see a message saying **Starting remote PC**.
-
-   ![ws name.](media/avdv235.png)
-
 1. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
-        
-   ![ws name.](../Azure-Virtual-Desktop-v3/media/sessiondesktop1.1.png)   
+
+   ![](media/vmn.png)  
      
 1. Return to the Azure portal and click on **refresh** **(1)** to get the updated status of Virtual Machines. Here, we can see the session hosts VM in the **Running** state and has started automatically when the session desktop was launched.
 
@@ -164,7 +160,7 @@ In this task, you will through the process to understand the creation of a custo
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
-   <validation step="5f4fcb3f-951c-43a8-9261-b4d78e2e297d" />   
+   <validation step="3d66b36a-91fa-42d5-8d17-f1e17b43a996" />   
    
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.

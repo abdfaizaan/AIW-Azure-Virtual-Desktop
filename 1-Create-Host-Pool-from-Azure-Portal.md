@@ -2,7 +2,7 @@
 
 ## **Scenario**
 
- Contoso is planning to set up its infrastructure on Azure. As a first step, Contoso needs you to provision a host pool which is the main component of AVD. The creation of a host pool also includes session hosts, a default application group, and a workspace.
+Contoso is planning to set up its infrastructure on Azure. As a first step, Contoso needs you to provision a host pool which is the main component of AVD. The creation of a host pool also includes session hosts, a default application group, and a workspace.
 
 ## **Overview**
 
@@ -10,94 +10,112 @@ A Host Pool is a collection of Azure virtual machines that register to Azure Vir
  
 ## Exercise 1: Create Host Pool using Getting Started Wizard
 
-In this exercise, we will be creating the Host pool using **Quickstart** using minimum effort and information.
+In this exercise, we will be creating the Host pool.
 
 1. On the **Azure portal** search for **Azure Virtual Desktop** **(1)** in the search bar and select **Azure Virtual Desktop** **(2)** from the suggestions.
 
    ![ws name.](media/2avd1.png)
-   
-1. On the Azure Virtual Desktop Page, **Click** on the **Quickstart** **(1)** from the side blade and click on **Start** **(2)**.
 
-   ![ws name.](media-1/L1E1T2.png)
-   
-1. On **Quickstart Wizard** page, provide the information as mentioned below,
+1. On the Azure Virtual Destop Page, **Click** on the **Create a host pool**.
+
+   ![ws name.](media/2avd2n.png)
+
+1. On **Create a host pool** page, provide the information as mentioned below,
 
    **A. Project Details:**
 
    - Subscription: **Leave it as default (1)**
-   - Identity provider: Select ***Existing active directory (2)***
-   - Identity service type: Select ***Microsoft Entra Domain Services (3)*** from the drop-down
-   - Resource Group prefix: Enter ***AVD-HostPool-RG (4)***
-   - Region: Select **<inject key="Region" enableCopy="false"/> (5)** from the drop-down list.
+   - Resource Group prefix: Enter ***AVD-HostPool-RG-avd (2)***
+   - Host pool name: **GS-AVD-HP (3)**
+   - Location: Select **<inject key="Region" enableCopy="false"/> (4)** from the drop-down list.
+   - Preferred app group type: **Desktop (5)**
 
-      >**Note**: The region you selected in the lab might be different from the region mentioned in the screenshot.
-      
-   - Virtual Network: **aadds-vnet (6)** *(choose from dropdown)*
-   - Subnet: **sessionhosts-subnet(10.0.1.0/24) (7)** *(choose from dropdown)*
+   ![ws name.](media/projdetail.png)
+
+   >**Note**: The region you selected in the lab might be different from the region mentioned in the screenshot.
+
+1. In the **Host pool details** section, enter the required information and then click **Next: Session hosts > (9)** to proceed.
+
+   - Host pool type: **Pooled (6)**
+   - Create Session Host Configuration: **No (7)**
+   - Load balancing algorithm: **Breadth-first (8)**
+
+   ![ws name.](media/projdetaila.png)
+
+1. On the **Session hosts** section, enter the required information as follow:
+
+   - Add virtual machine: **Yes (1)**
+   - Resource Group prefix: Enter ***AVD-HostPool-RG (2)***
+   - Name prefix: **AVD-HP01-SH (3)**
+   - Virtual machine type: **Azure virtual machine (4)**
+   - Virtual machine location: Select **<inject key="Region" enableCopy="false"/> (5)** from the drop-down list.
+   - Availability options: **No infrastructure redundancy required (6)**
+   - Security type: **Trusted launch virtual machines (7)**
+
+   ![ws name.](media/projdetailb.png)
+
+   >**Note**: The region you selected in the lab might be different from the region mentioned in the screenshot.
+
+1. In the **Image**, click on **Select all images** to choose the required images.
+
+   ![ws name.](media/projdetailc.png)
+
+1. In the Search bar Search for **Windows multi-session (1)**, then under **Windows multi-session + Microsoft 365 Apps** choose **Select (2)** and then select **Windows 11 Enterprise multi-session + Microsoft 365 Apps, Version 22H2** *(choose from dropdown)*
+
+   ![ws name.](media/projdetaild.png)
+   ![ws name.](media/projdetaile.png)
+
+1. Virtual machine size: **Standard D4s v4**. *Click on **Change Size**, then select **D4s_v4** and click on **Select** as shown below*
+
+   ![ws name.](media/2avd18.png)
+
+1. Provide the information as mentioned below:
    
-   **B. Azure user credentials:**
-   
-   - Azure admin user name: *Paste your username* **<inject key="AzureAdUserEmail" /> (8)**
-   - Password: *Paste the password* **<inject key="AzureAdUserPassword" /> (9)**
+   - Number of VMs: **2 (1)**
+   - OS disk type: **Standard HDD (2)**
+   - OS disk size: **Resize to 128 GiB (P10) (3)**
 
-   **C. Domain administrator credentials:**
-   
-   - Domain admin user name: *Paste your username* **<inject key="AzureAdUserEmail" /> (10)**
-   - Password: *Paste the password* **<inject key="AzureAdUserPassword" /> (11)**
-   - **Click** on **Next : Virtual Machines > (12)**.
+   ![ws name.](media/projdetailf.png)
 
-      ![ws name.](media-1/avd1.png)
-   
-1. On the **Virtual Machines** tab, provide the information as mentioned below:
-   
-   - Users per virtual machine: Select ***Multiple users***
-   - Image: Select **See all images** then under **Windows multi-session + Microsoft 365 Apps** choose **Select** and then select **Windows 11 Enterprise multi-session + Microsoft 365 Apps, Version 22H2** *(choose from dropdown)*
+1. On the **Network and security** section, enter the required information as follow:
 
-      ![ws name.](media/lab1-1.png)
+   - Virtual Network: **aadds-vnet (1)** *(choose from dropdown)*
+   - Subnet: **sessionhosts-subnet(10.0.1.0/24) (2)** *(choose from dropdown)*
+   - Network security group type: **Basic (3)**
 
-      ![ws name.](media/lab1-2.png)
+   ![ws name.](media/projdetailg.png)
 
-   - Virtual machine size: **Standard D4s v4**. *Click on **Change Size**, then select **D4s_v4** and click on **Select** as shown below*
+1. Enter the required details for **Domain to join** and **Virtual machine administrator account** as specified below, then click **Next: Workspace > (8)**
 
-      ![ws name.](media/2avd18.png)
-   
-   - Name Prefix: **AVD-HP01-SH**
-   - Number of virtual machines: **2**
-   - Use custom configuration script: **Unselect** the option
-   - **Click** on **Next : Assignments >**.
+   - Select which directory you would like to join: **Active Directory (1)**
+   - AD domain join UPN: **<inject key="AzureAdUserEmail" /> (2)**
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" /> (3)**
+   - Confirm password: **<inject key="AzureAdUserPassword" /> (4)**
+   - User name: **odl_user_<inject key="DeploymentID" enableCopy="false"/>(5)**
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" /> (6)**
+   - Confirm password: **<inject key="AzureAdUserPassword" /> (7)**
 
-      ![ws name.](media-1/L1E1S4.png)
-   
-1. On the **Assignments** page, provide the information as mentioned below, 
-   
-   - Create test user account: **Unselect** the option
-   - Assign existing users or groups: **Select** the option
-   - click on **Next : Review + create >**.
+   ![ws name.](media/projdetailh.png)
 
-      ![ws name.](media/gsw4.png)
-   
-1. Verify the options and **click** on **Create**.
+1. In the **Workspace section**, select **Yes (1)** for **Register desktop app group**.  
 
-   ![ws name.](media-1/L1E1S6.png)
+2. For **To this workspace**, click on **Create new (2)**.
+
+3. Enter **GS-AVD-WS (3)** as the workspace name.
+
+4. Click **OK (4)** to confirm.
+
+   ![ws name.](media/projdetaili.png)
+
+1. Click on **Review + Create**, then click **Create**.
+
+   ![ws name.](media-1/L1E1S6n.png)
 
    >**NOTE**: Usually it takes 20 minutes to get deployed successfully. Sometimes it might take up to 90 minutes.
    
 1. Once the deployment succeeds, it will look similar to the image shown below:
 
    ![ws name.](media-1/subscription.png)
-   
-   >**Note**: If the host pool **deployment fails**, please **follow the steps below:**
-   >If the host deployment is successful, we can move to step 8.
-   
-   >**i.** In the Azure portal, navigate to **Resource groups** and click on **AVD-HostPool-RG-deployment** **(1)** then click on **Delete resource group** **(2)**.
-   
-   ![ws name.](media/fla1.png)
-   
-   >**ii.** On the popup on the right-hand side, enter the name of the resource group **AVD-HostPool-RG-deployment** **(1)** and then click on **Delete** **(2)**.
-   
-   ![ws name.](media/fla2.png)
-   
-   >**iii.** After deleting the Resource group, navigate back to the initial step and re-perform the lab from Step 1 to Step 7.
 
 1. Navigate to **AVD-HostPool-RG-avd** resource group and select **GS-AVD-HP** host pool.
 
@@ -118,7 +136,7 @@ In this exercise, we will be creating the Host pool using **Quickstart** using m
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
-      <validation step="ba322777-484a-4333-a812-4e7e4cf42e48" />   
+      <validation step="97d211ae-121b-445b-a278-054cda35de33" />   
    
 * Click on the **Next** button present in the bottom-right corner of this lab guide.
    

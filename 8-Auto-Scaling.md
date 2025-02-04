@@ -1,10 +1,8 @@
-
 # Lab 8: Auto Scaling
-
 
 ### Overview
 
- Azure Virtual Desktop uses Autoscale which let's scale your session virtual machines (VMs) in a host pool up or down to optimize deployment costs. You can create a scaling plan based on:
+Azure Virtual Desktop uses Autoscale which let's scale your session virtual machines (VMs) in a host pool up or down to optimize deployment costs. You can create a scaling plan based on:
 
    - Time of day
    - Specific days of the week
@@ -14,7 +12,7 @@
 
 1. In the Azure Portal, search for **Subscriptions (1)** and select it from the search result **(2)**.
 
-    ![](./media/subscriptions.png)
+   ![](./media/subscriptions.png)
     
 2. Select your **Subscription** from **Subscriptions** page.
 
@@ -22,7 +20,7 @@
    
 3. Now select **Access Control (IAM) (1)** and click on **+ Add (2)** then select **Add custom role (3)**.
 
-    ![](../Azure-Virtual-Desktop-v3/media/customrole1.png)
+   ![](../Azure-Virtual-Desktop-v3/media/customrole1.png)
     
 4. On the **Basics** tab, follow the below instructions:
 
@@ -94,9 +92,9 @@
 
     ![](/media-1/Ex8-task1-add1.png)
 
-19. From the Azure Portal menu, search for **Azure Virtual Desktop (1)** and select it **(2)**.
+19. From the Azure Portal menu, search for **Azure Virtual Desktop (1)** and select it.
 
-    ![](./media/avd2.png)
+    ![ws name.](media/w1.png)
    
 20. On the **Azure Virtual Desktop** page, click on **Scaling plans (1)** under *Manage* blade and select **Create scaling plan (2)**.
 
@@ -106,7 +104,7 @@
 
     - Subscription: Leave it to **default (1)**
     - Resource group: Select **AVD-HostPool-RG-avd (2)**
-    - Name: Enter **AVD-SP-01 (3)**
+    - Scaling plan name: Enter **AVD-SP-01 (3)**
     - Location: Select **<inject key="Region" />** from the drop-down list **(4)**
     - Friendly name: Enter **AVD-SP-01 (5)**
     - Time zone: Select your **Time Zone (6)**
@@ -126,8 +124,9 @@
 
     - Start time (12 hour system): Enter your **Start time (1)**
     - Load Balancing Algorithm: Choose **Breadth-first (2)**
-    - Minimum percentage of hosts (%): **20 (3)**
-    - Capacity threshold (%): **60 (4)**
+    - Capacity threshold (%): **60 (3)**
+    - Minimum percentage of hosts (%): **20 (4)**
+    
     - Click on **Next (5)**
     
         ![](./media/L8E1S24.png)
@@ -144,10 +143,10 @@
 
      - Start time (12 hour system): Enter your **Start time (1)**
      - Load Balancing Algorithm: Choose **Depth-first (2)**
-     - Minimum percentage of hosts (%): Enter **10 (3)**
-     - Capacity threshold (%): **90 (4)**
-     - Force logoff users: Choose **Yes (5)**
-     - Delay time before logging out users and shutting down VMs (min): Enter **30 (6)**
+     - Capacity threshold (%): **90 (3)**
+     - Force logoff users: Choose **Yes (4)**
+     - Delay time before logging out users and shutting down VMs (min): Enter **30 (5)**
+     - Minimum percentage of hosts (%): Enter **10 (6)**
      - Click on **Next (7)**
 
         ![](./media/L8E1S26.png)
@@ -196,8 +195,7 @@
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
-   <validation step="11a785f8-adb7-4c43-8f59-4947f6e733d2" />
-
+   <validation step="521c23b6-77da-4da7-a165-8123e024e3fb" />
 
 33. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
