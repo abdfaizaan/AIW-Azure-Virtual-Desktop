@@ -1,4 +1,4 @@
-# Lab 15: Microsoft Entra ID Domain Join (Read Only) 
+# Lab 14: Microsoft Entra ID Domain Join (Read Only) 
 
 ## **Scenario**
 
