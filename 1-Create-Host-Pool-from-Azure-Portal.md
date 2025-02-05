@@ -34,13 +34,14 @@ In this exercise, we will be creating the Host pool.
 
    >**Note**: The region you selected in the lab might be different from the region mentioned in the screenshot.
 
-1. In the **Host pool details** section, enter the required information and then click **Next: Session hosts > (9)** to proceed.
+1. In the **Host pool details** section, enter the required information and then click **Next: Session hosts > (10)** to proceed.
 
    - Host pool type: **Pooled (6)**
    - Create Session Host Configuration: **No (7)**
    - Load balancing algorithm: **Breadth-first (8)**
+   - Max session limit: **16 (9)**
 
-   ![ws name.](media/projdetaila.png)
+   ![ws name.](media/projdetailab.png)
 
 1. On the **Session hosts** section, enter the required information as follow:
 
