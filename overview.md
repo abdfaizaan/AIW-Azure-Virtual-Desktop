@@ -1,4 +1,4 @@
-### **Azure Virtual Desktop**
+## **Azure Virtual Desktop**
 
 ## **Lab Context and Session Overview**
 
