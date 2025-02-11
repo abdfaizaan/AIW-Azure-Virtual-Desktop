@@ -34,7 +34,6 @@ In this lab, you’ll assume the role of an Azure consultant tasked with creatin
  - **Azure Virtual Desktop Host Pools** that take the configured Azure Infrastructure components and convert them into one or more identical VMs (also known as Session Hosts)  
  - **Azure Virtual Desktop Application groups** which allow you to publish desktops and remote applications that authenticated Contoso users can use 
  - **FSLogix user profiles** that allow user-specific customizations (desktop backgrounds, layouts, and other settings) to be available anytime a user accesses a VM 
- - **MSIX apps** that can be securely published for access by Session Hosts 
  - **A purpose-built version of Microsoft Teams** designed to improve the communication and audio-visual experience for Azure Virtual Desktop users 
  - And finally, **Monitoring and Security** so Azure Virtual Desktop administrators can optimize performance and ensure their environment is secure and well managed. 
 
