@@ -89,19 +89,15 @@ In this lab, we will be configuring Session Host for implementing MS Teams and c
 
 In this lab, we will be configuring the Security Modules to prevent sensitive information by setting up the Multi-Factor Authentication (MFA) and will be Creating a Conditional Access Policy, Screen Capture Protection and App Locker.
 
-## **Lab 12: MSIX App Attach**
-
-In this lab, first, we will be configuring AVD for MSIX App Attach then later will be creating MSIX Package in the AVD environment.
-
-## **Lab 13: App Masking (Optional)**
+## **Lab 12: App Masking (Optional)**
 
 In this lab, you will be configuring the App Masking which is used to manage user access to installed components. Application Masking may be used in both physical and virtual environments. Application Masking is most often applied to manage non-persistent, virtual environments, such as Virtual Desktops.
 
-## **Lab 14: Migration Tools (Optional)**
+## **Lab 13: Migration Tools (Optional)**
 
 In this lab, we will be going through with few documents which explain the Migration Tools in AVD.
 
-## **Lab 15: Microsoft Entra ID Domain Join (Read Only)**
+## **Lab 14: Microsoft Entra ID Domain Join (Read Only)**
 
 Microsoft Entra ID provides many benefits for organizations, such as modern authentication protocols, single sign-on (SSO), and support for FSLogix user profiles. Azure Virtual Desktop virtual machine (VM) session hosts can join directly to Microsoft Entra ID. Joining directly with Microsoft Entra ID removes an earlier need to use Azure Active Directory Domain Services domain controllers.
 
