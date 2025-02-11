@@ -160,7 +160,7 @@ In this task, you will through the process to understand the creation of a custo
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
-   <validation step="3d66b36a-91fa-42d5-8d17-f1e17b43a996" />   
+   <validation step="2b201737-face-4586-8507-1960339b24b7" />   
    
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.

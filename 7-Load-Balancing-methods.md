@@ -87,7 +87,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-   <validation step="05f24cd8-407f-425c-aaf6-bf0f3e9992d2" />
+   <validation step="22e87cef-6e1e-4ae7-bb55-8aba3936afbc" />
 
 ## Exercise 2: Update Passwords for the new users
 
@@ -141,7 +141,7 @@ Here, we will use Powershell to run a script that will change the passwords for 
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-   <validation step="b5b843b1-12f4-483f-b19d-9a50b296c691" />
+   <validation step="8940fd30-333a-49cc-b85f-f54aca108848" />
 
 ## Exercise 3: Change and experience Load Balancing methods
 

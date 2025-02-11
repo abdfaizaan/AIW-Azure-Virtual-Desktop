@@ -115,7 +115,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
-   <validation step="53c5dd73-f7c0-41ed-bd9a-9f6a03ef630a" />
+   <validation step="3a598330-192b-41bc-aecd-403244c76a45" />
    
    
 * Click on the **Next** button present in the bottom-right corner of this lab guide.

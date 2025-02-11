@@ -134,7 +134,7 @@ An application group of type ‘Desktop’, was created automatically while crea
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
-   <validation step="3816cf87-5d86-4cff-a599-63b4332838e5" />
+   <validation step="c3048c53-7808-4b20-89e2-387ee417daeb" />
    
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide. 
