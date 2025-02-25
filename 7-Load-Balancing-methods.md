@@ -42,7 +42,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
    - User principal name: **AVDUser02 (1)**
    - Display Name: **AVDUser02 (2)**
-   - Click on **Review + Create (3)** and then click on **Create.***
+   - Click on **Review + Create (3)** and then click on **Create.**
    
         ![ws name.](media-1/avd-29.png)
 
@@ -155,7 +155,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
    aka.ms/wvdarmweb
    ```
 
-   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 01" />** then click on **Next**.
    
       ![ws name.](media/username.png)
 
@@ -226,9 +226,9 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.*
+   - Username: *Paste the username*  **<inject key="Avd User 02" />** then click on **Next**.
 
-   - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.* 
+   - Password: *Paste the* **<inject key="AVD User Password" />** *and click on* **OK**.
 
       ![ws name.](media/lb37.png)
 

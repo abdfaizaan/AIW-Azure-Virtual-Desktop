@@ -30,9 +30,9 @@ In this exercise, we will be creating the Host pool.
    - Location: Select **<inject key="Region" enableCopy="false"/> (4)** from the drop-down list.
    - Preferred app group type: **Desktop (5)**
 
-   ![ws name.](media/projdetail.png)
+      ![ws name.](media/projdetail.png)
 
-   >**Note**: The region you selected in the lab might be different from the region mentioned in the screenshot.
+      >**Note**: The region you selected in the lab might be different from the region mentioned in the screenshot.
 
 1. In the **Host pool details** section, enter the required information and then click **Next: Session hosts > (10)** to proceed.
 
@@ -41,21 +41,21 @@ In this exercise, we will be creating the Host pool.
    - Load balancing algorithm: **Breadth-first (8)**
    - Max session limit: **16 (9)**
 
-   ![ws name.](media/projdetailab.png)
+      ![ws name.](media/projdetailab.png)
 
 1. On the **Session hosts** section, enter the required information as follow:
 
    - Add virtual machine: **Yes (1)**
-   - Resource Group prefix: Enter ***AVD-HostPool-RG (2)***
+   - Resource Group prefix: Enter ***AVD-HostPool-RG-avd (2)***
    - Name prefix: **AVD-HP01-SH (3)**
    - Virtual machine type: **Azure virtual machine (4)**
    - Virtual machine location: Select **<inject key="Region" enableCopy="false"/> (5)** from the drop-down list.
    - Availability options: **No infrastructure redundancy required (6)**
    - Security type: **Trusted launch virtual machines (7)**
 
-   ![ws name.](media/projdetailb.png)
+      ![ws name.](media/projdetailb.png)
 
-   >**Note**: The region you selected in the lab might be different from the region mentioned in the screenshot.
+      >**Note**: The region you selected in the lab might be different from the region mentioned in the screenshot.
 
 1. In the **Image**, click on **Select all images** to choose the required images.
 
@@ -76,7 +76,7 @@ In this exercise, we will be creating the Host pool.
    - OS disk type: **Standard HDD (2)**
    - OS disk size: **Resize to 128 GiB (P10) (3)**
 
-   ![ws name.](media/projdetailf.png)
+      ![ws name.](media/projdetailf.png)
 
 1. On the **Network and security** section, enter the required information as follow:
 
@@ -84,7 +84,7 @@ In this exercise, we will be creating the Host pool.
    - Subnet: **sessionhosts-subnet(10.0.1.0/24) (2)** *(choose from dropdown)*
    - Network security group type: **Basic (3)**
 
-   ![ws name.](media/projdetailg.png)
+      ![ws name.](media/projdetailg.png)
 
 1. Enter the required details for **Domain to join** and **Virtual machine administrator account** as specified below, then click **Next: Workspace > (8)**
 
@@ -96,7 +96,7 @@ In this exercise, we will be creating the Host pool.
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" /> (6)**
    - Confirm password: **<inject key="AzureAdUserPassword" /> (7)**
 
-   ![ws name.](media/projdetailh.png)
+      ![ws name.](media/projdetailh.png)
 
 1. In the **Workspace section**, select **Yes (1)** for **Register desktop app group**.  
 
@@ -132,12 +132,12 @@ In this exercise, we will be creating the Host pool.
 
       ![ws name.](media-1/L1E1S9.png)
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   - If you receive a success message, you can proceed to the next task.
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
- 
-      <validation step="97d211ae-121b-445b-a278-054cda35de33" />   
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- If you receive a success message, you can proceed to the next task.
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="97d211ae-121b-445b-a278-054cda35de33" />   
    
 * Click on the **Next** button present in the bottom-right corner of this lab guide.
    

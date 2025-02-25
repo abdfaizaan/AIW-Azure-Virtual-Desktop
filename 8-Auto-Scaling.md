@@ -175,7 +175,7 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
 
      ![](./media/GTR.png)
  
- 32. Now you will navigate to the **Overview** page of the Scaling Plan **AVD-SP-01**.
+32. Now you will navigate to the **Overview** page of the Scaling Plan **AVD-SP-01**.
 
      ![](./media/overviewsp.png)
      
@@ -190,12 +190,12 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
       >
       >```https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script```
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   - If you receive a success message, you can proceed to the next task.
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
- 
-   <validation step="521c23b6-77da-4da7-a165-8123e024e3fb" />
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- If you receive a success message, you can proceed to the next task.
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="521c23b6-77da-4da7-a165-8123e024e3fb" />
 
 33. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
