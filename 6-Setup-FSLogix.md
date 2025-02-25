@@ -299,77 +299,77 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
         
 12. **Copy** the script given below and paste it by using **Ctrl + V** in the Powershell window. 
 
->**Note :** **Do Not** run the script right away.
+      >**Note :** **Do Not** run the script right away.
 
-   ```
-   # Variables
-   $storageAccountName = "fslogixprofilestg1580476"
+      ```
+      # Variables
+      $storageAccountName = "NameofStorageAccount"
 
-   # Create Directories
-   $LabFilesDirectory = "C:\LabFiles"
+      # Create Directories
+      $LabFilesDirectory = "C:\LabFiles"
 
-   if (!(Test-path -Path "$LabFilesDirectory")) {
-      New-Item -Path $LabFilesDirectory -ItemType Directory | Out-Null
-   }
-   if (!(Test-path -Path "$LabFilesDirectory\FSLogix")) {
-      New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory | Out-Null
-   }
-
-   # Download FSLogix Installation bundle
-   $fsLogixZipPath = "$LabFilesDirectory\FSLogix_Apps_Installation.zip" # Store the full path
-
-   if (!(Test-path -Path $fsLogixZipPath)) {
-      try { # Add a try-catch block for better error handling
-         Invoke-WebRequest -Uri "https://avdv2.blob.core.windows.net/blob/FSLogix_Apps_Installation.zip" -OutFile $fsLogixZipPath -UseBasicParsing
+      if (!(Test-path -Path "$LabFilesDirectory")) {
+         New-Item -Path $LabFilesDirectory -ItemType Directory | Out-Null
       }
-      catch {
-         Write-Error "Failed to download FSLogix bundle: $_"
-         return # Exit the script if the download fails
+      if (!(Test-path -Path "$LabFilesDirectory\FSLogix")) {
+         New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory | Out-Null
       }
 
-      # Extract the downloaded FSLogix bundle
-      function Expand-ZIPFile($file, $destination) {
-         $shell = New-Object -ComObject shell.application
-         $zip = $shell.NameSpace($file)
-         foreach ($item in $zip.items()) {
-               $shell.Namespace($destination).CopyHere($item)
+      # Download FSLogix Installation bundle
+      $fsLogixZipPath = "$LabFilesDirectory\FSLogix_Apps_Installation.zip" # Store the full path
+
+      if (!(Test-path -Path $fsLogixZipPath)) {
+         try { # Add a try-catch block for better error handling
+            Invoke-WebRequest -Uri "https://avdv2.blob.core.windows.net/blob/FSLogix_Apps_Installation.zip" -OutFile $fsLogixZipPath -UseBasicParsing
          }
+         catch {
+            Write-Error "Failed to download FSLogix bundle: $_"
+            return # Exit the script if the download fails
+         }
+
+         # Extract the downloaded FSLogix bundle
+         function Expand-ZIPFile($file, $destination) {
+            $shell = New-Object -ComObject shell.application
+            $zip = $shell.NameSpace($file)
+            foreach ($item in $zip.items()) {
+                  $shell.Namespace($destination).CopyHere($item)
+            }
+         }
+
+         Expand-ZIPFile -File $fsLogixZipPath -Destination "$LabFilesDirectory\FSLogix"
       }
 
-      Expand-ZIPFile -File $fsLogixZipPath -Destination "$LabFilesDirectory\FSLogix"
-   }
+      # Install FSLogix
+      if (!(Get-WmiObject -Class Win32_Product | where vendor -eq "FSLogix, Inc." | select Name, Version)) {
+         $pathvargs = "C:\LabFiles\FSLogix\x64\Release\FSLogixAppsSetup.exe /quiet /install" # No need for a scriptblock here
+         Invoke-Expression $pathvargs # Use Invoke-Expression for executing the string
+      }
 
-   # Install FSLogix
-   if (!(Get-WmiObject -Class Win32_Product | where vendor -eq "FSLogix, Inc." | select Name, Version)) {
-      $pathvargs = "C:\LabFiles\FSLogix\x64\Release\FSLogixAppsSetup.exe /quiet /install" # No need for a scriptblock here
-      Invoke-Expression $pathvargs # Use Invoke-Expression for executing the string
-   }
+      # Create registry key 'Profiles' under 'HKLM:\SOFTWARE\FSLogix'
+      $registryPath = "HKLM:\SOFTWARE\FSLogix\Profiles"
+      if (!(Test-path $registryPath)) {
+         New-Item -Path $registryPath -Force | Out-Null
+      }
 
-   # Create registry key 'Profiles' under 'HKLM:\SOFTWARE\FSLogix'
-   $registryPath = "HKLM:\SOFTWARE\FSLogix\Profiles"
-   if (!(Test-path $registryPath)) {
-      New-Item -Path $registryPath -Force | Out-Null
-   }
+      # Add registry values to enable FSLogix profiles, add VHD Locations, Delete local profile, and FlipFlop Directory name
+      New-ItemProperty -Path $registryPath -Name "VHDLocations" -Value "\\$storageAccountName.file.core.windows.net\userprofile" -PropertyType String -Force | Out-Null
+      New-ItemProperty -Path $registryPath -Name "Enabled" -Value 1 -PropertyType DWord -Force | Out-Null
+      New-ItemProperty -Path $registryPath -Name "DeleteLocalProfileWhenVHDShouldApply" -Value 1 -PropertyType DWord -Force | Out-Null
+      New-ItemProperty -Path $registryPath -Name "FlipFlopProfileDirectoryName" -Value 1 -PropertyType DWord -Force | Out-Null
 
-   # Add registry values to enable FSLogix profiles, add VHD Locations, Delete local profile, and FlipFlop Directory name
-   New-ItemProperty -Path $registryPath -Name "VHDLocations" -Value "\\$storageAccountName.file.core.windows.net\userprofile" -PropertyType String -Force | Out-Null
-   New-ItemProperty -Path $registryPath -Name "Enabled" -Value 1 -PropertyType DWord -Force | Out-Null
-   New-ItemProperty -Path $registryPath -Name "DeleteLocalProfileWhenVHDShouldApply" -Value 1 -PropertyType DWord -Force | Out-Null
-   New-ItemProperty -Path $registryPath -Name "FlipFlopProfileDirectoryName" -Value 1 -PropertyType DWord -Force | Out-Null
+      # Display script completion in the console
+      Write-Host "Script Executed successfully"
+      ```
 
-   # Display script completion in the console
-   Write-Host "Script Executed successfully"
-   ```
-
-   ![ws name.](media/uiupdate12.png)
+      ![ws name.](media/uiupdate12.png)
  
-   > **Note:** The above script will :
-   >
-   > i) Install FSLogix Profile Container application
-   > 
-   > ii) Configure the required registries
-   > 
-   >iii) Set the profile container location to the Azure file share location we created.
+      > **Note:** The above script will :
+      >
+      > i) Install FSLogix Profile Container application
+      > 
+      > ii) Configure the required registries
+      > 
+      >iii) Set the profile container location to the Azure file share location we created.
 
 13. In line 2, we have to replace the name of the storage account with the **"NameofStorageAccount"** block.
 
@@ -470,21 +470,21 @@ In this task, we will be accessing the file share to verify the user profiles st
       ![ws name.](media/avd-26.png)
       
 
-6. Click on **Browse (1)**, and you will see the user **folder (2)** created in the file share, click on the folder.
+5. Click on **Browse (1)**, and you will see the user **folder (2)** created in the file share, click on the folder.
 
       ![ws name.](media-1/avd-27.png) 
 
-7. Now you will be able to see the user profile data stored in the filesharers in a ***.vhd*** format.
+6. Now you will be able to see the user profile data stored in the filesharers in a ***.vhd*** format.
 
       ![ws name.](media-2/userprofile.png)
 
    >**Note:** It might take some time for the User Profile folder to appear in the fileshare. If you do not see the folder now, please continue with the next task and check back later.
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   - If you receive a success message, you can proceed to the next task.
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
- 
-   <validation step="ad962332-47cc-4a42-899e-29bb55f5a4bd" />   
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- If you receive a success message, you can proceed to the next task.
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-8. Click on the **Next** button present in the bottom-right corner of this lab guide.
+<validation step="ad962332-47cc-4a42-899e-29bb55f5a4bd" />   
+
+7. Click on the **Next** button present in the bottom-right corner of this lab guide.
