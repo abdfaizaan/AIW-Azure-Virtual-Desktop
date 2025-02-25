@@ -87,12 +87,12 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
          ![](media-1/L10E2S7.png)
    
       - Click on **No target resources selected** **(1)** under Target resources option.
-      - Click on **Select apps** **(2)**
+      - Click on **Select Resources** **(2)**
       - Click on **Select (3)**
-      - Search for **Windows Virtual Desktop** and click on the **check box** of **Azure Virtual Desktop** **(4)** next to the search result
+      - Search for **Azure Virtual Desktop** and click on the **check box** of **Azure Virtual Desktop** **(4)** next to the search result
       - Now Click on **Select** **(5)** button.
 
-         ![](media-1/select-apps.png)
+         ![](media-1/L11E2S7.png)
   
       - Click on **0 conditions selected** **(1)** under Conditions option.
       - Then select **Client apps** **(2)**
@@ -101,7 +101,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
          ![](media-1/EX10-task2-step7c.png)
   
-      - Click on **0 controls selected** under Access Control option.
+      - Click on **0 controls selected of Grant Section** under Access Control option.
       - Click on **Grant** **(1)**
       - Select the Check Box saying **Require multi-factor authentication** **(2)** 
       - Then click on **Select** **(3)**
