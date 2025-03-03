@@ -108,10 +108,12 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
     - Location: Select **<inject key="Region" />** from the drop-down list **(4)**
     - Friendly name: Enter **AVD-SP-01 (5)**
     - Time zone: Select your **Time Zone (6)**
-    - Click on **Next : Schedules > (7)**
+    - Host pool type: **Pooled (7)**
+    - Scaling method: **Dyanamic autoscalling (preview) (8)**
+    - Click on **Next : Schedules > (9)**
 
-        ![](./media/schedulee.png)
-
+        ![](./media/scheduleea.png)
+        ![](./media/scheduleeb.png)
 22. On the **Schedules** tab, click on **+ Add Schedule**
 
     ![](./media/addschedulee.png)
