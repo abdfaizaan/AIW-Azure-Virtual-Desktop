@@ -90,7 +90,7 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
 
 18. In Review + assign tab, click on **Review + assign**.
 
-    ![](/media-1/Ex8-task1-add1.png)
+    ![](media-1/Ex8-task1-add1.png)
 
 19. From the Azure Portal menu, search for **Azure Virtual Desktop (1)** and select it.
 
@@ -120,7 +120,7 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
    
 23. On the **General** tab of **Add a schedule** page, observe the values and leave everything as default, then click on **Next**.
 
-    ![](./media/general1.png)
+    ![](./media/schedule-next.png)
    
 24. On the **Ramp-up** tab, follow the below instructions:
 
@@ -131,7 +131,7 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
     
     - Click on **Next (5)**
     
-        ![](./media/L8E1S24.png)
+        ![](./media/ramp-walk(1).png)
    
 25. On the **Peak hours** tab, follow the below instructions:
 
@@ -139,7 +139,7 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
     - Load Balancing Algorithm: Choose **Depth-first (2)**
     - Click on **Next (3)**
     
-        ![](./media/L8E1S25.png)
+        ![](./media/peak-hours(1).png)
    
 26. On the **Ramp-down** tab, follow the below instructions:
 
@@ -151,7 +151,7 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
      - Minimum percentage of hosts (%): Enter **10 (6)**
      - Click on **Next (7)**
 
-        ![](./media/L8E1S26.png)
+        ![](./media/peakhours(1).png)
    
 27. On the **Off-peak hours** tab, follow the below instructions:
 
@@ -159,7 +159,7 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
      - Load Balancing Algorithm: Choose **Depth-first (2)**
      - Click on **Add (3)**
 
-        ![](./media/L8E1S27.png)
+        ![](./media/offpeakhours(1).png)
   
 28. After adding the schedule, click on **Next: Host pool assignments >**
 

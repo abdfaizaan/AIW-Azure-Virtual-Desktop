@@ -139,7 +139,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 
 1. Click on **Access Control (IAM) (1)**, then click on **Add (2)** and select **Add role assignment (3)**.
 
-   ![ws name.](media-1/Ex6-task2-step9.png)
+   ![ws name.](media/userprofiles(1).png)
    
 1. Select the following configuration for role assignment:  
    
