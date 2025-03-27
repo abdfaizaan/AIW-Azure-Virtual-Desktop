@@ -20,7 +20,7 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
    
 3. Now select **Access Control (IAM) (1)** and click on **+ Add (2)** then select **Add custom role (3)**.
 
-   ![](../Azure-Virtual-Desktop-v3/media/customrole1.png)
+   ![](media/customrole1.png)
     
 4. On the **Basics** tab, follow the below instructions:
 
@@ -112,15 +112,15 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
     - Scaling method: **Dyanamic autoscalling (preview) (8)**
     - Click on **Next : Schedules > (9)**
 
-        ![](./media/scheduleea.png)
-        ![](./media/scheduleeb.png)
+        ![](./media/scalingplan-01.png)
+        ![](./media/scalingplan-02.png)
 22. On the **Schedules** tab, click on **+ Add Schedule**
 
     ![](./media/addschedulee.png)
    
 23. On the **General** tab of **Add a schedule** page, observe the values and leave everything as default, then click on **Next**.
 
-    ![](./media/schedule-next.png)
+    ![](media/general1.png)
    
 24. On the **Ramp-up** tab, follow the below instructions:
 
@@ -131,7 +131,7 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
     
     - Click on **Next (5)**
     
-        ![](./media/ramp-walk(1).png)
+        ![](./media/L8E1S24.png)
    
 25. On the **Peak hours** tab, follow the below instructions:
 
@@ -139,19 +139,19 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
     - Load Balancing Algorithm: Choose **Depth-first (2)**
     - Click on **Next (3)**
     
-        ![](./media/peak-hours(1).png)
+        ![](./media/L8E1S25.png)
    
 26. On the **Ramp-down** tab, follow the below instructions:
 
      - Start time (12 hour system): Enter your **Start time (1)**
      - Load Balancing Algorithm: Choose **Depth-first (2)**
-     - Capacity threshold (%): **90 (3)**
-     - Force logoff users: Choose **Yes (4)**
-     - Delay time before logging out users and shutting down VMs (min): Enter **30 (5)**
-     - Minimum percentage of hosts (%): Enter **10 (6)**
+     - Minimum percentage of hosts (%): Enter **10 (3)**
+     - Capacity threshold (%): **90 (4)**
+     - Force logoff users: Choose **Yes (5)**
+     - Delay time before logging out users and shutting down VMs (min): Enter **30 (6)**
      - Click on **Next (7)**
 
-        ![](./media/peakhours(1).png)
+        ![](./media/L8E1S26.png)
    
 27. On the **Off-peak hours** tab, follow the below instructions:
 
@@ -159,7 +159,7 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
      - Load Balancing Algorithm: Choose **Depth-first (2)**
      - Click on **Add (3)**
 
-        ![](./media/offpeakhours(1).png)
+        ![](./media/L8E1S27.png)
   
 28. After adding the schedule, click on **Next: Host pool assignments >**
 
