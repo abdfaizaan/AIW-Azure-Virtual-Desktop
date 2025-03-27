@@ -57,7 +57,7 @@ In this exercise, we will be creating the Host pool.
 
       >**Note**: The region you selected in the lab might be different from the region mentioned in the screenshot.
 
-1. In the **Image**, click on **Select all images** to choose the required images.
+1. In the **Image**, click on **See all images** to choose the required images.
 
    ![ws name.](media/projdetailc.png)
 
