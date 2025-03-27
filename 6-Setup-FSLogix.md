@@ -480,4 +480,10 @@ In this task, we will be accessing the file share to verify the user profiles st
 
    >**Note:** It might take some time for the User Profile folder to appear in the file share. If you do not see the folder now, continue with the lab and check back later after completing it.
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- If you receive a success message, you can proceed to the next task.
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+<validation step="ad962332-47cc-4a42-899e-29bb55f5a4bd" />
+
 7. Click on the **Next** button present in the bottom-right corner of this lab guide.
