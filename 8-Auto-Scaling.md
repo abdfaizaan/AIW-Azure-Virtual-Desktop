@@ -109,7 +109,7 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
     - Friendly name: Enter **AVD-SP-01 (5)**
     - Time zone: Select your **Time Zone (6)**
     - Host pool type: **Pooled (7)**
-    - Scaling method: **Dyanamic autoscalling (preview) (8)**
+    - Scaling method: **Power Management Autoscaling (8)**
     - Click on **Next : Schedules > (9)**
 
         ![](./media/scalingplan-01.png)
