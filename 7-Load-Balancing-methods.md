@@ -336,6 +336,8 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
       ![ws name.](media-2/2users.png)
 
+   >**Note:** Within one of the hosts, you might see a session count of 3,this is because one is a disconnected session by the ODL user, and the other two are active sessions.
+
    >**Note:** The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with the highest number of sessions. If there's a tie, the method selects the first session host in the query.
 
    >**Note** Please follow [Depth-first Load-Balancing Method](https://docs.microsoft.com/en-us/azure/virtual-desktop/host-pool-load-balancing#depth-first-load-balancing-method) to learn more about it.

@@ -15,35 +15,43 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    - Username: **<inject key="AzureAdUserEmail" />**
    - Password: **<inject key="AzureAdUserPassword" />**
    
-2. If there is pop-up entitled **Stay signed in?** with buttons for **No** and **Yes** - Choose **No**.  
+1. If there is pop-up entitled **Stay signed in?** with buttons for **No** and **Yes** - Choose **No**.  
 
     ![](media-1/staysigned.png)
     
-3. On a prompt saying "Help us protect your account", click on **Next**.
+1. On a prompt saying "Help us protect your account", click on **Next**.
 
    ![](media/mfa-00.png)
 
-4. Download the **Microsoft Authenticator** app on your Mobile from the App Store. After installing the app, select **Next**.
+1. If you're automatically signed in using the **<inject key="AzureAdUserEmail" />**, proceed to the Security info page. Click on + Add sign-in method.
 
-   ![](media-1/EX10-task1-step4.png)
+   ![](media/lab11-1.png)
+
+1. In the pop-up, choose Microsoft Authenticator and follow the on-screen steps to complete setup.
+
+   ![](media/lab11-2.png)
+
+1. Download the **Microsoft Authenticator** app on your Mobile from the App Store. After installing the app, select **Next**.
+
+   ![](media/lab11-3.png)
    
-5. In the Microsoft Authenticator app, set up your account by adding a work or school account. After adding an account select **Next**.
+1. In the Microsoft Authenticator app, set up your account by adding a work or school account. After adding an account select **Next**.
 
    ![](media-1/EX10-task1-step5.png)
    
-6. To connect the Microsoft Authenticator app with your account **(1)**, **Scan the QR code (2)** and select **Next (3)**.
+1. To connect the Microsoft Authenticator app with your account **(1)**, **Scan the QR code (2)** and select **Next (3)**.
 
    ![](media-1/EX10-task1-step6.png)
 
-7. A Notification to Approve will pop up on your mobile. Enter the popped-up number in your mobile for verification.
+1. A Notification to Approve will pop up on your mobile. Enter the popped-up number in your mobile for verification.
    
    ![](media-1/L10-E2-S7-1.png)
 
-8. Approve that and select **Next**.
+1. Approve that and select **Next**.
 
    ![](media-1/EX10-task1-step7.png)
    
-9. Once Success! Great job! You have successfully set up your security info. Choose **Done** to continue signing in.
+1. Once Success! Great job! You have successfully set up your security info. Choose **Done** to continue signing in.
 
    ![](media-1/EX10-task1-step8.png)
   

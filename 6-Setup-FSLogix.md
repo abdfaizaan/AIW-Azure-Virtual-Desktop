@@ -50,7 +50,7 @@ In the following task, we will be creating a storage account with a file share w
       >**Note:** This will make sure that your storage account is not accessible from the public network, making it more secure.
    - Virtual network subscription: Leave it to ***default (2)***.
    - Virtual Network: **aadds-vnet (3)**
-   - Subnets: **sessionhost-subnet (10.0.1.0/24) (4)**
+   - Subnets: **sessionhosts-subnet (10.0.1.0/24) (4)**
    - Leave the rest to default settings.
    - Click on **Review + create(5)**.
 
