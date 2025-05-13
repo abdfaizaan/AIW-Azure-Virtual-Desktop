@@ -77,7 +77,7 @@ In this exercise, We'll be reviewing monitoring data of the AVD environment usin
 
    ![ws name.](media-1/new-avd-lab13-20.jpg)
    
-1. **Click** on **Clients** *(1)* tab, Here you'll be able to monitor the number of users connected to AVD using the browser and remote client application.
+1. **Click** on **Clients** *(1)* tab, Here you'll be able to monitor the number of users *(2)* connected to AVD using the browser and remote client application.
 
    ![ws name.](media-1/new-avd-lab13-22.jpg)
    
