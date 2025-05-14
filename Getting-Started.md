@@ -67,8 +67,21 @@ Participants should have:
 * Experience with Microsoft Teams configuration for AVD, including multimedia redirection
 * Familiarity with basic security configurations, such as MFA, Conditional Access, and App Locker
 
+## Architecture
 
-# Getting Started with your Azure Virtual Desktop Workshop
+The architecture flow begins with the provisioning of a Host Pool using the Getting Started Wizard, enabling pooled session-based desktops. These session hosts are joined to an Azure Active Directory Domain Services (AAD DS) instance, which provides identity and authentication for users.
+FSLogix is configured for user profile containerization via Azure Files, ensuring non-persistent sessions are seamlessly personalized. Applications are published using Application Groups, and users can access their resources either via browser or the AVD Desktop Client.Monitoring and diagnostics are facilitated through Log Analytics Workspace and Azure Monitor for AVD, giving insights into session performance and usage. To enhance security, MFA, Conditional Access Policies, Screen Capture Protection, and App Masking are implemented. The solution also covers load balancing strategies and explores migration tools to support legacy environment transitions.
+
+## Architecture Diagram
+
+![](./media/diagram.png)	
+
+## Explanation of Components
+The architecture for this lab involves several key components:
+
+* Azure Virtual Desktop (AVD) Host Pool: A collection of session hosts that provide users access to virtual desktops. In a pooled configuration, multiple users share the same virtual machines, optimizing cost and resource utilization.
+
+# Getting Started 
 
 Welcome to your Azure Virtual Desktop Workshop! We've prepared a seamless environment for you to explore and learn about Azure Virtual Desktop services. Let's begin by making the most of this experience:
 
