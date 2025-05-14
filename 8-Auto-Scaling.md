@@ -64,6 +64,8 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
 
     ![](./media/createCR.png)
 
+     >**Note:** If you encounter an error while creating the custom role indicating that a role with the same name already exists, you can skip the custom role creation steps and proceed directly to step 19
+
 13. Now select **Access Control (IAM) (1)** and click on **+ Add (2)** then select **Add role assignment (3)**.
 
     ![](./media/IAM.png)

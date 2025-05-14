@@ -68,7 +68,6 @@ Participants should have:
 * Familiarity with basic security configurations, such as MFA, Conditional Access, and App Locker
 
 
-
 # Getting Started with your Azure Virtual Desktop Workshop
 
 Welcome to your Azure Virtual Desktop Workshop! We've prepared a seamless environment for you to explore and learn about Azure Virtual Desktop services. Let's begin by making the most of this experience:

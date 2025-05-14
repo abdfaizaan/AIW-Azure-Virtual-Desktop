@@ -50,6 +50,8 @@ In this task, you will through the process to understand the creation of a custo
 
    ![](media/2avd110.png)
 
+      >**Note**: If you encounter an error while creating the custom role indicating that a role with the same name already exists, you can skip the custom role creation steps and proceed directly to Exercise 2.
+
 1. In **Access Control (IAM)** click on **+ Add**  and select **Add role assignment** .
   
    - Under Role, search and select **start VM on connect**, then click on **Next**.

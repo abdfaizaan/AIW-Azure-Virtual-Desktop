@@ -62,7 +62,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    ![](media/dev3.png)
 
 2. From the left-hand side blade, click on **Properties** **(1)** under **Manage** and scroll down to select **Manage Security Defaults** **(2)** at the bottom of the page.
-
+     >**Note:** If you're unable to disable the security defaults and see Manage Conditional Access, it means the organization is already using a conditional access policy (e.g., AVD -MFA). In that case, you can skip the below steps and jump directly to step 9.
    ![](media-1/L10E2S2.png)
    
 3. In **Enable Security defaults** pane, for **Enable Security defaults** make sure it is selected to **Disable**.
@@ -190,7 +190,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
       ![ws name.](media/96.png)
       
-1. Once you enter the credentials, **Approve** the authentication request which has been sent to the registered device through the **Microsoft Authenticator App**.
+      >**Note:** Once you enter the credentials, if there is an authentication request sent to the registered device, **Approve** it using the **Microsoft Authenticator App**
 
 1. If you get a page saying *Allow my organization to manage my device*, make sure to **uncheck** and click on **No, sign in to this app only**.
 
