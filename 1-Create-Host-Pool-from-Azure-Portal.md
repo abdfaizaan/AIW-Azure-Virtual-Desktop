@@ -45,7 +45,7 @@ In this exercise, we will be creating the Host pool.
 
 1. On the **Session hosts** section, enter the required information as follow:
 
-   - Add virtual machine: **Yes (1)**
+   - Add virtual machines: **Yes (1)**
    - Resource Group prefix: Enter ***AVD-HostPool-RG-avd (2)***
    - Name prefix: **AVD-HP01-SH (3)**
    - Virtual machine type: **Azure virtual machine (4)**

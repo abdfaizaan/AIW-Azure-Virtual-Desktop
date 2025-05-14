@@ -64,6 +64,8 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
 
     ![](./media/createCR.png)
 
+     >**Note:** If you encounter an error while creating the custom role indicating that a role with the same name already exists, you can skip the custom role creation steps and proceed directly to step 19
+
 13. Now select **Access Control (IAM) (1)** and click on **+ Add (2)** then select **Add role assignment (3)**.
 
     ![](./media/IAM.png)
@@ -96,9 +98,9 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
 
     ![ws name.](media/w1.png)
    
-20. On the **Azure Virtual Desktop** page, click on **Scaling plans (1)** under *Manage* blade and select **Create scaling plan (2)**.
+20. On the **Azure Virtual Desktop** page, click on **Scaling plans (1)** under *Manage* blade and select **Create (2)**.
 
-    ![](./media/csp.png)
+    ![](./media/lab8-20.png)
    
 21. On the **Basics** tab of **Create a scaling plan** page, enter the below instructions:
 
@@ -145,13 +147,13 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
 
      - Start time (12 hour system): Enter your **Start time (1)**
      - Load Balancing Algorithm: Choose **Depth-first (2)**
-     - Minimum percentage of hosts (%): Enter **10 (3)**
+     - Minimum percentage of active hosts (%): Enter **10 (3)**
      - Capacity threshold (%): **90 (4)**
      - Force logoff users: Choose **Yes (5)**
      - Delay time before logging out users and shutting down VMs (min): Enter **30 (6)**
      - Click on **Next (7)**
 
-        ![](./media/L8E1S26.png)
+        ![](./media/lab8-26.png)
    
 27. On the **Off-peak hours** tab, follow the below instructions:
 
@@ -171,7 +173,7 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
      
 30. Review the changes and click on **Create**.
 
-     ![](./media/spcreate.png)
+     ![](./media/lab8-30.png)
      
 31. After the successful deployment, click on **Go to resource**.
 

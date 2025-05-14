@@ -50,7 +50,8 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    
 1. Enter password: **<inject key="AzureAdUserPassword" />**
 
-   ![ws name.](media/lab11-teams-signin.png) 
+   ![ws name.](media/lab11-teams-signin.png)
+   >**Note:** After you log in to Microsoft Teams, if a pop-up appears showing “What’s New in Teams”, click on “Continue” and then select “Got it” to proceed.
    
 1. After the Teams application is launched, click on the **three dots** **(1)** then, click on **Settings** **(2)**.
 
@@ -75,6 +76,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 1. Make sure both **Audio** **(1)**, and **Video** **(2)** are enabled. Click on **Join now** **(3)**.
 
    ![ws name.](media/teams14n.png)
+   >**Note:** If a pop-up appears stating “To give you the best Teams experience on a virtual desktop, we need to restart the app,” simply click “Cancel” to dismiss 
    
    >**Note**: If the audio is not working. Please skip the step and continue with the lab as this is an expected issue.
    

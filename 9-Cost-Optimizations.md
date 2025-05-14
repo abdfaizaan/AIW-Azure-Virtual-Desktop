@@ -10,7 +10,7 @@ In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature
 
 In this task, you will through the process to understand the creation of a custom role.
 
-> **Note:** If you observe the custom role already exists, you can skip Task 1 and navigate to Task 2.
+> **Note:** If you observe the custom role already exists, you can skip Task 1 and navigate to Exercise 2.
 
 1. In your JumpVM launch browser and go to Aure Portal (https://portal.azure.com).
 
@@ -49,6 +49,8 @@ In this task, you will through the process to understand the creation of a custo
 1. Review the configuration and click on **Create** and followed by **Ok**.
 
    ![](media/2avd110.png)
+
+      >**Note**: If you encounter an error while creating the custom role indicating that a role with the same name already exists, you can skip the custom role creation steps and proceed directly to Exercise 2.
 
 1. In **Access Control (IAM)** click on **+ Add**  and select **Add role assignment** .
   

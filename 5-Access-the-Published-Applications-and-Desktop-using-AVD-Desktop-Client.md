@@ -30,13 +30,18 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
       
 1. After the download completes, open the setup to run it. Then on the Welcome page of setup click on **Next**.
 
+   ![ws name.](media/lab5-1.1.png)
+
+
 1. Check the agreement box and click on **Next**.
+
+   ![ws name.](media/lab5-2.png)
 
 1. On the **Installation scope** window, select **Install just for you** and then click on **Install**.
 
    ![ws name.](media/wvd41.png)
 
-1. After installation, on your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
+1. After the installation completes, close the installation pane. On your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](media/137.png)
    
@@ -45,7 +50,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ![ws name.](media/a49.png)
   
 1. Enter your **credentials** to access the workspace.
-
+     >Note: If there is already an account signed in on your PC, click on + Use another account to authenticate using the user provided below.
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
       ![ws name.](media/avd-41.png)

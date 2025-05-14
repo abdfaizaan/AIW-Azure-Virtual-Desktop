@@ -28,7 +28,8 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
   
    - Click on **Review + Create (5)**
 
-      ![ws name.](media-1/avd2.png)
+      ![ws name.](media-1/avd2.png) 
+      >Note: The region you selected in the lab might be different from the region mentioned in the screenshot.
 
 1. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment.
 
