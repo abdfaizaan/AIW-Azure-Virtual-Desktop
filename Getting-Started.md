@@ -4,9 +4,7 @@
 
 ## Overview
 
-Contoso IT Consulting Services is a fast-growing technology consulting firm headquartered in Los Angeles, California. With expansion across North America and a distributed workforce that includes remote consultants, Contoso IT is seeking scalable and secure ways to deliver critical IT resources to its employees.
-
-To support this growth, Contoso wants to implement a proof of concept (POC) that evaluates Azure Virtual Desktop (AVD) as a platform for securely delivering virtual desktops and applications to its workforce, regardless of their location.
+Contoso IT Consulting Services is a fast-growing technology consulting firm headquartered in Los Angeles, California. With expansion across North America and a distributed workforce that includes remote consultants, Contoso IT is seeking scalable and secure ways to deliver critical IT resources to its employees.To support this growth, Contoso wants to implement a proof of concept (POC) that evaluates Azure Virtual Desktop (AVD) as a platform for securely delivering virtual desktops and applications to its workforce, regardless of their location.
 
 In this hands-on lab, you’ll take on the role of an Azure Consultant to help Contoso’s IT team deploy and configure an AVD environment that supports secure remote work and centralized management.
 
@@ -56,10 +54,8 @@ This hands-on exercise provides an overview of joining AVD session hosts directl
 Participants should have:
 
 * Basic understanding of Azure Virtual Desktop (AVD) components, such as Host Pools, Session Hosts, and Application Groups
-* Familiarity with Azure Active Directory (AAD) and Azure AD Domain Services (AAD DS) for authentication and identity management
-* Knowledge of Windows Virtual Machines and how they are deployed and managed in Azure
+* Familiarity with Azure Active Directory (AAD) for authentication and identity management
 * Understanding of FSLogix Profile Containers and their use in non-persistent session environments
-* Basic knowledge of Azure Networking, including virtual networks and subnets
 * Experience with Azure Storage, particularly Azure Files and configuring SMB access
 * Familiarity with monitoring tools like Log Analytics Workspace and Azure Monitor for performance and diagnostics
 * Awareness of load balancing methods and auto-scaling concepts in virtual desktop environments
@@ -79,9 +75,17 @@ FSLogix is configured for user profile containerization via Azure Files, ensurin
 ## Explanation of Components
 The architecture for this lab involves several key components:
 
-* Azure Virtual Desktop (AVD) Host Pool: A collection of session hosts that provide users access to virtual desktops. In a pooled configuration, multiple users share the same virtual machines, optimizing cost and resource utilization.
+* **Azure Virtual Desktop (AVD) Host Pool:** A collection of session hosts that provide users access to virtual desktops. In a pooled configuration, multiple users share the same virtual machines, optimizing cost and resource utilization.
+* **Azure Entra ID:** Azure Entra ID (formerly Azure Active Directory) is used for identity and access management in this lab setup. It provides user authentication and integrates with other services like Conditional Access and MFA to ensure secure access to virtual desktops and applications.
+* **Storage Account:** This includes both FSLogix Profile Containers and Azure Files, which together enable profile management for non-persistent session hosts. FSLogix stores user profiles in containers hosted on Azure Files, a managed file share service. This setup allows users to experience a persistent desktop session while leveraging Azure Entra ID for secure authentication and access control.
+* **Application Groups:** Logical groupings of remote applications or desktops. Applications are assigned to users based on these groups to control access and visibility.
+* **Log Analytics Workspace:** A Log Analytics Workspace is a central hub within Azure Monitor used to collect, store, and analyze telemetry data from various Azure resources, including Azure Virtual Desktop (AVD). By consolidating logs in one place, it supports proactive troubleshooting, security auditing, and optimization of the AVD environment.
+* **Security:** This component integrates Conditional Access Policies, Multi-Factor Authentication (MFA), Screen Capture Protection, and App Locker to enhance the security posture of the Azure Virtual Desktop environment. Conditional Access and MFA ensure that only verified users can access resources, while Screen Capture Protection prevents sensitive data leakage. App Locker further strengthens security by controlling which applications users can run, helping enforce compliance and reduce risk across the virtual environment.
+* **Migration Tools:** Provides guidance on tools and best practices for migrating to AVD from traditional VDI or on-premises environments.
+* **App masking:** App Masking is a technique used to control access to applications in virtualized environments, such as Virtual Desktops or Session Hosts. It allows to hide specific applications from users, preventing them from launching or interacting with those applications. 
 
-# Getting Started 
+
+# Getting Started with Lab
 
 Welcome to your Azure Virtual Desktop Workshop! We've prepared a seamless environment for you to explore and learn about Azure Virtual Desktop services. Let's begin by making the most of this experience:
 
@@ -143,8 +147,19 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![](media/jvm4.png)
    
-6. Click "Next" from the bottom right corner to embark on your Lab journey!
- 
-     ![Start Your Azure Journey](./media/avdnext.png)
-
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
+
+## Support Contact
+
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+
+Email Support: cloudlabs-support@spektrasystems.com
+Live Chat Support: https://cloudlabs.ai/labs-support
+
+Now, click on Next from the lower right corner to move on to the next page.
+
+ ![Start Your Azure Journey](./media/avdnext.png) 
+
+ Happy Learning!!
