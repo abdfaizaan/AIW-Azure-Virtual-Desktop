@@ -30,8 +30,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
       
 1. After the download completes, open the setup to run it. Then on the Welcome page of setup click on **Next**.
 
-   ![ws name.](media/lab5-1.1.png)
-
+    ![ws name.](media/lab5-1.1.png)
 
 1. Check the agreement box and click on **Next**.
 
