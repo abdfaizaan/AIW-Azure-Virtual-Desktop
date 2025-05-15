@@ -95,7 +95,7 @@ Once you're ready to dive in, your virtual machine and lab guide will be right a
  
 ![Access Your VM and Lab Guide](./media/labguide.png)
 
-### Virtual Machine & Lab Guide
+## Virtual Machine & Lab Guide
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
  
@@ -155,11 +155,11 @@ The CloudLabs support team is available 24/7, 365 days a year, via email and liv
 
 Learner Support Contacts:
 
-Email Support: cloudlabs-support@spektrasystems.com
-Live Chat Support: https://cloudlabs.ai/labs-support
+* Email Support: cloudlabs-support@spektrasystems.com 
+* Live Chat Support: https://cloudlabs.ai/labs-support
 
 Now, click on Next from the lower right corner to move on to the next page.
 
- ![Start Your Azure Journey](./media/avdnext.png) 
+ ![Start Your Azure Journey](./media/Next.png) 
 
  Happy Learning!!
