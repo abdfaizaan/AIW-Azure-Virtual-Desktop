@@ -62,28 +62,30 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    ![](media/dev3.png)
 
 2. From the left-hand side blade, click on **Properties** **(1)** under **Manage** and scroll down to select **Manage Security Defaults** **(2)** at the bottom of the page.
-     >**Note:** If you're unable to disable the security defaults and see Manage Conditional Access, it means the organization is already using a conditional access policy (e.g., AVD -MFA). In that case, you can skip the below steps and jump directly to step 9.
+
+   >**Note:** If you're unable to disable the security defaults and see Manage Conditional Access, it means the organization is already using a conditional access policy (e.g., AVD-MFA). In that case, you can skip the below steps and jump directly to step 9.
+   
    ![](media-1/L10E2S2.png)
    
-3. In **Enable Security defaults** pane, for **Enable Security defaults** make sure it is selected to **Disable**.
+4. In **Enable Security defaults** pane, for **Enable Security defaults** make sure it is selected to **Disable**.
  
    > **Note:** Please ignore and proceed further if you find any survey points by Azure below **Enable Security defaults** option
    
    ![](media/savd3.jpg)
 
-4. From the left-hand side blade, click on **Security** under Manage.
+5. From the left-hand side blade, click on **Security** under Manage.
 
    ![](media-1/avd1.3.png)
   
-5. In **Security** page select **Conditional Access** under Protect.
+6. In **Security** page select **Conditional Access** under Protect.
 
    ![](media/avdv23.png)
   
-6. In the Overview page click on **Create New Policy**.
+7. In the Overview page click on **Create New Policy**.
 
    ![](media-1/avdpol1.png)
 
-7. Configure the Conditional Access Policy with the following details:
+8. Configure the Conditional Access Policy with the following details:
 
    - Name: **AVD-MFA** **(1)**
    - **Assignments**:
@@ -116,11 +118,11 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
          ![](media-1/EX10-task2-step7d.png)
    
-8. Toggle the **Enable Policy** switch to **On (1)** and click on **Create (2)**.
+9. Toggle the **Enable Policy** switch to **On (1)** and click on **Create (2)**.
 
    ![](media/avdv29.png)
   
-9. Now, Open the following URL in a new browser tab in the JumpVM. This URL will lead us to the Remote Desktop Web Client.
+10. Now, Open the following URL in a new browser tab in the JumpVM. This URL will lead us to the Remote Desktop Web Client.
 
    ``` 
    aka.ms/wvdarmweb 
@@ -128,7 +130,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    >**Note:** If you are already logged in through your user, then jump to Exercise 3 else continue with the next step i.e., Step 10.
 
-10. Now to log in, enter the lab credentials as mentioned below:
+11. Now to log in, enter the lab credentials as mentioned below:
 
       - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
@@ -138,7 +140,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
          ![ws name.](media/96.png)
    
-11. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. Authenticate the login according to the authentication method you have chosen in exercise 1, step 7 to complete the verification.
+12. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. Authenticate the login according to the authentication method you have chosen in exercise 1, step 7 to complete the verification.
 
      ![ws name.](media-1/EX10-task2-step11.png)
 
@@ -146,7 +148,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
      ![](media/login.png)
    
-12. The AVD dashboard will be launched. 
+13. The AVD dashboard will be launched. 
 
     ![ws name.](media/ex4t2s2.png)
 
