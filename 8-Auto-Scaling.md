@@ -199,7 +199,7 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-<validation step="521c23b6-77da-4da7-a165-8123e024e3fb" />
+<validation step="11a785f8-adb7-4c43-8f59-4947f6e733d2" />
 
 33. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
