@@ -177,7 +177,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
-<validation step="7b9ee051-cf22-4867-acec-b74f44521a45" />
+<validation step="90d9f024-95c5-4a96-a375-e73e80626e96" />
 
 ## Exercise 3: Configure Session Hosts
 
@@ -484,6 +484,6 @@ In this task, we will be accessing the file share to verify the user profiles st
 - If you receive a success message, you can proceed to the next task.
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
-<validation step="d9c97158-7191-40d9-8ebd-40cbe4dcc5f1" />
+<validation step="ad962332-47cc-4a42-899e-29bb55f5a4bd" />
 
 7. Click on the **Next** button present in the bottom-right corner of this lab guide.
