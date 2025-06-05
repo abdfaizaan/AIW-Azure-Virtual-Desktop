@@ -8,6 +8,54 @@ Contoso is planning to set up its infrastructure on Azure. As a first step, Cont
 
 A Host Pool is a collection of Azure virtual machines that register to Azure Virtual Desktop as session hosts when you run the Azure Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. To start host pool creation, we will login to the Azure portal.
  
+## Microsoft Entra Domain Services
+
+1. In the **LabVM**, in the Windows Search bar type **Powershell (1)** and select **Windows PowerShell ISE (2)**. Right click on it, then **Run as Administrator (3)**.
+
+    ![](media/i21.png)
+
+1. **Login to Azure:** Use the command to sign into your Azure account via device code authentication. Paste the generated URL **(1)** in the browser and enter the device code **(2)** when prompted.
+
+    ```
+    az login --use-device-code
+    ```
+
+   ```
+   https://microsoft.com/devicelogin
+   ```
+
+   ![](media/i30.png)
+
+1. After running the command, Azure will display a code and a URL. Copy the URL, paste it into your web browser, and then provide the code. Click **Next** to proceed.
+
+   ![](media/Active-aks2u.png)
+
+1. Once the browser opens the Azure login page, choose your Azure account and click **Continue**.
+
+   ![](media/Active-aks3.png)
+
+1. Click on **Continue**, if prompted **Are you trying to sign in to Microsoft Azure CLI**.
+
+   ![](media/i31.png)   
+ 
+   ![](media/Active-aks5.png)
+
+1. After successfully logging in, you'll be authenticated. Now, switch back to PowerShell to run the below command.
+
+   >**Note:** Replace `<domain-service-name>` with the name of your **Microsoft Entra Domain Services** instance.
+
+   ```
+   Update-AzADDomainService -Name <domain-service-name> -ResourceGroupName "AVD-RG" -DomainSecuritySettingTlsV1 Disabled
+   ```
+
+   >**Note:** The process may take up to 10 minutes to complete. Once finished, proceed to the next step.
+
+1. Once the command completes, navigate back to your Domain Service and refresh the page. You should now see that the service is running.
+
+   >**Note:** If the service is still not running, please wait for 5 minutes and refresh the page again.
+
+   ![ws name.](media/2avd1a.png)
+
 ## Exercise 1: Create Host Pool using Getting Started Wizard
 
 In this exercise, we will be creating the Host pool.
