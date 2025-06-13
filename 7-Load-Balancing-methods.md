@@ -28,7 +28,7 @@ The following load-balancing methods are available in Azure Virtual Desktop:
 
 1. Click on **+ New user (1)** and select **Create new user (2)** from drop-down to add a new user.
 
-   ![ws name.](../Azure-Virtual-Desktop-v3/media-1/lab7-ex1-s3.png)
+   ![ws name.](media-1/lab7-ex1-s3.png)
 
 1. Add the following configurations under the *Basics* tab and leave the rest to default:
 
@@ -212,9 +212,9 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. If you see the **Action Required** pop up, click on **Ask later.**
 
-1. If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
+   >**Note:** If there's a dialog box saying ***Stau signed in***, then select the **No** option.
 
-    ![](media/login2.png)
+   ![](media/login1.png)
 
 1. If prompted, make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 

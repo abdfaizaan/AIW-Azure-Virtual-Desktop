@@ -144,10 +144,6 @@ In this task, you will through the process to understand the creation of a custo
    - Password: **<inject key="AzureAdUserPassword" />**
    
    ![ws name.](media/ch14.png)
-   
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
-   
-   ![](media/login.png)
 
 1. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
 

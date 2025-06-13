@@ -10,6 +10,14 @@ A Host Pool is a collection of Azure virtual machines that register to Azure Vir
  
 ## Microsoft Entra Domain Services
 
+1. In the **Azure portal**, search for and select **Microsoft Entra Domain Services**.
+
+   ![](media/i21a.png)
+
+1. From the list, locate and **copy the name** of your Domain Service.
+
+   ![](media/i21b.png)
+
 1. In the **LabVM**, in the Windows Search bar type **Powershell (1)** and select **Windows PowerShell ISE (2)**. Right click on it, then **Run as Administrator (3)**.
 
     ![](media/i21.png)
@@ -19,6 +27,12 @@ A Host Pool is a collection of Azure virtual machines that register to Azure Vir
     ```
     az login --use-device-code
     ```
+
+   >**Note:** If you're experiencing issues while running the az login command, please execute the following command first
+   
+   ```
+   Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -ArgumentList '/i AzureCLI.msi /quiet' -NoNewWindow -Wait; Remove-Item .\AzureCLI.msi
+   ```
 
    ```
    https://microsoft.com/devicelogin

@@ -45,7 +45,7 @@ An application group of type ‘Desktop’, was created automatically while crea
 
 1. In the **GS-AVD-HP** host pool select **Application Groups** under **Applications**.
 
-   ![ws name.](media-2/avd-53.png)
+   ![ws name.](media/avd-53a.png)
 
 1. Then select **+ Add** in the **GS-AVD-HP - Application groups**  
 
@@ -101,7 +101,7 @@ An application group of type ‘Desktop’, was created automatically while crea
 
 1. Click on the **+Add Microsoft Entra users or user groups (1)**, then copy and paste your username **<inject key="AzureAdUserEmail" />** **(2)** in the search bar. When your username appears under the search bar, select it, and then click on the **Select (3)** button. This will give you access to the application group.
  
-   ![ws name.](media/L3-E1-S16.png)
+   ![ws name.](media/L3-E1-S16a.png)
 
 1. Click on **Next: Workspace >**.
 

@@ -57,11 +57,15 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
 
    ![ws name.](media/avdv215n.png)
 
+   >**Note:** If you receive any notification to restart Teams, click on the **Restart now** option.
+
+   ![ws name.](media/avdv215na.png)   
+
 1. Click on **About (1)** at the bottom. You will see a message stating **You have Microsoft Teams Version x.x.x, which is AVD SlimCore Media Optimized (2)**.
 
    ![ws name.](media-1/TeamsAVDn.png)
    
-   >**Note**: If you not see a message saying **AVD SlimCore Media not connected**. Please skip the step and continue with the lab.
+   >**Note**: If you see a message saying **AVD SlimCore Media not connected**. Please skip the step and continue with the lab.
    
 1. Click on **Devices (1)** and explore the media devices connected to your local desktop **(2)**.
 
@@ -71,7 +75,7 @@ In this lab, We'll be implementing MS Teams for AVD. Microsoft Teams on Azure Vi
    
 1. Navigate to the **Calendar (1)** in the side panel. Click on **Meet now (2)**, keep the **Meeting name (3)** as default, and select **Start meeting (4)**.
 
-   ![ws name.](media/teams15n.png)
+   ![ws name.](media/teams15na.png)
    
 1. Make sure both **Audio** **(1)**, and **Video** **(2)** are enabled. Click on **Join now** **(3)**.
 
