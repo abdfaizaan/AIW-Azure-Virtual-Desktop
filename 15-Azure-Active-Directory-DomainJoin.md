@@ -20,27 +20,60 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
    ![ws name.](media/avd-v3-lab15-first.png)
 
-1. On the **Basics** tab, provide the following information and click **Next: Virtual machines >**.
+1. On the **Basics** tab, provide the following information and click **Next: Session hosts >** **(10)**.
 
-    - Load balancing algorithm: **Breadth-first (7)**
-    - Max session limit: **5** **(8)**
+   - Subscription: **Leave it as default (1)**
+   - Resource Group prefix: Enter ***AVD-HostPool-RG-avd (2)***
+   - Host pool name: **AVD-AADJ-HP (3)**
+   - Location: Select **<inject key="Region" enableCopy="false"/> (4)** from the drop-down list.
+   - Preferred app group type: **Desktop (5)**
+   - Host pool type: **Pooled (6)**
+   - Create Session Host Configuration: **No (7)**
+   - Load balancing algorithm: **Breadth-first (8)**
+   - Max session limit: **5 (9)**
 
-        ![](media-1/new-avd-lab13-13.jpg)
+        ![](media-1/new-avd-lab13-13a.png)
 
 1. On the **Virtual Machines** tab, provide the following information :
 
-    - Number of VMs: **2 (10)**
-    - OS disk type: **Standard SSD (11)**
+   - Add virtual machines: **Yes (1)**
+   - Resource Group prefix: Enter ***AVD-HostPool-RG-avd (2)***
+   - Name prefix: **AVD-AADJ-HP (3)**
+   - Virtual machine type: **Azure virtual machine (4)**
+   - Virtual machine location: Select **<inject key="Region" enableCopy="false"/> (5)** from the drop-down list.
+   - Availability options: **No infrastructure redundancy required (6)**
+   - Security type: **Standard (7)**
 
-        ![](media-1/new-avd-lab13-15.jpg)
+        ![](media-1/new-avd-lab13-15a.png)
 
-1. **Network and security**
+1. In the **Image**, click on **See all images** to choose the required images.
 
-    - Virtual network: Select **aadds-vnet (1)** from drop-down
-    - Network security group: **Basic (2)**
-    - Public inbound ports: **No (3)**
+   ![ws name.](media/projdetailc.png)
 
-        ![](media/createhp3-new.png)
+1. In the Search bar Search for **Windows multi-session (1)**, then under **Windows multi-session + Microsoft 365 Apps** choose **Select (2)** and then select **Windows 11 Enterprise multi-session + Microsoft 365 Apps, Version 22H2** *(choose from dropdown)*
+
+   ![ws name.](media/projdetaild.png)
+   ![ws name.](media/projdetaile.png)
+
+1. Virtual machine size: **Standard D4s v4**. *Click on **Change Size**, then select **D4s_v4** and click on **Select** as shown below*
+
+   ![ws name.](media/2avd18.png)
+
+1. Provide the information as mentioned below:
+   
+   - Number of VMs: **2 (1)**
+   - OS disk type: **Standard HDD (2)**
+   - OS disk size: **Resize to 128 GiB (P10) (3)**
+
+      ![ws name.](media/projdetailf.png)
+
+1. On the **Network and security** section, enter the required information as follow:
+
+   - Virtual Network: **aadds-vnet (1)** *(choose from dropdown)*
+   - Subnet: **sessionhosts-subnet(10.0.1.0/24) (2)** *(choose from dropdown)*
+   - Network security group type: **Basic (3)**
+
+      ![ws name.](media/projdetailg.png)
 
 1. **Domain to join**
 
@@ -51,6 +84,8 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
 1. **Virtual Machine Administrator account**
 
+    - User name: **demouser (1)**
+    - Password: **Password.1!! (2)**
     - Confirm password: **Password.1!!** **(3)**
     - Click on **Next : Workspace > (4)**
 
@@ -61,7 +96,7 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
     - Register desktop app group: **Yes (1)**
     - To this workspace: **GS-AVD-WS (2)**
 
-        ![](media/createhp4-new.png)
+        ![](media/createhp4-newa.png)
 
 1. Verify the information and click **Create**.
 
@@ -75,12 +110,11 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
 1. It will take you to the Host pool. The following resources were created:
 
-    - Host Pool: 1 (EB-AVD-AADJ-HP)
+    - Host Pool: 1 (AVD-AADJ-HP)
     - Session Host: 2 (AVD-AADJ-SH-0, AVD-AADJ-SH-1)
-    - Application Group: 1 (EB-AVD-AADJ-HP-DAG)
-    - Application: 1 (SessionDesktop)
-    - Workspace: 1 (EB-AVD-WS)
+    - Application Group: 1 (AVD-AADJ-HP-DAG)
+    - Workspace: 1 (GS-AVD-WS)
 
-        ![ws name.](media/gsw8.png)
+        ![ws name.](media/gsw8a.png)
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.
