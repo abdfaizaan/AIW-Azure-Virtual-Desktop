@@ -91,31 +91,31 @@ Welcome to your Azure Virtual Desktop Workshop! We've prepared a seamless enviro
 
 ## Accessing Your Lab Environment
 
-Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+Once you're ready to dive in, your virtual machine and guide will be right at your fingertips within your web browser.
  
-![Access Your VM and Lab Guide](./media/labguide.png)
+![Access Your VM and Lab Guide](./media/labguidea.png)
 
-## Virtual Machine & Lab Guide
+## Virtual Machine & Guide
  
-Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
+Your virtual machine is your workhorse throughout the workshop. The guide is your roadmap to success.
  
 ## Exploring Your Lab Resources
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-![Explore Lab Resources](./media/avdenv.png)
+![Explore Lab Resources](./media/avdenva.png)
  
 ## Utilizing the Split Window Feature
  
-For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
+For convenience, you can open the guide in a separate window by selecting the **Split Window** button from the top right corner.
  
-![Use the Split Window Feature](./media/spl.png)
+![Use the Split Window Feature](./media/spla.png)
  
 ## Managing Your Virtual Machine
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-![Manage Your Virtual Machine](./media/res.png)	
+![Manage Your Virtual Machine](./media/resa.png)	
 
 ## Let's Get Started with Azure Portal
  

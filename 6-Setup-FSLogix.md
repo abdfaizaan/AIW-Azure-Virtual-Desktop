@@ -193,7 +193,7 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
       
 3. Then click on **Run command** under **Operations**.
 
-     ![ws name.](media-1/Ex6-task3-step3.png)
+   ![ws name.](media-1/Ex6-task3-step3a.png)
   
 4. Now select **RunPowerShellScript**.
 
@@ -414,9 +414,9 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
 
     ![ws name.](media/w25.png)
 
-    >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
-    
-     ![](media/login.png)
+      >**Note:** If there's a dialog box saying ***Stau signed in***, then select the **No** option.
+
+      ![](media/login1.png)
 
 21. Click on the **Session Desktop** Desktop to launch it.
 

@@ -106,7 +106,16 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 1. On the **Deploy template** page, click on **Deploy**. (Note: the diagnostic settings for the workspace are automated using a template).
 
    ![ws name.](media-1/avdmon3.11.png)
-   
+
+
+1. Now scroll down and click on the **Add system managed identity**
+
+   ![ws name.](media/avdmon4.1a.png)
+
+1. Click on the **Add system managed identity**
+
+   ![ws name.](media/avdmon4.1b.png)
+
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll see a message as **No session hosts missing AMA extension.**.
 
    ![ws name.](media-1/avdmon4.1.png)

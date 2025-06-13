@@ -124,11 +124,11 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
   
 10. Now, Open the following URL in a new browser tab in the JumpVM. This URL will lead us to the Remote Desktop Web Client.
 
-   ``` 
-   aka.ms/wvdarmweb 
-   ``` 
+      ``` 
+      aka.ms/wvdarmweb 
+      ``` 
 
-   >**Note:** If you are already logged in through your user, then jump to Exercise 3 else continue with the next step i.e., Step 10.
+    >**Note:** If you are already logged in through your user, then jump to Exercise 3 else continue with the next step i.e., Step 10.
 
 11. Now to log in, enter the lab credentials as mentioned below:
 
@@ -144,9 +144,9 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
      ![ws name.](media-1/EX10-task2-step11.png)
 
-    >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
+     >**Note:** If there's a dialog box saying ***Stau signed in***, then select the **No** option.
 
-     ![](media/login.png)
+     ![](media/login1.png)
    
 13. The AVD dashboard will be launched. 
 
@@ -208,15 +208,15 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    
    ![ws name.](media/ch14.png)
    
-   >**Note:** If there's a dialog box saying ***Help us protect your account***, then select the **Skip for now** option.
-   
-   ![](media/login.png)
+   >**Note:** If there's a dialog box saying ***Stau signed in***, then select the **No** option.
+
+   ![](media/login1.png)
 
 1. While the Session Desktop is connecting, we can see a message saying **Starting remote PC**.
 
    ![ws name.](media/avdv235.png)
    
-1. From the Session desktop, search for **Microsoft edge (1)** from the search bar and select it **(2)**
+1. From the Session desktop, search for **Microsoft edge (1)** from the search bar and select it **Microsoft edge (2)**
 
    ![](media-1/selectedge.png)
 
@@ -384,7 +384,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
       
     - If you get any pop-out for **App Locker** permissions, click on **No**.
 
-       ![](../Azure-Virtual-Desktop-v3/media/applocker.png)
+      ![](media/applocker.png)
        
 1. Within the same Session Desktop, from the Start menu search for **Photos (1)** and select **(2)**.
       
