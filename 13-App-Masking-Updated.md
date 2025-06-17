@@ -1,4 +1,4 @@
-# Lab 12: App Masking (Optional)
+# Lab 12: App Masking (Read-Only)
 
 ### Overview
 
@@ -43,7 +43,7 @@ In this exercise, you go through the steps to create a rule set in **FSLogix App
    >**Note:** The rule sets are already created as part of prerequisites.
 
 
-##  Exercise 2: App Masking
+##  Exercise 2: App Masking (Read-Only)
 
 In this task, you will download the pre-created rule sets into the session host using a PowerShell script.
 
