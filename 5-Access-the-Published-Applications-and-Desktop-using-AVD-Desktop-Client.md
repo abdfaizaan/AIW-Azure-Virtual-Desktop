@@ -15,13 +15,13 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 1. Open a browser in **Your Own PC/computer/workstation** (not within the JumpVM), copy and paste the following URL in that browser tab.
 
    ```
-   https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10#install-the-windows-desktop-client
+   https://learn.microsoft.com/en-us/previous-versions/remote-desktop-client/connect-windows-cloud-services?tabs=windows-msrdc-msi
    ```
 
    > **Note:** To download *AVD Mac Client* on **macOS**, use the link given below:
    >
    > ```
-   > https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos
+   > https://learn.microsoft.com/en-us/previous-versions/remote-desktop-client/client-features-macos
    > ```
 
 1. Under **Download and install the Remote Desktop Client (MSI)**, click on **Windows 64-bit**. This will download the **Remote Desktop Client** on **Your Own PC/computer/workstation**.
