@@ -175,7 +175,7 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-    ![ws name.](media/lab4-1.png)
+    ![ws name.](media/lab4-10.png)
 
 1. Enter your **credentials** to access the application and click on **Submit**.
 

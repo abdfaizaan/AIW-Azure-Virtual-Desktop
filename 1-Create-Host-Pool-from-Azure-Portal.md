@@ -87,7 +87,7 @@ In this exercise, we will be creating the Host pool.
    **A. Project Details:**
 
    - Subscription: **Leave it as default (1)**
-   - Resource Group prefix: Enter ***AVD-HostPool-RG-avd (2)***
+   - Resource Group: Select ***AVD-HostPool-RG-avd (2)***
    - Host pool name: **GS-AVD-HP (3)**
    - Location: Select **<inject key="Region" enableCopy="false"/> (4)** from the drop-down list.
    - Preferred app group type: **Desktop (5)**
@@ -176,11 +176,12 @@ In this exercise, we will be creating the Host pool.
 
    >**NOTE**: Usually it takes 20 minutes to get deployed successfully. Sometimes it might take up to 90 minutes.
    
-1. Once the deployment succeeds, it will look similar to the image shown below:
+1. Once the deployment succeeds, it will look similar to the image shown below: 
+   - Click on **AVD-HostPool-RG-avd** to navigate to the resource group.
 
-   ![ws name.](media-1/subscription.png)
+   ![ws name.](media-1/subscriptionrg.png)
 
-1. Navigate to **AVD-HostPool-RG-avd** resource group and select **GS-AVD-HP** host pool.
+1. Select **GS-AVD-HP** host pool.
 
    ![](media-2/hostpool.png)
    
@@ -192,7 +193,7 @@ In this exercise, we will be creating the Host pool.
     - **Application**: 1 (SessionDesktop)
     - **Workspace**: 1 (GS-AVD-WS)
 
-      ![ws name.](media-1/L1E1S9.png)
+      ![ws name.](media-1/L1E1S91.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 - If you receive a success message, you can proceed to the next task.

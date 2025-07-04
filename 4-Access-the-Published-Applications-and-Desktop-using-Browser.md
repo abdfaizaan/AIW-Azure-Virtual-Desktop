@@ -14,6 +14,10 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
     ![ws name.](media/avd-9.png)
 
+1. Navigate to **GS-AVD-HP**, then go to **RDP Properties (1)** under ***Settings*** blade. Under the **Device redirection (2)**, select the Clipboard redirection from the drop down as **Clipboard on local computer is available in remote session (3)** and click **Save (4)**.
+
+    ![ws name.](media/avd-0704.png)
+
 1. Navigate to **GS-AVD-HP**, then go to **Properties (1)** under ***Settings*** blade. Under the **Preferred app group type**, choose **RemoteApp (2)** and click **Save (3)**.
 
     ![ws name.](media/avd-39.png)
@@ -46,7 +50,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/lab4-1.png)
+   ![ws name.](media/lab4-10.png)
 
 1. Enter the lab credentials to access the application and click on **Submit**.
 
@@ -107,7 +111,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
 1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
-   ![ws name.](media/lab4-1.png)
+   ![ws name.](media/lab4-10.png)
 
 1. Enter the lab credentials to access the application and click on **Submit**.
 
@@ -122,7 +126,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
    ![ws name.](./media/sessiondesktop.png)
    
    > **Note:** If you see a black screen while launching the session desktop, please re-start the session desktop by re-performing the lab from step 2.
-   
+
 1. Return back to the Azure Portal, search for *Azure virtual desktop* in the search bar, and select **Azure Virtual Desktop** from the suggestions.
 
    ![ws name.](media/w1.png)

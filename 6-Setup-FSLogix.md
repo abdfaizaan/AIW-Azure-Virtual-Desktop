@@ -424,7 +424,7 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
 
 22. Select **Allow** on the prompt asking permission to access local resources.
 
-    ![ws name.](media/lab4-1.png)
+    ![ws name.](media/lab4-10.png)
 
 23. Enter your **Credentials** to access the desktop.
 

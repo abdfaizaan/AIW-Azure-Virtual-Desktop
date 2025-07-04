@@ -280,6 +280,8 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
      ![](./media/enabled1.png)
 
+     >**Disclaimer**: Once **screen capturing protection** is enabled, accessing the host via the web version will no longer be possible. You will only be able to connect using the **Remote Desktop client**.
+
 1. From the Start menu of Session Desktop, search for **Registry Editor** and select it.
 
     ![](./media/registryeditor1.png)
@@ -319,6 +321,8 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
     ![](./media/fullscreen.png)
 
 1. You will get a screenshot with the Session desktop blacked out, the blacked-out screenshot as mentioned in the below screenshot.
+
+   >**Disclaimer**: Once **screen capturing protection** is enabled, accessing the host via the web version will no longer be possible. You will only be able to connect using the **Remote Desktop client**.
 
    ![](./media/blackedout.png)
    
