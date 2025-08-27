@@ -61,7 +61,7 @@ In this exercise, we will be creating the Host pool.
 
    ![ws name.](media/projdetailc.png)
 
-1. In the Search bar Search for **Windows multi-session (1)**, then under **Windows multi-session + Microsoft 365 Apps** choose **Select (2)** and then select **Windows 11 Enterprise multi-session + Microsoft 365 Apps, Version 22H2** *(choose from dropdown)*
+1. In the Search bar, search for **Windows multi-session (1)**, then under **Windows multi-session + Microsoft 365 Apps** choose **Select (2)** and then select **Windows 11 Enterprise multi-session + Microsoft 365 Apps, Version 22H2** *(choose from dropdown)*
 
    ![ws name.](media/projdetaild.png)
    ![ws name.](media/projdetaile.png)
