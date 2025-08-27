@@ -88,10 +88,15 @@ In this exercise, we will be creating the Host pool.
 
 1. Enter the required details for **Domain to join** and **Virtual machine administrator account** as specified below, then click **Next: Workspace > (8)**
 
+- **Domain to join**
+
    - Select which directory you would like to join: **Active Directory (1)**
    - AD domain join UPN: **<inject key="AzureAdUserEmail" /> (2)**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" /> (3)**
    - Confirm password: **<inject key="AzureAdUserPassword" /> (4)**
+
+- **Virtual machine administrator account**
+
    - User name: **odl_user_<inject key="DeploymentID" enableCopy="false"/>(5)**
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" /> (6)**
    - Confirm password: **<inject key="AzureAdUserPassword" /> (7)**
