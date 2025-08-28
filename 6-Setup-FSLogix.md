@@ -227,7 +227,7 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
 
    if (!(Test-path -Path $fsLogixZipPath)) {
       try { # Add a try-catch block for better error handling
-         Invoke-WebRequest -Uri "https://avdv2.blob.core.windows.net/blob/FSLogix_Apps_Installation.zip" -OutFile $fsLogixZipPath -UseBasicParsing
+         Invoke-WebRequest -Uri "https://experienceazure.blob.core.windows.net/templates/aiw-avd-v3/FSLogix_25.06.zip" -OutFile $fsLogixZipPath -UseBasicParsing
       }
       catch {
          Write-Error "Failed to download FSLogix bundle: $_"
@@ -321,7 +321,7 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
 
       if (!(Test-path -Path $fsLogixZipPath)) {
          try { # Add a try-catch block for better error handling
-            Invoke-WebRequest -Uri "https://avdv2.blob.core.windows.net/blob/FSLogix_Apps_Installation.zip" -OutFile $fsLogixZipPath -UseBasicParsing
+            Invoke-WebRequest -Uri "https://experienceazure.blob.core.windows.net/templates/aiw-avd-v3/FSLogix_25.06.zip" -OutFile $fsLogixZipPath -UseBasicParsing
          }
          catch {
             Write-Error "Failed to download FSLogix bundle: $_"
