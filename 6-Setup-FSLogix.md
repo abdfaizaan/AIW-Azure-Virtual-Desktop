@@ -32,7 +32,7 @@ In the following task, we will be creating a storage account with a file share w
    
    - Performance: **Standard (5)**   
    
-   - Replication: **Geo-redundant storage (GRS) (6)**
+   - Redundancy: **Geo-redundant storage (GRS) (6)**
    
    - **Select** Make read access to the data available in the event of regional unavailability. **(7)**
    
@@ -46,13 +46,14 @@ In the following task, we will be creating a storage account with a file share w
 
 5. In the _Networking_ tab, use the following configurations:
 
-   - Network access: Select **Enable public access from selected virtual networks and IP addresses (1)**
-      >**Note:** This will make sure that your storage account is not accessible from the public network, making it more secure.
-   - Virtual network subscription: Leave it to ***default (2)***.
-   - Virtual Network: **aadds-vnet (3)**
-   - Subnets: **sessionhosts-subnet (10.0.1.0/24) (4)**
+   - Public network access: **Enable (1)** 
+   - Public network access scope: **Enable from selected virtual networks and IP addresses (2)**
+     >**Note:** This will make sure that your storage account is not accessible from the public network, making it more secure.
+   - Virtual network subscription: Leave it to ***default (3)***.
+   - Virtual Network: **aadds-vnet (4)**
+   - Subnets: **sessionhosts-subnet (10.0.1.0/24) (5)**
    - Leave the rest to default settings.
-   - Click on **Review + create(5)**.
+   - Click on **Review + create(6)**.
 
       ![ws name.](media/lab6-3n.png)
 
@@ -114,7 +115,7 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
 1. Add the following configurations and leave the rest to default:
 
-   - Group name: **permission - fslogixcontainer (1)**
+   - Group name: **permission-fslogixcontainer (1)**
    - Click on **Create (2)**.
 
       ![ws name.](media/avd-18.png)

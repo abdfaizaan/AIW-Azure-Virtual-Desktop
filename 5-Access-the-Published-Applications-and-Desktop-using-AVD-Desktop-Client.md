@@ -24,7 +24,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    > https://learn.microsoft.com/en-us/previous-versions/remote-desktop-client/client-features-macos
    > ```
 
-1. Under **Download and install the Remote Desktop Client (MSI)**, click on **Windows 64-bit**. This will download the **Remote Desktop Client** on **Your Own PC/computer/workstation**.
+1. Under **Download and install the Remote Desktop Client for Windows (MSI)**, click on **Windows 64-bit**. This will download the **Remote Desktop Client** on **Your Own PC/computer/workstation**.
    
    ![ws name.](media/lab5-1.png)
       
@@ -74,7 +74,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/avd-39.png)
 
-1. Return to WVD client application then click on three vertical dot **(...) (1)** then select **Refresh (2)**.
+1. Return to your **PC Remote Desktop application**, click on the three vertical dots **(...) (1)**, and then select **Refresh (2)**.
 
    ![ws name.](media/avd-13.png)
       

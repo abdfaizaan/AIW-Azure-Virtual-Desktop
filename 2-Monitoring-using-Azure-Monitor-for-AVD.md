@@ -49,12 +49,13 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media-2/Lab2(a)-ex2-step2.png)
    
-1. On the **Insights** page, select the following values and click on **GS-AVD-HP (5)** under overview.
+1. On the **Insights** page, select the following values.
    
    - Subscription: **Choose the default subscription (1)**
    - Resource group: **avd-hostpool-rg-avd (2)**
    - Host Pool: **GS-AVD-HP (3)**
    - Time range: **Leave it to default (4)**
+   - Then, click on **GS-AVD-HP (5)**
 
       ![ws name.](media-2/avd-3.png)
    
@@ -62,10 +63,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media-1/avdmon1.1.png)
 
-1. On the **CheckAMAConfiguration** page, re-select the resource group and host pool name as mentioned below. After that select the **<inject key="Log Analytics Workspace Name" enableCopy="false" />** workspace **(3)** from the drop-down menu under the **Resource diagnostic settings** section of the page. 
+1. On the **CheckAMAConfiguration** page, re-select the resource group and host pool name as mentioned below. 
 
    - Resource group: **avd-hostpool-rg-avd (1)**
    - Host Pool: **GS-AVD-HP (2)**
+   - After that select the **<inject key="Log Analytics Workspace Name" enableCopy="false" />** workspace **(3)** from the drop-down menu under the **Check diagnostic settings for  host pool** section of the page. 
 
       ![ws name.](media/avdlab2-3n.png)
    
@@ -99,7 +101,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
    ![ws name.](media/lab2-11.png)
    
-1. On CheckAMAConfiguration page click on **Add extension** in **Session hosts missing Azure Monitor extension** window.
+1. On the **Check AMA Configuration** page, scroll down to the **Session hosts missing Azure Monitor extension** section and then click on **Add extension**.
 
    ![ws name.](media-1/avdmon2.1.png)
    

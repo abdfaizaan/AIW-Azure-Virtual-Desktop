@@ -103,9 +103,9 @@ In this exercise, we will be creating the Host pool.
 
       ![ws name.](media/projdetailh.png)
 
-1. In the **Workspace section**, select **Yes (1)** for **Register desktop app group**.  
+12. In the **Workspace section**, select **Yes (1)** for **Register desktop app group**.  
 
-2. For **To this workspace**, click on **Create new (2)**.
+1. For **To this workspace**, click on **Create new (2)**.
 
 3. Enter **GS-AVD-WS (3)** as the workspace name.
 

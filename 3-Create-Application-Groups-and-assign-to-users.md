@@ -137,4 +137,4 @@ An application group of type ‘Desktop’, was created automatically while crea
 <validation step="3816cf87-5d86-4cff-a599-63b4332838e5" />
    
 
-24. Click on the **Next** button present in the bottom-right corner of this lab guide. 
+### Click on the **Next** button present in the bottom-right corner of this lab guide. 
