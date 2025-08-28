@@ -115,12 +115,12 @@ In this task, we will give *Storage File Data SMB Share Contributor* permissions
    
 1. Add the following configurations and leave the rest to default:
 
-   - Group name: **permission-fslogixcontainer (1)**
+   - Group name: **permission - fslogixcontainer (1)**
    - Click on **Create (2)**.
 
       ![ws name.](media/avd-18.png)
    
-1. Click on **permission - fslogixcontainer** group to open.
+1. Go to **All Groups (1)**, then click on the **permission - fslogixcontainer** group to open it.
 
    ![ws name.](media/permission-v2.png)
    
