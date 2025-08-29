@@ -149,7 +149,7 @@ Here, we will use Powershell to run a script that will change the passwords for 
 
 While creating the EB-AVD-HP host pool, we selected the load balancing method as *Breadth-first*. Now, we are going to log in to the Desktop App created on EB-AVD-HP with both users simultaneously and see the user distribution.
 
-1. Paste the below-mentioned link in your browser in the **JumpVM** and enter your **credentials** to log in. 
+1. Open an **Incognito browser** on the **JumpVM**, paste the provided link, and log in using your **credentials**.
 
    ```
    aka.ms/wvdarmweb

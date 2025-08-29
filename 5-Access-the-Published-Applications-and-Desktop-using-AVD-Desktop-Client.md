@@ -14,6 +14,8 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 1. Open a browser in **Your Own PC/computer/workstation** (not within the JumpVM), copy and paste the following URL in that browser tab.
 
+   >**Note:** It is recommended to install and use the Remote Desktop client directly on your personal/local PC instead of within the provided VM. This ensures better performance, minimizes dependency on the VM, and offers a more isolated and seamless experience.
+
    ```
    https://learn.microsoft.com/en-us/previous-versions/remote-desktop-client/connect-windows-cloud-services?tabs=windows-msrdc-msi
    ```
