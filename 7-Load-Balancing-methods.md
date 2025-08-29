@@ -1,5 +1,7 @@
 # Lab 7: Load Balancing methods
 
+### Estimated Duration: 50 Minutes
+
 ## **Scenario**
 
 Contoso's AVD environment set-up is working smoothly. However, Contoso is confused about which load balancing to use in order to run the sessions efficiently. You will guide Contoso to explore different types of load balancing offered by Azure.

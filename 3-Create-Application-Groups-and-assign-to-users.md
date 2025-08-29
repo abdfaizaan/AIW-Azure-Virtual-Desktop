@@ -1,5 +1,7 @@
 # Lab 3: Create Application Groups and assign them to users
 
+### Estimated Duration: 30 Minutes
+
 ## **Scenario**
 
 Contoso wants to restrict access to the applications used by different teams in the organization. With Azure Virtual Desktop, admins can create unique application groups for users that require access to a specific set of applications. In this lab, you’ll help Contoso to configure and create an application group and add applications to it.

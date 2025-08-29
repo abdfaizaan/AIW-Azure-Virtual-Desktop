@@ -1,5 +1,7 @@
 # Lab 2(A) : Monitoring using Log Analytics
 
+### Estimated Duration: 30 Minutes
+
 ## **Scenario**
 
 Contoso is interested in setting up an operation center focused on monitoring the host pools, user access, and many more. You will help Contoso set up a monitoring solution with the help of features available in Azure virtual desktop and Azure monitoring resources. You will create a Log Analytics workspace and map it to the AVD environment using Azure Insights.

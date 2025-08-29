@@ -1,5 +1,7 @@
 # Lab 11: Security Modules
 
+### Estimated Duration: 50 Minutes
+
 ## **Scenario**
 
 Contoso wants its resources to be secure and protected from any kind of unethical activities. So Contoso wants to enable Multi-factor authentication (MFA) for session login. You will guide Contoso to set up MFA for sign-ins.

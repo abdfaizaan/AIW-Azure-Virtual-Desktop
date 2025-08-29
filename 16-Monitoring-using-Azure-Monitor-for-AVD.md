@@ -1,5 +1,7 @@
 # Lab 2(B): Monitoring using Azure Monitor for AVD
 
+### Estimated Duration: 20 Minutes
+
 ## **Overview**
 
 In this exercise, We'll be reviewing monitoring data of the AVD environment using Azure Insights which you had configured in part A of Exercise 2.

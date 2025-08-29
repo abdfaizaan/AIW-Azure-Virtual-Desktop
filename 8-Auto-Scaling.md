@@ -1,5 +1,7 @@
 # Lab 8: Auto Scaling
 
+### Estimated Duration: 40 Minutes
+
 ### Overview
 
 Azure Virtual Desktop uses Autoscale which let's scale your session virtual machines (VMs) in a host pool up or down to optimize deployment costs. You can create a scaling plan based on:

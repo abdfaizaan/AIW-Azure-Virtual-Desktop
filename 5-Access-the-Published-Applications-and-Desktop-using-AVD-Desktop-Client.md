@@ -1,5 +1,7 @@
 # Lab 5: Access the Published Applications and Desktop using the AVD Desktop Client
 
+### Estimated Duration: 40 Minutes
+
 ## **Scenario**
 
 Contoso wants their AVD environment to be flexible in terms of accessing the sessions by their employees. You will help Contoso to test the access to the AVD session using the AVD Client application using your local computer.

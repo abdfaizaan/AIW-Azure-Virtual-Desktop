@@ -1,5 +1,7 @@
 # Lab 6: Setup FSLogix
 
+### Estimated Duration: 50 Minutes
+
 ## **Scenario**
 
 Contoso was getting complaints from the end-users stating that they were losing their User Profile when they connected to a different session host. Contoso wants to implement FSLogix which will help the end users to have separate storage containers for their user data and will help in maintaining consistency. You will help Contoso implement FSLogix in the Azure virtual desktop environment.

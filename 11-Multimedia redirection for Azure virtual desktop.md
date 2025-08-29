@@ -1,5 +1,6 @@
 # Lab 10: Multimedia redirection for Azure virtual desktop
 
+### Estimated Duration: 20 Minutes
 
 ## **Overview**
 

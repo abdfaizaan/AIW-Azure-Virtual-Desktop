@@ -1,5 +1,7 @@
 # Lab 9: Cost Optimizations
 
+### Estimated Duration: 30 Minutes
+
 ## **Overview**
 
 In this lab, We'll be enabling the Start Virtual Machine (VM) on Connect feature which lets you save costs by allowing users to turn on their VMs only when they need them.
