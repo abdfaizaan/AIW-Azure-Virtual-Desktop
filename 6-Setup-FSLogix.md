@@ -462,10 +462,14 @@ In this task, we will be accessing the file share to verify the user profiles st
 
       ![ws name.](media/avd-24.png)
    
-3. Under **Public network access**, select **Enabled from all networks (1)** and click on **save icon (2)**.
+3. Under **Public access (1)**, Click on **Enabled from all networks (2)**.
 
    ![ws name.](media/avd-25.png)
-    
+
+1. For **Public network access**, select **Enable (1)**, then for **Public network access scope**, choose **Enable from all networks (2)**, and finally click on **Save (3)**.
+
+   ![ws name.](media/avd-25a.png)
+
    >**Note:** This will enable access to your storage account on the public network so that you can see the user profiles stored in the file shares.
     
 4. Open the storage account we created earlier **(1)**, then select **Fileshare (2)** from the left side menu and the select **userprofile (3)** fileshare.
