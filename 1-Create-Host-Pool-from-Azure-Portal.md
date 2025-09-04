@@ -138,7 +138,7 @@ In this exercise, we will be creating the Host pool.
     - **Application**: 1 (SessionDesktop)
     - **Workspace**: 1 (GS-AVD-WS)
 
-      ![ws name.](media-1/L1E1S91.png)
+      ![ws name.](media/L1E1S19.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 - If you receive a success message, you can proceed to the next task.
@@ -146,7 +146,8 @@ In this exercise, we will be creating the Host pool.
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 <validation step="97d211ae-121b-445b-a278-054cda35de33" />   
+
    
-* Click on the **Next** button present in the bottom-right corner of this lab guide.
+Now, click on the **Next** button present in the bottom-right corner of this lab guide.
    
-   
+![Start Your Azure Journey](./media/Next.png) 

@@ -14,7 +14,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 1. In the search bar of the Azure portal, type **Log Analytics workspace (1)**. From the search results, select **Log Analytics workspace (2)**.
 
-   ![ws name.](media/log-analytics.png)
+   ![ws name.](media/L2AE1S1.png)
 
 1. Click on **+ Create**.
 
@@ -45,11 +45,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
  
 1. On the **Azure portal** search for **Azure Virtual Desktop (1)** in the search bar and select **Azure Virtual Desktop** **(2)** from the search results.
 
-   ![ws name.](media/avd1.png) 
+   ![ws name.](media/L2AE2S1.png) 
 
 1. You will be directed towards the Azure Virtual Desktop (hereafter referred to as AVD) management window. Select **Insights** under **Monitoring** blade.
 
-   ![ws name.](media-2/Lab2(a)-ex2-step2.png)
+   ![ws name.](media/L2AE2S2.png)
    
 1. On the **Insights** page, select the following values.
    
@@ -59,11 +59,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    - Time range: **Leave it to default (4)**
    - Then, click on **GS-AVD-HP (5)**
 
-      ![ws name.](media-2/avd-3.png)
+      ![ws name.](media/L2AE2S3.png)
    
 1. On the **GS-AVD-HP | Insights** **(1)** hostpool page, click on **Open Configuration Workbook** **(2)**. 
 
-   ![ws name.](media-1/avdmon1.1.png)
+   ![ws name.](media/L2AE2S4.png)
 
 1. On the **CheckAMAConfiguration** page, re-select the resource group and host pool name as mentioned below. 
 
@@ -71,13 +71,13 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    - Host Pool: **GS-AVD-HP (2)**
    - After that select the **<inject key="Log Analytics Workspace Name" enableCopy="false" />** workspace **(3)** from the drop-down menu under the **Check diagnostic settings for  host pool** section of the page. 
 
-      ![ws name.](media/avdlab2-3n.png)
+      ![ws name.](media/L2AE2S5.png)
    
 1. Scroll down on the same page and click on **Configure host pool**.
 
    >**Note**: Sometimes, monitoring for the host pool gets configured automatically. Please **re-configure** monitoring for the host pool as a few components might not be configured.
 
-    ![ws name.](media/avd-4n.png)
+    ![ws name.](media/L2AE2S6.png)
    
 1. On the **Deploy template** page, the diagnostic settings for the host pool are automated using a template. Look through the categories select and click on **deploy**.
 
@@ -85,11 +85,11 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
    
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll be able to see the settings applied to the host pool.
 
-   ![ws name.](media/lab2-7.png)
+   ![ws name.](media/L2AE2S8.png)
    
 1. Scroll down on the same page and click on **Configure workspace**.
 
-   ![ws name.](media/lab2a-config-wsn.png)
+   ![ws name.](media/L2AE2S9.png)
    
 1. On the **Deploy template** page, click on **deploy**. (Note: The diagnostic settings for the host pool are automated using a template).
 
@@ -97,32 +97,35 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page 2-3 times as it takes some time to load the details. You'll be able to see the settings applied to the workspace.
 
-   ![ws name.](media/lab2-9n.png)
+   ![ws name.](media/L2AE2S11.png)
    
 1. On **CheckAMAConfiguration** page, Select **Session host data settings (1)**. Then, select the **<inject key="Log Analytics Workspace Name	" /> (2)** analytics workspace as the **Workspace destination**.
 
-   ![ws name.](media/lab2-11.png)
+   ![ws name.](media/L2AE2S12.png)
    
 1. On the **Check AMA Configuration** page, scroll down to the **Session hosts missing Azure Monitor extension** section and then click on **Add extension**.
 
-   ![ws name.](media-1/avdmon2.1.png)
+   ![ws name.](media/L2AE2S13.png)
    
 1. On the **Deploy template** page, click on **Deploy**. (Note: the diagnostic settings for the workspace are automated using a template).
 
-   ![ws name.](media-1/avdmon3.11.png)
+   ![ws name.](media/L2AE2S14.png)
 
 
 1. Now scroll down and click on the **Add system managed identity**
 
-   ![ws name.](media/avdmon4.1a.png)
+   ![ws name.](media/L2AE2S15.png)
+
 
 1. Click on the **Add system managed identity**
 
    ![ws name.](media/avdmon4.1b.png)
 
+
 1. Once the deployment is successful, **Refresh** the **Check Configuration** page. You'll see a message as **No session hosts missing AMA extension.**.
 
-   ![ws name.](media-1/avdmon4.1.png)
+   ![ws name.](media/L2AE2S17.png)
+
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 - If you receive a success message, you can proceed to the next task.
@@ -132,6 +135,7 @@ Azure Virtual Desktop uses Azure Monitor for monitoring and alerts like many oth
 <validation step="53c5dd73-f7c0-41ed-bd9a-9f6a03ef630a" />
    
    
-* Click on the **Next** button present in the bottom-right corner of this lab guide.
+Now, click on the **Next** button present in the bottom-right corner of this lab guide.
 
  
+![Start Your Azure Journey](./media/Next.png) 
