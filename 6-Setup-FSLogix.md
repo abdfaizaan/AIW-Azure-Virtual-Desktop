@@ -494,3 +494,8 @@ In this task, we will be accessing the file share to verify the user profiles st
 <validation step="ad962332-47cc-4a42-899e-29bb55f5a4bd" />
 
 7. Click on the **Next** button present in the bottom-right corner of this lab guide.
+
+
+Now, click on Next from the lower right corner to move on to the next page.
+
+ ![Start Your Azure Journey](./media/Next.png) 

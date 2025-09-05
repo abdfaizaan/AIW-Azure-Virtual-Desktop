@@ -162,4 +162,4 @@ Now, click on Next from the lower right corner to move on to the next page.
 
  ![Start Your Azure Journey](./media/Next.png) 
 
- Happy Learning!!
+### Happy Learning!!

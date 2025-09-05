@@ -160,4 +160,6 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
         
    ![ws name.](./media/sessiondesktop1.1.png)   
      
-1. Click on the **Next** button present in the bottom-right corner of this lab guide. 
+Now, click on Next from the lower right corner to move on to the next page.
+
+ ![Start Your Azure Journey](./media/Next.png) 

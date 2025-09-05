@@ -348,4 +348,6 @@ While creating the EB-AVD-HP host pool, we selected the load balancing method as
 
       ![ws name.](media-2/users.png)
 
-1. Click on the **Next** button present in the bottom-right corner of this lab guide.
+Now, click on Next from the lower right corner to move on to the next page.
+
+ ![Start Your Azure Journey](./media/Next.png) 
