@@ -238,6 +238,7 @@ In this task, you will download the pre-created rule sets into the session host 
 
 1. You have successfully added the hiding rule through App Masking for both the JumpVM and Session host.
 
-1. Click on the **Next** button present in the bottom-right corner of this lab guide.  
+Now, click on Next from the lower right corner to move on to the next page.
 
+ ![Start Your Azure Journey](./media/Next.png) 
 

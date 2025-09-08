@@ -85,3 +85,5 @@ In this exercise, We'll be reviewing monitoring data of the AVD environment usin
    
 1. Spend some time on the page to explore different monitoring abilities offered by Azure Insights.
 
+### You have successfully completed the Hands-on Lab.
+

@@ -340,4 +340,6 @@ Refer to this link ``https://docs.microsoft.com/en-us/azure/virtual-desktop/what
 
    ![](media/msixv9.png)
 
-* Click on the **Next** button present in the bottom-right corner of this lab guide.
+Now, click on Next from the lower right corner to move on to the next page.
+
+ ![Start Your Azure Journey](./media/Next.png) 

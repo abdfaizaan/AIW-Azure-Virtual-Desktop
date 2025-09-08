@@ -402,4 +402,6 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
 1. Now you have successfully created an App Locker for all Apps in the Session desktop.
 
-1. Click on the **Next** button present in the bottom-right corner of this lab guide.
+Now, click on Next from the lower right corner to move on to the next page.
+
+ ![Start Your Azure Journey](./media/Next.png) 

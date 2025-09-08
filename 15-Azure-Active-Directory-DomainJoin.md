@@ -119,4 +119,6 @@ In this exercise, We'll be creating the Host pool using **Getting Started Wizard
 
         ![ws name.](media/gsw8a.png)
 
-1. Click on the **Next** button present in the bottom-right corner of this lab guide.
+Now, click on Next from the lower right corner to move on to the next page.
+
+ ![Start Your Azure Journey](./media/Next.png) 

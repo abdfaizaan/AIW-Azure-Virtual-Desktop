@@ -139,4 +139,6 @@ An application group of type ‘Desktop’, was created automatically while crea
 <validation step="3816cf87-5d86-4cff-a599-63b4332838e5" />
    
 
-### Click on the **Next** button present in the bottom-right corner of this lab guide. 
+Now, click on the **Next** button present in the bottom-right corner of this lab guide. 
+
+![Start Your Azure Journey](./media/Next.png) 

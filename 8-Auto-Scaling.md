@@ -205,6 +205,8 @@ Azure Virtual Desktop uses Autoscale which let's scale your session virtual mach
 
 <validation step="521c23b6-77da-4da7-a165-8123e024e3fb" />
 
-33. Click on the **Next** button present in the bottom-right corner of this lab guide.
+Now, click on Next from the lower right corner to move on to the next page.
+
+ ![Start Your Azure Journey](./media/Next.png) 
 
 

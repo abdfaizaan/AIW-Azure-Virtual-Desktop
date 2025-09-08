@@ -145,7 +145,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 5. You will see a list of resource groups as shown in the image below. Click on **AVD-RG** to open it.
 
-   ![](media/jvm4.png)
+   ![](media/GS7.png)
    
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
 
@@ -162,4 +162,4 @@ Now, click on Next from the lower right corner to move on to the next page.
 
  ![Start Your Azure Journey](./media/Next.png) 
 
- Happy Learning!!
+### Happy Learning!!
