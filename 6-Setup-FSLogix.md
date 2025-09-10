@@ -493,8 +493,6 @@ In this task, we will be accessing the file share to verify the user profiles st
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 <validation step="ad962332-47cc-4a42-899e-29bb55f5a4bd" />
 
-7. Click on the **Next** button present in the bottom-right corner of this lab guide.
-
 
 Now, click on Next from the lower right corner to move on to the next page.
 
