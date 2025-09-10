@@ -149,4 +149,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in la
 
    ![ws name.](media-1/avd-45.png)
 
-1. Click on the **Next** button present in the bottom-right corner of this lab guide. 
+Now, click on the **Next** button present in the bottom-right corner of this lab guide.
+
+ 
+![Start Your Azure Journey](./media/Next.png) 

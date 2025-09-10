@@ -208,11 +208,11 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
    - Password: **<inject key="AzureAdUserPassword" />**
    
-   ![ws name.](media/ch14.png)
+      ![ws name.](media/ch14.png)
    
-   >**Note:** If there's a dialog box saying ***Stau signed in***, then select the **No** option.
+      >**Note:** If there's a dialog box saying ***Stay signed in***, then select the **No** option.
 
-   ![](media/login1.png)
+      ![](media/login1.png)
 
 1. While the Session Desktop is connecting, we can see a message saying **Starting remote PC**.
 
@@ -280,7 +280,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
     - Click on **Apply (2)**
     - Click on **Ok (3)**
 
-     ![](./media/enabled1.png)
+        ![](./media/enabled1.png)
 
      >**Disclaimer**: Once **screen capturing protection** is enabled, accessing the host via the web version will no longer be possible. You will only be able to connect using the **Remote Desktop client**.
 

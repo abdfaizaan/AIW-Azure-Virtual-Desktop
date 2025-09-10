@@ -23,10 +23,10 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    ```
 
    > **Note:** To download *AVD Mac Client* on **macOS**, use the link given below:
-   >
-   > ```
-   > https://learn.microsoft.com/en-us/previous-versions/remote-desktop-client/client-features-macos
-   > ```
+   
+   ```
+    https://learn.microsoft.com/en-us/previous-versions/remote-desktop-client/client-features-macos
+   ```
 
 1. Under **Download and install the Remote Desktop Client for Windows (MSI)**, click on **Windows 64-bit**. This will download the **Remote Desktop Client** on **Your Own PC/computer/workstation**.
    
