@@ -93,7 +93,7 @@ In this task, you will through the process to understand the creation of a custo
    - Toggle **Start VM on connect** to **Yes** **(2)**.
    - Click on **Save** **(3)**.
 
-   ![](media-2/hpproperties.png)
+      ![](media-2/hpproperties.png)
 
 ## Exercise 3: Experience VM start on connect
 
