@@ -93,7 +93,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
    - **Assignments**:
      - Click on **0 users and groups selected** **(2)** under Users option.
      - A new window will slide in, click on **Select users and Groups** **(3)** and then select the check box saying **Users and groups** **(4)**
-     - Now a *Select* window will open, here search for ODL user and Select it **(5)**
+     - Now a *Select* window will open, here search for ODL user and select it **(5)**
      - Click on **Select** **(6)** button
    
          ![](media-1/L10E2S7.png)
@@ -105,26 +105,28 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
       - Now Click on **Select** **(5)** button.
 
          ![](media-1/L11E2S7.png)
-  
+
+           > **Note:** If you're unable to find any resource named Azure Virtual Desktop, try searching for **Windows Virtual Desktop**.
+
       - Click on **0 conditions selected** **(1)** under Conditions option.
       - Then select **Client apps** **(2)**
-      - Now in the Client Apps blade toggle the *Configure* switch to **Yes** **(3)** and make sure that all the checkboxes below are selected.
+      - Now in the Client Apps blade, toggle the *Configure* switch to **Yes** **(3)** and make sure that all the checkboxes below are selected.
       - Then click on **Done** **(4)**
 
          ![](media-1/EX10-task2-step7c.png)
   
-      - Click on **0 controls selected of Grant Section** under Access Control option.
+      - Click on **0 controls selected of Grant Section** under the Access Control option.
       - Click on **Grant** **(1)**
       - Select the Check Box saying **Require multi-factor authentication** **(2)** 
       - Then click on **Select** **(3)**
 
          ![](media-1/EX10-task2-step7d.png)
    
-9. Toggle the **Enable Policy** switch to **On (1)** and click on **Create (2)**.
+8. Toggle the **Enable Policy** switch to **On (1)** and click on **Create (2)**.
 
    ![](media/avdv29.png)
   
-10. Now, Open the following URL in a new browser tab in the JumpVM. This URL will lead us to the Remote Desktop Web Client.
+9. Now, Open the following URL in a new browser tab in the JumpVM. This URL will lead us to the Remote Desktop Web Client.
 
       ``` 
       aka.ms/wvdarmweb 
@@ -132,7 +134,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
     >**Note:** If you are already logged in through your user, then jump to Exercise 3 else continue with the next step i.e., Step 10.
 
-11. Now to log in, enter the lab credentials as mentioned below:
+10. Now to log in, enter the lab credentials as mentioned below:
 
       - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
@@ -142,7 +144,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
          ![ws name.](media/96.png)
    
-12. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. Authenticate the login according to the authentication method you have chosen in exercise 1, step 7 to complete the verification.
+11. You'll see a dialog box to authenticate your login which is the indication of MFA implementation. Authenticate the login according to the authentication method you have chosen in exercise 1, step 7 to complete the verification.
 
      ![ws name.](media-1/EX10-task2-step11.png)
 
@@ -150,7 +152,7 @@ In this lab, We'll be enabling Multi-Factor authentication, Multi-factor authent
 
      ![](media/login1.png)
    
-13. The AVD dashboard will be launched. 
+12. The AVD dashboard will be launched. 
 
     ![ws name.](media/ex4t2s2.png)
 
